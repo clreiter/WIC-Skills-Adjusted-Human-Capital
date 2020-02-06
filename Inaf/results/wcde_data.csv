@@ -1,0 +1,229 @@
+Source: Wittgenstein Centre for Demography and Global Human Capital (2018). Wittgenstein Centre Data Explorer Version 2.0
+Available at: www.wittgensteincentre.org/dataexplorer 
+
+""
+"Population Size by Education (000's)"
+"De facto population in a country or region, classified by sex and by five-year age groups. Available by level of educational attainment, in all scenarios, and at all geographical scales. Figures are presented in thousands. <br><br> Data for 1950 to 2015: Based on <a href=""http://esa.un.org/wpp/documentation/WPP%202010%20publications.htm"">UN Population Division, World Population Prospects 2017</a>"
+"Medium (SSP2)"
+" "
+"Area","Year","Age","Sex","Education","Population"
+"Brazil",2020,"15--19","Male","Total",8299.6
+"Brazil",2020,"20--24","Male","Total",8754.3
+"Brazil",2020,"25--29","Male","Total",8608
+"Brazil",2020,"30--34","Male","Total",8694.1
+"Brazil",2020,"35--39","Male","Total",8700.7
+"Brazil",2020,"40--44","Male","Total",7810.4
+"Brazil",2020,"45--49","Male","Total",6762
+"Brazil",2020,"50--54","Male","Total",6141.9
+"Brazil",2020,"55--59","Male","Total",5482.4
+"Brazil",2020,"60--64","Male","Total",4389.4
+"Brazil",2020,"15--19","Female","Total",8005.9
+"Brazil",2020,"20--24","Female","Total",8520.7
+"Brazil",2020,"25--29","Female","Total",8470.3
+"Brazil",2020,"30--34","Female","Total",8649
+"Brazil",2020,"35--39","Female","Total",8813.9
+"Brazil",2020,"40--44","Female","Total",8053.7
+"Brazil",2020,"45--49","Female","Total",7160.9
+"Brazil",2020,"50--54","Female","Total",6690.8
+"Brazil",2020,"55--59","Female","Total",6122.3
+"Brazil",2020,"60--64","Female","Total",5039.6
+"Brazil",2020,"15--19","Male","Under 15",0
+"Brazil",2020,"20--24","Male","Under 15",0
+"Brazil",2020,"25--29","Male","Under 15",0
+"Brazil",2020,"30--34","Male","Under 15",0
+"Brazil",2020,"35--39","Male","Under 15",0
+"Brazil",2020,"40--44","Male","Under 15",0
+"Brazil",2020,"45--49","Male","Under 15",0
+"Brazil",2020,"50--54","Male","Under 15",0
+"Brazil",2020,"55--59","Male","Under 15",0
+"Brazil",2020,"60--64","Male","Under 15",0
+"Brazil",2020,"15--19","Female","Under 15",0
+"Brazil",2020,"20--24","Female","Under 15",0
+"Brazil",2020,"25--29","Female","Under 15",0
+"Brazil",2020,"30--34","Female","Under 15",0
+"Brazil",2020,"35--39","Female","Under 15",0
+"Brazil",2020,"40--44","Female","Under 15",0
+"Brazil",2020,"45--49","Female","Under 15",0
+"Brazil",2020,"50--54","Female","Under 15",0
+"Brazil",2020,"55--59","Female","Under 15",0
+"Brazil",2020,"60--64","Female","Under 15",0
+"Brazil",2020,"15--19","Male","No Education",149.5
+"Brazil",2020,"20--24","Male","No Education",192.9
+"Brazil",2020,"25--29","Male","No Education",241.8
+"Brazil",2020,"30--34","Male","No Education",296.2
+"Brazil",2020,"35--39","Male","No Education",381.2
+"Brazil",2020,"40--44","Male","No Education",463.5
+"Brazil",2020,"45--49","Male","No Education",499.7
+"Brazil",2020,"50--54","Male","No Education",534.5
+"Brazil",2020,"55--59","Male","No Education",515.9
+"Brazil",2020,"60--64","Male","No Education",480
+"Brazil",2020,"15--19","Female","No Education",104.2
+"Brazil",2020,"20--24","Female","No Education",119.7
+"Brazil",2020,"25--29","Female","No Education",153.5
+"Brazil",2020,"30--34","Female","No Education",208.8
+"Brazil",2020,"35--39","Female","No Education",264.7
+"Brazil",2020,"40--44","Female","No Education",339.1
+"Brazil",2020,"45--49","Female","No Education",393.3
+"Brazil",2020,"50--54","Female","No Education",460.5
+"Brazil",2020,"55--59","Female","No Education",496.3
+"Brazil",2020,"60--64","Female","No Education",528.9
+"Brazil",2020,"15--19","Male","Incomplete Primary",257.3
+"Brazil",2020,"20--24","Male","Incomplete Primary",350.2
+"Brazil",2020,"25--29","Male","Incomplete Primary",421.9
+"Brazil",2020,"30--34","Male","Incomplete Primary",521.1
+"Brazil",2020,"35--39","Male","Incomplete Primary",736.2
+"Brazil",2020,"40--44","Male","Incomplete Primary",958
+"Brazil",2020,"45--49","Male","Incomplete Primary",1035.2
+"Brazil",2020,"50--54","Male","Incomplete Primary",1074.2
+"Brazil",2020,"55--59","Male","Incomplete Primary",1041.5
+"Brazil",2020,"60--64","Male","Incomplete Primary",917
+"Brazil",2020,"15--19","Female","Incomplete Primary",168.2
+"Brazil",2020,"20--24","Female","Incomplete Primary",247.2
+"Brazil",2020,"25--29","Female","Incomplete Primary",296.7
+"Brazil",2020,"30--34","Female","Incomplete Primary",337.5
+"Brazil",2020,"35--39","Female","Incomplete Primary",545.2
+"Brazil",2020,"40--44","Female","Incomplete Primary",766.3
+"Brazil",2020,"45--49","Female","Incomplete Primary",895.5
+"Brazil",2020,"50--54","Female","Incomplete Primary",1023.3
+"Brazil",2020,"55--59","Female","Incomplete Primary",1076.7
+"Brazil",2020,"60--64","Female","Incomplete Primary",1022.4
+"Brazil",2020,"15--19","Male","Primary",1460.6
+"Brazil",2020,"20--24","Male","Primary",1269.1
+"Brazil",2020,"25--29","Male","Primary",1342.2
+"Brazil",2020,"30--34","Male","Primary",1571.2
+"Brazil",2020,"35--39","Male","Primary",1622.2
+"Brazil",2020,"40--44","Male","Primary",1651
+"Brazil",2020,"45--49","Male","Primary",1572.2
+"Brazil",2020,"50--54","Male","Primary",1449.5
+"Brazil",2020,"55--59","Male","Primary",1262.3
+"Brazil",2020,"60--64","Male","Primary",995.5
+"Brazil",2020,"15--19","Female","Primary",1056.7
+"Brazil",2020,"20--24","Female","Primary",971.2
+"Brazil",2020,"25--29","Female","Primary",1143
+"Brazil",2020,"30--34","Female","Primary",1339.9
+"Brazil",2020,"35--39","Female","Primary",1363.1
+"Brazil",2020,"40--44","Female","Primary",1517.6
+"Brazil",2020,"45--49","Female","Primary",1530.7
+"Brazil",2020,"50--54","Female","Primary",1481.8
+"Brazil",2020,"55--59","Female","Primary",1367.1
+"Brazil",2020,"60--64","Female","Primary",1120
+"Brazil",2020,"15--19","Male","Lower Secondary",4456.8
+"Brazil",2020,"20--24","Male","Lower Secondary",1759.4
+"Brazil",2020,"25--29","Male","Lower Secondary",1609.4
+"Brazil",2020,"30--34","Male","Lower Secondary",1649.9
+"Brazil",2020,"35--39","Male","Lower Secondary",1679.7
+"Brazil",2020,"40--44","Male","Lower Secondary",1353.9
+"Brazil",2020,"45--49","Male","Lower Secondary",1135.5
+"Brazil",2020,"50--54","Male","Lower Secondary",1011.1
+"Brazil",2020,"55--59","Male","Lower Secondary",871.7
+"Brazil",2020,"60--64","Male","Lower Secondary",644.5
+"Brazil",2020,"15--19","Female","Lower Secondary",4475.2
+"Brazil",2020,"20--24","Female","Lower Secondary",1499.5
+"Brazil",2020,"25--29","Female","Lower Secondary",1388.9
+"Brazil",2020,"30--34","Female","Lower Secondary",1470
+"Brazil",2020,"35--39","Female","Lower Secondary",1558.2
+"Brazil",2020,"40--44","Female","Lower Secondary",1372.7
+"Brazil",2020,"45--49","Female","Lower Secondary",1208.8
+"Brazil",2020,"50--54","Female","Lower Secondary",1092.3
+"Brazil",2020,"55--59","Female","Lower Secondary",953.9
+"Brazil",2020,"60--64","Female","Lower Secondary",718.9
+"Brazil",2020,"15--19","Male","Upper Secondary",1975.4
+"Brazil",2020,"20--24","Male","Upper Secondary",4350.4
+"Brazil",2020,"25--29","Male","Upper Secondary",3777.5
+"Brazil",2020,"30--34","Male","Upper Secondary",3464.5
+"Brazil",2020,"35--39","Male","Upper Secondary",3189.6
+"Brazil",2020,"40--44","Male","Upper Secondary",2492.1
+"Brazil",2020,"45--49","Male","Upper Secondary",1820.1
+"Brazil",2020,"50--54","Male","Upper Secondary",1466.4
+"Brazil",2020,"55--59","Male","Upper Secondary",1219
+"Brazil",2020,"60--64","Male","Upper Secondary",882.1
+"Brazil",2020,"15--19","Female","Upper Secondary",2201.6
+"Brazil",2020,"20--24","Female","Upper Secondary",4481.3
+"Brazil",2020,"25--29","Female","Upper Secondary",3801.4
+"Brazil",2020,"30--34","Female","Upper Secondary",3648.4
+"Brazil",2020,"35--39","Female","Upper Secondary",3548.9
+"Brazil",2020,"40--44","Female","Upper Secondary",2784.9
+"Brazil",2020,"45--49","Female","Upper Secondary",2102.8
+"Brazil",2020,"50--54","Female","Upper Secondary",1717.7
+"Brazil",2020,"55--59","Female","Upper Secondary",1395.5
+"Brazil",2020,"60--64","Female","Upper Secondary",1004.6
+"Brazil",2020,"15--19","Male","Post Secondary",0
+"Brazil",2020,"20--24","Male","Post Secondary",832.1
+"Brazil",2020,"25--29","Male","Post Secondary",1215.2
+"Brazil",2020,"30--34","Male","Post Secondary",1191.2
+"Brazil",2020,"35--39","Male","Post Secondary",1091.7
+"Brazil",2020,"40--44","Male","Post Secondary",891.9
+"Brazil",2020,"45--49","Male","Post Secondary",699.2
+"Brazil",2020,"50--54","Male","Post Secondary",606.3
+"Brazil",2020,"55--59","Male","Post Secondary",571.9
+"Brazil",2020,"60--64","Male","Post Secondary",470.3
+"Brazil",2020,"15--19","Female","Post Secondary",0
+"Brazil",2020,"20--24","Female","Post Secondary",1201.8
+"Brazil",2020,"25--29","Female","Post Secondary",1686.8
+"Brazil",2020,"30--34","Female","Post Secondary",1644.3
+"Brazil",2020,"35--39","Female","Post Secondary",1533.9
+"Brazil",2020,"40--44","Female","Post Secondary",1273.2
+"Brazil",2020,"45--49","Female","Post Secondary",1029.8
+"Brazil",2020,"50--54","Female","Post Secondary",915.2
+"Brazil",2020,"55--59","Female","Post Secondary",832.7
+"Brazil",2020,"60--64","Female","Post Secondary",644.8
+"Brazil",2020,"15--19","Male","Short Post Secondary",0
+"Brazil",2020,"20--24","Male","Short Post Secondary",0
+"Brazil",2020,"25--29","Male","Short Post Secondary",0
+"Brazil",2020,"30--34","Male","Short Post Secondary",0
+"Brazil",2020,"35--39","Male","Short Post Secondary",0
+"Brazil",2020,"40--44","Male","Short Post Secondary",0
+"Brazil",2020,"45--49","Male","Short Post Secondary",0
+"Brazil",2020,"50--54","Male","Short Post Secondary",0
+"Brazil",2020,"55--59","Male","Short Post Secondary",0
+"Brazil",2020,"60--64","Male","Short Post Secondary",0
+"Brazil",2020,"15--19","Female","Short Post Secondary",0
+"Brazil",2020,"20--24","Female","Short Post Secondary",0
+"Brazil",2020,"25--29","Female","Short Post Secondary",0
+"Brazil",2020,"30--34","Female","Short Post Secondary",0
+"Brazil",2020,"35--39","Female","Short Post Secondary",0
+"Brazil",2020,"40--44","Female","Short Post Secondary",0
+"Brazil",2020,"45--49","Female","Short Post Secondary",0
+"Brazil",2020,"50--54","Female","Short Post Secondary",0
+"Brazil",2020,"55--59","Female","Short Post Secondary",0
+"Brazil",2020,"60--64","Female","Short Post Secondary",0
+"Brazil",2020,"15--19","Male","Bachelor",0
+"Brazil",2020,"20--24","Male","Bachelor",816.3
+"Brazil",2020,"25--29","Male","Bachelor",1171.5
+"Brazil",2020,"30--34","Male","Bachelor",1137.6
+"Brazil",2020,"35--39","Male","Bachelor",1042.5
+"Brazil",2020,"40--44","Male","Bachelor",836.7
+"Brazil",2020,"45--49","Male","Bachelor",644.4
+"Brazil",2020,"50--54","Male","Bachelor",556.5
+"Brazil",2020,"55--59","Male","Bachelor",523.2
+"Brazil",2020,"60--64","Male","Bachelor",430.6
+"Brazil",2020,"15--19","Female","Bachelor",0
+"Brazil",2020,"20--24","Female","Bachelor",1170.6
+"Brazil",2020,"25--29","Female","Bachelor",1604.2
+"Brazil",2020,"30--34","Female","Bachelor",1544
+"Brazil",2020,"35--39","Female","Bachelor",1440.3
+"Brazil",2020,"40--44","Female","Bachelor",1212.2
+"Brazil",2020,"45--49","Female","Bachelor",975.9
+"Brazil",2020,"50--54","Female","Bachelor",868.5
+"Brazil",2020,"55--59","Female","Bachelor",785.3
+"Brazil",2020,"60--64","Female","Bachelor",608.4
+"Brazil",2020,"15--19","Male","Master and higher",0
+"Brazil",2020,"20--24","Male","Master and higher",15.8
+"Brazil",2020,"25--29","Male","Master and higher",43.7
+"Brazil",2020,"30--34","Male","Master and higher",53.6
+"Brazil",2020,"35--39","Male","Master and higher",49.1
+"Brazil",2020,"40--44","Male","Master and higher",55.2
+"Brazil",2020,"45--49","Male","Master and higher",54.9
+"Brazil",2020,"50--54","Male","Master and higher",49.8
+"Brazil",2020,"55--59","Male","Master and higher",48.7
+"Brazil",2020,"60--64","Male","Master and higher",39.7
+"Brazil",2020,"15--19","Female","Master and higher",0
+"Brazil",2020,"20--24","Female","Master and higher",31.2
+"Brazil",2020,"25--29","Female","Master and higher",82.7
+"Brazil",2020,"30--34","Female","Master and higher",100.3
+"Brazil",2020,"35--39","Female","Master and higher",93.6
+"Brazil",2020,"40--44","Female","Master and higher",61
+"Brazil",2020,"45--49","Female","Master and higher",53.9
+"Brazil",2020,"50--54","Female","Master and higher",46.7
+"Brazil",2020,"55--59","Female","Master and higher",47.4
+"Brazil",2020,"60--64","Female","Master and higher",36.4
