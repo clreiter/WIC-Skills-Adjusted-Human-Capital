@@ -1,6 +1,6 @@
 clear all
 
-global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Inaf\"
+global directory "D:\Dropbox (Pessoal)\GitHub\WiC-EducationQualityMatters\Inaf\"
 
 global data "$directory\data"
 
@@ -179,8 +179,14 @@ tab InafAlfab sex, sum(ProfAlfab)
 tab InafAlfab schooling, sum(ProfAlfab)
 tab age_group InafAlfab, sum(ProfAlfab)
 
-
 * Some statistical significance.
 
+// Ordinal variable Y
 ologit InafAlfab i.sex i.schooling i.age_group
+margins age_group#sex, asbalanced plot(noci)
+margins age_group, asbalanced plot(noci)
 
+// Y as continuous (with tobit)
+tobit ProfAlfab i.sex i.schooling i.age_group, ll
+margins age_group#sex, plot
+margins age_group#schooling, plot
