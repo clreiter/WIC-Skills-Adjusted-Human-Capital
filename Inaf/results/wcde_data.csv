@@ -1,229 +1,761 @@
-Source: Wittgenstein Centre for Demography and Global Human Capital (2018). Wittgenstein Centre Data Explorer Version 2.0
-Available at: www.wittgensteincentre.org/dataexplorer 
-
-""
-"Population Size by Education (000's)"
-"De facto population in a country or region, classified by sex and by five-year age groups. Available by level of educational attainment, in all scenarios, and at all geographical scales. Figures are presented in thousands. <br><br> Data for 1950 to 2015: Based on <a href=""http://esa.un.org/wpp/documentation/WPP%202010%20publications.htm"">UN Population Division, World Population Prospects 2017</a>"
-"Medium (SSP2)"
-" "
-"Area","Year","Age","Sex","Education","Population"
-"Brazil",2020,"15--19","Male","Total",8299.6
-"Brazil",2020,"20--24","Male","Total",8754.3
-"Brazil",2020,"25--29","Male","Total",8608
-"Brazil",2020,"30--34","Male","Total",8694.1
-"Brazil",2020,"35--39","Male","Total",8700.7
-"Brazil",2020,"40--44","Male","Total",7810.4
-"Brazil",2020,"45--49","Male","Total",6762
-"Brazil",2020,"50--54","Male","Total",6141.9
-"Brazil",2020,"55--59","Male","Total",5482.4
-"Brazil",2020,"60--64","Male","Total",4389.4
-"Brazil",2020,"15--19","Female","Total",8005.9
-"Brazil",2020,"20--24","Female","Total",8520.7
-"Brazil",2020,"25--29","Female","Total",8470.3
-"Brazil",2020,"30--34","Female","Total",8649
-"Brazil",2020,"35--39","Female","Total",8813.9
-"Brazil",2020,"40--44","Female","Total",8053.7
-"Brazil",2020,"45--49","Female","Total",7160.9
-"Brazil",2020,"50--54","Female","Total",6690.8
-"Brazil",2020,"55--59","Female","Total",6122.3
-"Brazil",2020,"60--64","Female","Total",5039.6
-"Brazil",2020,"15--19","Male","Under 15",0
-"Brazil",2020,"20--24","Male","Under 15",0
-"Brazil",2020,"25--29","Male","Under 15",0
-"Brazil",2020,"30--34","Male","Under 15",0
-"Brazil",2020,"35--39","Male","Under 15",0
-"Brazil",2020,"40--44","Male","Under 15",0
-"Brazil",2020,"45--49","Male","Under 15",0
-"Brazil",2020,"50--54","Male","Under 15",0
-"Brazil",2020,"55--59","Male","Under 15",0
-"Brazil",2020,"60--64","Male","Under 15",0
-"Brazil",2020,"15--19","Female","Under 15",0
-"Brazil",2020,"20--24","Female","Under 15",0
-"Brazil",2020,"25--29","Female","Under 15",0
-"Brazil",2020,"30--34","Female","Under 15",0
-"Brazil",2020,"35--39","Female","Under 15",0
-"Brazil",2020,"40--44","Female","Under 15",0
-"Brazil",2020,"45--49","Female","Under 15",0
-"Brazil",2020,"50--54","Female","Under 15",0
-"Brazil",2020,"55--59","Female","Under 15",0
-"Brazil",2020,"60--64","Female","Under 15",0
-"Brazil",2020,"15--19","Male","No Education",149.5
-"Brazil",2020,"20--24","Male","No Education",192.9
-"Brazil",2020,"25--29","Male","No Education",241.8
-"Brazil",2020,"30--34","Male","No Education",296.2
-"Brazil",2020,"35--39","Male","No Education",381.2
-"Brazil",2020,"40--44","Male","No Education",463.5
-"Brazil",2020,"45--49","Male","No Education",499.7
-"Brazil",2020,"50--54","Male","No Education",534.5
-"Brazil",2020,"55--59","Male","No Education",515.9
-"Brazil",2020,"60--64","Male","No Education",480
-"Brazil",2020,"15--19","Female","No Education",104.2
-"Brazil",2020,"20--24","Female","No Education",119.7
-"Brazil",2020,"25--29","Female","No Education",153.5
-"Brazil",2020,"30--34","Female","No Education",208.8
-"Brazil",2020,"35--39","Female","No Education",264.7
-"Brazil",2020,"40--44","Female","No Education",339.1
-"Brazil",2020,"45--49","Female","No Education",393.3
-"Brazil",2020,"50--54","Female","No Education",460.5
-"Brazil",2020,"55--59","Female","No Education",496.3
-"Brazil",2020,"60--64","Female","No Education",528.9
-"Brazil",2020,"15--19","Male","Incomplete Primary",257.3
-"Brazil",2020,"20--24","Male","Incomplete Primary",350.2
-"Brazil",2020,"25--29","Male","Incomplete Primary",421.9
-"Brazil",2020,"30--34","Male","Incomplete Primary",521.1
-"Brazil",2020,"35--39","Male","Incomplete Primary",736.2
-"Brazil",2020,"40--44","Male","Incomplete Primary",958
-"Brazil",2020,"45--49","Male","Incomplete Primary",1035.2
-"Brazil",2020,"50--54","Male","Incomplete Primary",1074.2
-"Brazil",2020,"55--59","Male","Incomplete Primary",1041.5
-"Brazil",2020,"60--64","Male","Incomplete Primary",917
-"Brazil",2020,"15--19","Female","Incomplete Primary",168.2
-"Brazil",2020,"20--24","Female","Incomplete Primary",247.2
-"Brazil",2020,"25--29","Female","Incomplete Primary",296.7
-"Brazil",2020,"30--34","Female","Incomplete Primary",337.5
-"Brazil",2020,"35--39","Female","Incomplete Primary",545.2
-"Brazil",2020,"40--44","Female","Incomplete Primary",766.3
-"Brazil",2020,"45--49","Female","Incomplete Primary",895.5
-"Brazil",2020,"50--54","Female","Incomplete Primary",1023.3
-"Brazil",2020,"55--59","Female","Incomplete Primary",1076.7
-"Brazil",2020,"60--64","Female","Incomplete Primary",1022.4
-"Brazil",2020,"15--19","Male","Primary",1460.6
-"Brazil",2020,"20--24","Male","Primary",1269.1
-"Brazil",2020,"25--29","Male","Primary",1342.2
-"Brazil",2020,"30--34","Male","Primary",1571.2
-"Brazil",2020,"35--39","Male","Primary",1622.2
-"Brazil",2020,"40--44","Male","Primary",1651
-"Brazil",2020,"45--49","Male","Primary",1572.2
-"Brazil",2020,"50--54","Male","Primary",1449.5
-"Brazil",2020,"55--59","Male","Primary",1262.3
-"Brazil",2020,"60--64","Male","Primary",995.5
-"Brazil",2020,"15--19","Female","Primary",1056.7
-"Brazil",2020,"20--24","Female","Primary",971.2
-"Brazil",2020,"25--29","Female","Primary",1143
-"Brazil",2020,"30--34","Female","Primary",1339.9
-"Brazil",2020,"35--39","Female","Primary",1363.1
-"Brazil",2020,"40--44","Female","Primary",1517.6
-"Brazil",2020,"45--49","Female","Primary",1530.7
-"Brazil",2020,"50--54","Female","Primary",1481.8
-"Brazil",2020,"55--59","Female","Primary",1367.1
-"Brazil",2020,"60--64","Female","Primary",1120
-"Brazil",2020,"15--19","Male","Lower Secondary",4456.8
-"Brazil",2020,"20--24","Male","Lower Secondary",1759.4
-"Brazil",2020,"25--29","Male","Lower Secondary",1609.4
-"Brazil",2020,"30--34","Male","Lower Secondary",1649.9
-"Brazil",2020,"35--39","Male","Lower Secondary",1679.7
-"Brazil",2020,"40--44","Male","Lower Secondary",1353.9
-"Brazil",2020,"45--49","Male","Lower Secondary",1135.5
-"Brazil",2020,"50--54","Male","Lower Secondary",1011.1
-"Brazil",2020,"55--59","Male","Lower Secondary",871.7
-"Brazil",2020,"60--64","Male","Lower Secondary",644.5
-"Brazil",2020,"15--19","Female","Lower Secondary",4475.2
-"Brazil",2020,"20--24","Female","Lower Secondary",1499.5
-"Brazil",2020,"25--29","Female","Lower Secondary",1388.9
-"Brazil",2020,"30--34","Female","Lower Secondary",1470
-"Brazil",2020,"35--39","Female","Lower Secondary",1558.2
-"Brazil",2020,"40--44","Female","Lower Secondary",1372.7
-"Brazil",2020,"45--49","Female","Lower Secondary",1208.8
-"Brazil",2020,"50--54","Female","Lower Secondary",1092.3
-"Brazil",2020,"55--59","Female","Lower Secondary",953.9
-"Brazil",2020,"60--64","Female","Lower Secondary",718.9
-"Brazil",2020,"15--19","Male","Upper Secondary",1975.4
-"Brazil",2020,"20--24","Male","Upper Secondary",4350.4
-"Brazil",2020,"25--29","Male","Upper Secondary",3777.5
-"Brazil",2020,"30--34","Male","Upper Secondary",3464.5
-"Brazil",2020,"35--39","Male","Upper Secondary",3189.6
-"Brazil",2020,"40--44","Male","Upper Secondary",2492.1
-"Brazil",2020,"45--49","Male","Upper Secondary",1820.1
-"Brazil",2020,"50--54","Male","Upper Secondary",1466.4
-"Brazil",2020,"55--59","Male","Upper Secondary",1219
-"Brazil",2020,"60--64","Male","Upper Secondary",882.1
-"Brazil",2020,"15--19","Female","Upper Secondary",2201.6
-"Brazil",2020,"20--24","Female","Upper Secondary",4481.3
-"Brazil",2020,"25--29","Female","Upper Secondary",3801.4
-"Brazil",2020,"30--34","Female","Upper Secondary",3648.4
-"Brazil",2020,"35--39","Female","Upper Secondary",3548.9
-"Brazil",2020,"40--44","Female","Upper Secondary",2784.9
-"Brazil",2020,"45--49","Female","Upper Secondary",2102.8
-"Brazil",2020,"50--54","Female","Upper Secondary",1717.7
-"Brazil",2020,"55--59","Female","Upper Secondary",1395.5
-"Brazil",2020,"60--64","Female","Upper Secondary",1004.6
-"Brazil",2020,"15--19","Male","Post Secondary",0
-"Brazil",2020,"20--24","Male","Post Secondary",832.1
-"Brazil",2020,"25--29","Male","Post Secondary",1215.2
-"Brazil",2020,"30--34","Male","Post Secondary",1191.2
-"Brazil",2020,"35--39","Male","Post Secondary",1091.7
-"Brazil",2020,"40--44","Male","Post Secondary",891.9
-"Brazil",2020,"45--49","Male","Post Secondary",699.2
-"Brazil",2020,"50--54","Male","Post Secondary",606.3
-"Brazil",2020,"55--59","Male","Post Secondary",571.9
-"Brazil",2020,"60--64","Male","Post Secondary",470.3
-"Brazil",2020,"15--19","Female","Post Secondary",0
-"Brazil",2020,"20--24","Female","Post Secondary",1201.8
-"Brazil",2020,"25--29","Female","Post Secondary",1686.8
-"Brazil",2020,"30--34","Female","Post Secondary",1644.3
-"Brazil",2020,"35--39","Female","Post Secondary",1533.9
-"Brazil",2020,"40--44","Female","Post Secondary",1273.2
-"Brazil",2020,"45--49","Female","Post Secondary",1029.8
-"Brazil",2020,"50--54","Female","Post Secondary",915.2
-"Brazil",2020,"55--59","Female","Post Secondary",832.7
-"Brazil",2020,"60--64","Female","Post Secondary",644.8
-"Brazil",2020,"15--19","Male","Short Post Secondary",0
-"Brazil",2020,"20--24","Male","Short Post Secondary",0
-"Brazil",2020,"25--29","Male","Short Post Secondary",0
-"Brazil",2020,"30--34","Male","Short Post Secondary",0
-"Brazil",2020,"35--39","Male","Short Post Secondary",0
-"Brazil",2020,"40--44","Male","Short Post Secondary",0
-"Brazil",2020,"45--49","Male","Short Post Secondary",0
-"Brazil",2020,"50--54","Male","Short Post Secondary",0
-"Brazil",2020,"55--59","Male","Short Post Secondary",0
-"Brazil",2020,"60--64","Male","Short Post Secondary",0
-"Brazil",2020,"15--19","Female","Short Post Secondary",0
-"Brazil",2020,"20--24","Female","Short Post Secondary",0
-"Brazil",2020,"25--29","Female","Short Post Secondary",0
-"Brazil",2020,"30--34","Female","Short Post Secondary",0
-"Brazil",2020,"35--39","Female","Short Post Secondary",0
-"Brazil",2020,"40--44","Female","Short Post Secondary",0
-"Brazil",2020,"45--49","Female","Short Post Secondary",0
-"Brazil",2020,"50--54","Female","Short Post Secondary",0
-"Brazil",2020,"55--59","Female","Short Post Secondary",0
-"Brazil",2020,"60--64","Female","Short Post Secondary",0
-"Brazil",2020,"15--19","Male","Bachelor",0
-"Brazil",2020,"20--24","Male","Bachelor",816.3
-"Brazil",2020,"25--29","Male","Bachelor",1171.5
-"Brazil",2020,"30--34","Male","Bachelor",1137.6
-"Brazil",2020,"35--39","Male","Bachelor",1042.5
-"Brazil",2020,"40--44","Male","Bachelor",836.7
-"Brazil",2020,"45--49","Male","Bachelor",644.4
-"Brazil",2020,"50--54","Male","Bachelor",556.5
-"Brazil",2020,"55--59","Male","Bachelor",523.2
-"Brazil",2020,"60--64","Male","Bachelor",430.6
-"Brazil",2020,"15--19","Female","Bachelor",0
-"Brazil",2020,"20--24","Female","Bachelor",1170.6
-"Brazil",2020,"25--29","Female","Bachelor",1604.2
-"Brazil",2020,"30--34","Female","Bachelor",1544
-"Brazil",2020,"35--39","Female","Bachelor",1440.3
-"Brazil",2020,"40--44","Female","Bachelor",1212.2
-"Brazil",2020,"45--49","Female","Bachelor",975.9
-"Brazil",2020,"50--54","Female","Bachelor",868.5
-"Brazil",2020,"55--59","Female","Bachelor",785.3
-"Brazil",2020,"60--64","Female","Bachelor",608.4
-"Brazil",2020,"15--19","Male","Master and higher",0
-"Brazil",2020,"20--24","Male","Master and higher",15.8
-"Brazil",2020,"25--29","Male","Master and higher",43.7
-"Brazil",2020,"30--34","Male","Master and higher",53.6
-"Brazil",2020,"35--39","Male","Master and higher",49.1
-"Brazil",2020,"40--44","Male","Master and higher",55.2
-"Brazil",2020,"45--49","Male","Master and higher",54.9
-"Brazil",2020,"50--54","Male","Master and higher",49.8
-"Brazil",2020,"55--59","Male","Master and higher",48.7
-"Brazil",2020,"60--64","Male","Master and higher",39.7
-"Brazil",2020,"15--19","Female","Master and higher",0
-"Brazil",2020,"20--24","Female","Master and higher",31.2
-"Brazil",2020,"25--29","Female","Master and higher",82.7
-"Brazil",2020,"30--34","Female","Master and higher",100.3
-"Brazil",2020,"35--39","Female","Master and higher",93.6
-"Brazil",2020,"40--44","Female","Master and higher",61
-"Brazil",2020,"45--49","Female","Master and higher",53.9
-"Brazil",2020,"50--54","Female","Master and higher",46.7
-"Brazil",2020,"55--59","Female","Master and higher",47.4
-"Brazil",2020,"60--64","Female","Master and higher",36.4
+Area,Year,Age,Sex,Education,Population
+Brazil,2005,15--19,Male,Total,8955.5
+Brazil,2010,15--19,Male,Total,8524.3
+Brazil,2015,15--19,Male,Total,8844.8
+Brazil,2020,15--19,Male,Total,8299.6
+Brazil,2005,20--24,Male,Total,9132.2
+Brazil,2010,20--24,Male,Total,8861.9
+Brazil,2015,20--24,Male,Total,8715.4
+Brazil,2020,20--24,Male,Total,8754.3
+Brazil,2005,25--29,Male,Total,8302.6
+Brazil,2010,25--29,Male,Total,9011.8
+Brazil,2015,25--29,Male,Total,8797.9
+Brazil,2020,25--29,Male,Total,8608
+Brazil,2005,30--34,Male,Total,7258.5
+Brazil,2010,30--34,Male,Total,8184.2
+Brazil,2015,30--34,Male,Total,8828.1
+Brazil,2020,30--34,Male,Total,8694.1
+Brazil,2005,35--39,Male,Total,6678.7
+Brazil,2010,35--39,Male,Total,7135.6
+Brazil,2015,35--39,Male,Total,7952
+Brazil,2020,35--39,Male,Total,8700.7
+Brazil,2005,40--44,Male,Total,6302.5
+Brazil,2010,40--44,Male,Total,6534.3
+Brazil,2015,40--44,Male,Total,6927.5
+Brazil,2020,40--44,Male,Total,7810.4
+Brazil,2005,45--49,Male,Total,5242
+Brazil,2010,45--49,Male,Total,6118.3
+Brazil,2015,45--49,Male,Total,6355
+Brazil,2020,45--49,Male,Total,6762
+Brazil,2005,50--54,Male,Total,4296.6
+Brazil,2010,50--54,Male,Total,5033
+Brazil,2015,50--54,Male,Total,5754.6
+Brazil,2020,50--54,Male,Total,6141.9
+Brazil,2005,55--59,Male,Total,3277.1
+Brazil,2010,55--59,Male,Total,4056.3
+Brazil,2015,55--59,Male,Total,4698.2
+Brazil,2020,55--59,Male,Total,5482.4
+Brazil,2005,60--64,Male,Total,2415.7
+Brazil,2010,60--64,Male,Total,3020
+Brazil,2015,60--64,Male,Total,3737.4
+Brazil,2020,60--64,Male,Total,4389.4
+Brazil,2005,15--19,Female,Total,8687
+Brazil,2010,15--19,Female,Total,8240.9
+Brazil,2015,15--19,Female,Total,8542.6
+Brazil,2020,15--19,Female,Total,8005.9
+Brazil,2005,20--24,Female,Total,8981.4
+Brazil,2010,20--24,Female,Total,8665.9
+Brazil,2015,20--24,Female,Total,8496
+Brazil,2020,20--24,Female,Total,8520.7
+Brazil,2005,25--29,Female,Total,8308.4
+Brazil,2010,25--29,Female,Total,8952.3
+Brazil,2015,25--29,Female,Total,8683.1
+Brazil,2020,25--29,Female,Total,8470.3
+Brazil,2005,30--34,Female,Total,7429.9
+Brazil,2010,30--34,Female,Total,8272.2
+Brazil,2015,30--34,Female,Total,8863.1
+Brazil,2020,30--34,Female,Total,8649
+Brazil,2005,35--39,Female,Total,6983
+Brazil,2010,35--39,Female,Total,7384.3
+Brazil,2015,35--39,Female,Total,8116.7
+Brazil,2020,35--39,Female,Total,8813.9
+Brazil,2005,40--44,Female,Total,6665.3
+Brazil,2010,40--44,Female,Total,6918.8
+Brazil,2015,40--44,Female,Total,7246.5
+Brazil,2020,40--44,Female,Total,8053.7
+Brazil,2005,45--49,Female,Total,5593.1
+Brazil,2010,45--49,Female,Total,6572.1
+Brazil,2015,45--49,Female,Total,6813.4
+Brazil,2020,45--49,Female,Total,7160.9
+Brazil,2005,50--54,Female,Total,4652.7
+Brazil,2010,50--54,Female,Total,5476.9
+Brazil,2015,50--54,Female,Total,6285.2
+Brazil,2020,50--54,Female,Total,6690.8
+Brazil,2005,55--59,Female,Total,3635.7
+Brazil,2010,55--59,Female,Total,4509.9
+Brazil,2015,55--59,Female,Total,5238
+Brazil,2020,55--59,Female,Total,6122.3
+Brazil,2005,60--64,Female,Total,2774.2
+Brazil,2010,60--64,Female,Total,3470.1
+Brazil,2015,60--64,Female,Total,4291.1
+Brazil,2020,60--64,Female,Total,5039.6
+Brazil,2005,15--19,Male,Under 15,0
+Brazil,2010,15--19,Male,Under 15,0
+Brazil,2015,15--19,Male,Under 15,0
+Brazil,2020,15--19,Male,Under 15,0
+Brazil,2005,20--24,Male,Under 15,0
+Brazil,2010,20--24,Male,Under 15,0
+Brazil,2015,20--24,Male,Under 15,0
+Brazil,2020,20--24,Male,Under 15,0
+Brazil,2005,25--29,Male,Under 15,0
+Brazil,2010,25--29,Male,Under 15,0
+Brazil,2015,25--29,Male,Under 15,0
+Brazil,2020,25--29,Male,Under 15,0
+Brazil,2005,30--34,Male,Under 15,0
+Brazil,2010,30--34,Male,Under 15,0
+Brazil,2015,30--34,Male,Under 15,0
+Brazil,2020,30--34,Male,Under 15,0
+Brazil,2005,35--39,Male,Under 15,0
+Brazil,2010,35--39,Male,Under 15,0
+Brazil,2015,35--39,Male,Under 15,0
+Brazil,2020,35--39,Male,Under 15,0
+Brazil,2005,40--44,Male,Under 15,0
+Brazil,2010,40--44,Male,Under 15,0
+Brazil,2015,40--44,Male,Under 15,0
+Brazil,2020,40--44,Male,Under 15,0
+Brazil,2005,45--49,Male,Under 15,0
+Brazil,2010,45--49,Male,Under 15,0
+Brazil,2015,45--49,Male,Under 15,0
+Brazil,2020,45--49,Male,Under 15,0
+Brazil,2005,50--54,Male,Under 15,0
+Brazil,2010,50--54,Male,Under 15,0
+Brazil,2015,50--54,Male,Under 15,0
+Brazil,2020,50--54,Male,Under 15,0
+Brazil,2005,55--59,Male,Under 15,0
+Brazil,2010,55--59,Male,Under 15,0
+Brazil,2015,55--59,Male,Under 15,0
+Brazil,2020,55--59,Male,Under 15,0
+Brazil,2005,60--64,Male,Under 15,0
+Brazil,2010,60--64,Male,Under 15,0
+Brazil,2015,60--64,Male,Under 15,0
+Brazil,2020,60--64,Male,Under 15,0
+Brazil,2005,15--19,Female,Under 15,0
+Brazil,2010,15--19,Female,Under 15,0
+Brazil,2015,15--19,Female,Under 15,0
+Brazil,2020,15--19,Female,Under 15,0
+Brazil,2005,20--24,Female,Under 15,0
+Brazil,2010,20--24,Female,Under 15,0
+Brazil,2015,20--24,Female,Under 15,0
+Brazil,2020,20--24,Female,Under 15,0
+Brazil,2005,25--29,Female,Under 15,0
+Brazil,2010,25--29,Female,Under 15,0
+Brazil,2015,25--29,Female,Under 15,0
+Brazil,2020,25--29,Female,Under 15,0
+Brazil,2005,30--34,Female,Under 15,0
+Brazil,2010,30--34,Female,Under 15,0
+Brazil,2015,30--34,Female,Under 15,0
+Brazil,2020,30--34,Female,Under 15,0
+Brazil,2005,35--39,Female,Under 15,0
+Brazil,2010,35--39,Female,Under 15,0
+Brazil,2015,35--39,Female,Under 15,0
+Brazil,2020,35--39,Female,Under 15,0
+Brazil,2005,40--44,Female,Under 15,0
+Brazil,2010,40--44,Female,Under 15,0
+Brazil,2015,40--44,Female,Under 15,0
+Brazil,2020,40--44,Female,Under 15,0
+Brazil,2005,45--49,Female,Under 15,0
+Brazil,2010,45--49,Female,Under 15,0
+Brazil,2015,45--49,Female,Under 15,0
+Brazil,2020,45--49,Female,Under 15,0
+Brazil,2005,50--54,Female,Under 15,0
+Brazil,2010,50--54,Female,Under 15,0
+Brazil,2015,50--54,Female,Under 15,0
+Brazil,2020,50--54,Female,Under 15,0
+Brazil,2005,55--59,Female,Under 15,0
+Brazil,2010,55--59,Female,Under 15,0
+Brazil,2015,55--59,Female,Under 15,0
+Brazil,2020,55--59,Female,Under 15,0
+Brazil,2005,60--64,Female,Under 15,0
+Brazil,2010,60--64,Female,Under 15,0
+Brazil,2015,60--64,Female,Under 15,0
+Brazil,2020,60--64,Female,Under 15,0
+Brazil,2005,15--19,Male,No Education,306.1
+Brazil,2010,15--19,Male,No Education,285.3
+Brazil,2015,15--19,Male,No Education,230.2
+Brazil,2020,15--19,Male,No Education,149.5
+Brazil,2005,20--24,Male,No Education,401.1
+Brazil,2010,20--24,Male,No Education,301.8
+Brazil,2015,20--24,Male,No Education,244
+Brazil,2020,20--24,Male,No Education,192.9
+Brazil,2005,25--29,Male,No Education,500.9
+Brazil,2010,25--29,Male,No Education,393.9
+Brazil,2015,25--29,Male,No Education,299.1
+Brazil,2020,25--29,Male,No Education,241.8
+Brazil,2005,30--34,Male,No Education,547
+Brazil,2010,30--34,Male,No Education,491.4
+Brazil,2015,30--34,Male,No Education,388.4
+Brazil,2020,30--34,Male,No Education,296.2
+Brazil,2005,35--39,Male,No Education,595.8
+Brazil,2010,35--39,Male,No Education,535
+Brazil,2015,35--39,Male,No Education,474.7
+Brazil,2020,35--39,Male,No Education,381.2
+Brazil,2005,40--44,Male,No Education,613.1
+Brazil,2010,40--44,Male,No Education,579.3
+Brazil,2015,40--44,Male,No Education,515.9
+Brazil,2020,40--44,Male,No Education,463.5
+Brazil,2005,45--49,Male,No Education,597.9
+Brazil,2010,45--49,Male,No Education,590.4
+Brazil,2015,45--49,Male,No Education,558.8
+Brazil,2020,45--49,Male,No Education,499.7
+Brazil,2005,50--54,Male,No Education,615
+Brazil,2010,50--54,Male,No Education,568.2
+Brazil,2015,50--54,Male,No Education,549.2
+Brazil,2020,50--54,Male,No Education,534.5
+Brazil,2005,55--59,Male,No Education,618.9
+Brazil,2010,55--59,Male,No Education,573.2
+Brazil,2015,55--59,Male,No Education,522.9
+Brazil,2020,55--59,Male,No Education,515.9
+Brazil,2005,60--64,Male,No Education,573
+Brazil,2010,60--64,Male,No Education,561.8
+Brazil,2015,60--64,Male,No Education,519.1
+Brazil,2020,60--64,Male,No Education,480
+Brazil,2005,15--19,Female,No Education,208.8
+Brazil,2010,15--19,Female,No Education,207.8
+Brazil,2015,15--19,Female,No Education,162.5
+Brazil,2020,15--19,Female,No Education,104.2
+Brazil,2005,20--24,Female,No Education,272.4
+Brazil,2010,20--24,Female,No Education,208.1
+Brazil,2015,20--24,Female,No Education,161.4
+Brazil,2020,20--24,Female,No Education,119.7
+Brazil,2005,25--29,Female,No Education,351.2
+Brazil,2010,25--29,Female,No Education,271.2
+Brazil,2015,25--29,Female,No Education,208.6
+Brazil,2020,25--29,Female,No Education,153.5
+Brazil,2005,30--34,Female,No Education,410.9
+Brazil,2010,30--34,Female,No Education,349.1
+Brazil,2015,30--34,Female,No Education,265.6
+Brazil,2020,30--34,Female,No Education,208.8
+Brazil,2005,35--39,Female,No Education,485.9
+Brazil,2010,35--39,Female,No Education,407.5
+Brazil,2015,35--39,Female,No Education,341.9
+Brazil,2020,35--39,Female,No Education,264.7
+Brazil,2005,40--44,Female,No Education,548.9
+Brazil,2010,40--44,Female,No Education,480
+Brazil,2015,40--44,Female,No Education,398.9
+Brazil,2020,40--44,Female,No Education,339.1
+Brazil,2005,45--49,Female,No Education,599.5
+Brazil,2010,45--49,Female,No Education,538.9
+Brazil,2015,45--49,Female,No Education,471
+Brazil,2020,45--49,Female,No Education,393.3
+Brazil,2005,50--54,Female,No Education,683.1
+Brazil,2010,50--54,Female,No Education,583.7
+Brazil,2015,50--54,Female,No Education,512.8
+Brazil,2020,50--54,Female,No Education,460.5
+Brazil,2005,55--59,Female,No Education,722.9
+Brazil,2010,55--59,Female,No Education,657.3
+Brazil,2015,55--59,Female,No Education,554.5
+Brazil,2020,55--59,Female,No Education,496.3
+Brazil,2005,60--64,Female,No Education,703.3
+Brazil,2010,60--64,Female,No Education,683.7
+Brazil,2015,60--64,Female,No Education,620.1
+Brazil,2020,60--64,Female,No Education,528.9
+Brazil,2005,15--19,Male,Incomplete Primary,537.2
+Brazil,2010,15--19,Male,Incomplete Primary,374.7
+Brazil,2015,15--19,Male,Incomplete Primary,327.6
+Brazil,2020,15--19,Male,Incomplete Primary,257.3
+Brazil,2005,20--24,Male,Incomplete Primary,779.6
+Brazil,2010,20--24,Male,Incomplete Primary,530.1
+Brazil,2015,20--24,Male,Incomplete Primary,427.1
+Brazil,2020,20--24,Male,Incomplete Primary,350.2
+Brazil,2005,25--29,Male,Incomplete Primary,1030.8
+Brazil,2010,25--29,Male,Incomplete Primary,766.8
+Brazil,2015,25--29,Male,Incomplete Primary,527.9
+Brazil,2020,25--29,Male,Incomplete Primary,421.9
+Brazil,2005,30--34,Male,Incomplete Primary,1126.3
+Brazil,2010,30--34,Male,Incomplete Primary,1012.8
+Brazil,2015,30--34,Male,Incomplete Primary,750.4
+Brazil,2020,30--34,Male,Incomplete Primary,521.1
+Brazil,2005,35--39,Male,Incomplete Primary,1187.2
+Brazil,2010,35--39,Male,Incomplete Primary,1103.5
+Brazil,2015,35--39,Male,Incomplete Primary,980.2
+Brazil,2020,35--39,Male,Incomplete Primary,736.2
+Brazil,2005,40--44,Male,Incomplete Primary,1223
+Brazil,2010,40--44,Male,Incomplete Primary,1157
+Brazil,2015,40--44,Male,Incomplete Primary,1066.7
+Brazil,2020,40--44,Male,Incomplete Primary,958
+Brazil,2005,45--49,Male,Incomplete Primary,1124.5
+Brazil,2010,45--49,Male,Incomplete Primary,1181.2
+Brazil,2015,45--49,Male,Incomplete Primary,1119.3
+Brazil,2020,45--49,Male,Incomplete Primary,1035.2
+Brazil,2005,50--54,Male,Incomplete Primary,1044
+Brazil,2010,50--54,Male,Incomplete Primary,1072.9
+Brazil,2015,50--54,Male,Incomplete Primary,1103.3
+Brazil,2020,50--54,Male,Incomplete Primary,1074.2
+Brazil,2005,55--59,Male,Incomplete Primary,884.4
+Brazil,2010,55--59,Male,Incomplete Primary,978.3
+Brazil,2015,55--59,Male,Incomplete Primary,992.7
+Brazil,2020,55--59,Male,Incomplete Primary,1041.5
+Brazil,2005,60--64,Male,Incomplete Primary,701.9
+Brazil,2010,60--64,Male,Incomplete Primary,808.3
+Brazil,2015,60--64,Male,Incomplete Primary,892.2
+Brazil,2020,60--64,Male,Incomplete Primary,917
+Brazil,2005,15--19,Female,Incomplete Primary,337.7
+Brazil,2010,15--19,Female,Incomplete Primary,227.2
+Brazil,2015,15--19,Female,Incomplete Primary,205.2
+Brazil,2020,15--19,Female,Incomplete Primary,168.2
+Brazil,2005,20--24,Female,Incomplete Primary,557
+Brazil,2010,20--24,Female,Incomplete Primary,336.7
+Brazil,2015,20--24,Female,Incomplete Primary,288.9
+Brazil,2020,20--24,Female,Incomplete Primary,247.2
+Brazil,2005,25--29,Female,Incomplete Primary,794
+Brazil,2010,25--29,Female,Incomplete Primary,554.6
+Brazil,2015,25--29,Female,Incomplete Primary,339
+Brazil,2020,25--29,Female,Incomplete Primary,296.7
+Brazil,2005,30--34,Female,Incomplete Primary,934.5
+Brazil,2010,30--34,Female,Incomplete Primary,789.6
+Brazil,2015,30--34,Female,Incomplete Primary,549
+Brazil,2020,30--34,Female,Incomplete Primary,337.5
+Brazil,2005,35--39,Female,Incomplete Primary,1076.4
+Brazil,2010,35--39,Female,Incomplete Primary,927.4
+Brazil,2015,35--39,Female,Incomplete Primary,773.8
+Brazil,2020,35--39,Female,Incomplete Primary,545.2
+Brazil,2005,40--44,Female,Incomplete Primary,1184.8
+Brazil,2010,40--44,Female,Incomplete Primary,1064.4
+Brazil,2015,40--44,Female,Incomplete Primary,908.6
+Brazil,2020,40--44,Female,Incomplete Primary,766.3
+Brazil,2005,45--49,Female,Incomplete Primary,1150.3
+Brazil,2010,45--49,Female,Incomplete Primary,1165
+Brazil,2015,45--49,Female,Incomplete Primary,1045.7
+Brazil,2020,45--49,Female,Incomplete Primary,895.5
+Brazil,2005,50--54,Female,Incomplete Primary,1103.9
+Brazil,2010,50--54,Female,Incomplete Primary,1122.3
+Brazil,2015,50--54,Female,Incomplete Primary,1110.4
+Brazil,2020,50--54,Female,Incomplete Primary,1023.3
+Brazil,2005,55--59,Female,Incomplete Primary,960.5
+Brazil,2010,55--59,Female,Incomplete Primary,1065.3
+Brazil,2015,55--59,Female,Incomplete Primary,1068.8
+Brazil,2020,55--59,Female,Incomplete Primary,1076.7
+Brazil,2005,60--64,Female,Incomplete Primary,785.4
+Brazil,2010,60--64,Female,Incomplete Primary,912.3
+Brazil,2015,60--64,Female,Incomplete Primary,1008.5
+Brazil,2020,60--64,Female,Incomplete Primary,1022.4
+Brazil,2005,15--19,Male,Primary,3307.1
+Brazil,2010,15--19,Male,Primary,2899.7
+Brazil,2015,15--19,Male,Primary,2284.2
+Brazil,2020,15--19,Male,Primary,1460.6
+Brazil,2005,20--24,Male,Primary,1711.7
+Brazil,2010,20--24,Male,Primary,1838.2
+Brazil,2015,20--24,Male,Primary,1542.6
+Brazil,2020,20--24,Male,Primary,1269.1
+Brazil,2005,25--29,Male,Primary,1767.2
+Brazil,2010,25--29,Male,Primary,1685.8
+Brazil,2015,25--29,Male,Primary,1592.4
+Brazil,2020,25--29,Male,Primary,1342.2
+Brazil,2005,30--34,Male,Primary,1699.3
+Brazil,2010,30--34,Male,Primary,1738.9
+Brazil,2015,30--34,Male,Primary,1650.9
+Brazil,2020,30--34,Male,Primary,1571.2
+Brazil,2005,35--39,Male,Primary,1588.4
+Brazil,2010,35--39,Male,Primary,1667.7
+Brazil,2015,35--39,Male,Primary,1685.8
+Brazil,2020,35--39,Male,Primary,1622.2
+Brazil,2005,40--44,Male,Primary,1465.3
+Brazil,2010,40--44,Male,Primary,1551.2
+Brazil,2015,40--44,Male,Primary,1615.5
+Brazil,2020,40--44,Male,Primary,1651
+Brazil,2005,45--49,Male,Primary,1202.2
+Brazil,2010,45--49,Male,Primary,1419.3
+Brazil,2015,45--49,Male,Primary,1504.9
+Brazil,2020,45--49,Male,Primary,1572.2
+Brazil,2005,50--54,Male,Primary,972.7
+Brazil,2010,50--54,Male,Primary,1151.4
+Brazil,2015,50--54,Male,Primary,1330.7
+Brazil,2020,50--54,Male,Primary,1449.5
+Brazil,2005,55--59,Male,Primary,714.9
+Brazil,2010,55--59,Male,Primary,916
+Brazil,2015,55--59,Male,Primary,1070.8
+Brazil,2020,55--59,Male,Primary,1262.3
+Brazil,2005,60--64,Male,Primary,501.7
+Brazil,2010,60--64,Male,Primary,657.8
+Brazil,2015,60--64,Male,Primary,841
+Brazil,2020,60--64,Male,Primary,995.5
+Brazil,2005,15--19,Female,Primary,2450.3
+Brazil,2010,15--19,Female,Primary,2074.4
+Brazil,2015,15--19,Female,Primary,1641.8
+Brazil,2020,15--19,Female,Primary,1056.7
+Brazil,2005,20--24,Female,Primary,1390
+Brazil,2010,20--24,Female,Primary,1348.7
+Brazil,2015,20--24,Female,Primary,1147
+Brazil,2020,20--24,Female,Primary,971.2
+Brazil,2005,25--29,Female,Primary,1570.1
+Brazil,2010,25--29,Female,Primary,1384.7
+Brazil,2015,25--29,Female,Primary,1347.2
+Brazil,2020,25--29,Female,Primary,1143
+Brazil,2005,30--34,Female,Primary,1593.5
+Brazil,2010,30--34,Female,Primary,1562.1
+Brazil,2015,30--34,Female,Primary,1372.4
+Brazil,2020,30--34,Female,Primary,1339.9
+Brazil,2005,35--39,Female,Primary,1553.1
+Brazil,2010,35--39,Female,Primary,1582.5
+Brazil,2015,35--39,Female,Primary,1531.5
+Brazil,2020,35--39,Female,Primary,1363.1
+Brazil,2005,40--44,Female,Primary,1496.4
+Brazil,2010,40--44,Female,Primary,1537.1
+Brazil,2015,40--44,Female,Primary,1551.4
+Brazil,2020,40--44,Female,Primary,1517.6
+Brazil,2005,45--49,Female,Primary,1250.6
+Brazil,2010,45--49,Female,Primary,1473.4
+Brazil,2015,45--49,Female,Primary,1511.8
+Brazil,2020,45--49,Female,Primary,1530.7
+Brazil,2005,50--54,Female,Primary,1027
+Brazil,2010,50--54,Female,Primary,1222.6
+Brazil,2015,50--54,Female,Primary,1406.8
+Brazil,2020,50--54,Female,Primary,1481.8
+Brazil,2005,55--59,Female,Primary,792.2
+Brazil,2010,55--59,Female,Primary,994
+Brazil,2015,55--59,Female,Primary,1167.1
+Brazil,2020,55--59,Female,Primary,1367.1
+Brazil,2005,60--64,Female,Primary,588.4
+Brazil,2010,60--64,Female,Primary,755.5
+Brazil,2015,60--64,Female,Primary,944.1
+Brazil,2020,60--64,Female,Primary,1120
+Brazil,2005,15--19,Male,Lower Secondary,3492.6
+Brazil,2010,15--19,Male,Lower Secondary,3647.9
+Brazil,2015,15--19,Male,Lower Secondary,4267.5
+Brazil,2020,15--19,Male,Lower Secondary,4456.8
+Brazil,2005,20--24,Male,Lower Secondary,2597.8
+Brazil,2010,20--24,Male,Lower Secondary,2232.8
+Brazil,2015,20--24,Male,Lower Secondary,1978.4
+Brazil,2020,20--24,Male,Lower Secondary,1759.4
+Brazil,2005,25--29,Male,Lower Secondary,1435.2
+Brazil,2010,25--29,Male,Lower Secondary,1737.3
+Brazil,2015,25--29,Male,Lower Secondary,1671.6
+Brazil,2020,25--29,Male,Lower Secondary,1609.4
+Brazil,2005,30--34,Male,Lower Secondary,1212.8
+Brazil,2010,30--34,Male,Lower Secondary,1415.8
+Brazil,2015,30--34,Male,Lower Secondary,1703.8
+Brazil,2020,30--34,Male,Lower Secondary,1649.9
+Brazil,2005,35--39,Male,Lower Secondary,1090.9
+Brazil,2010,35--39,Male,Lower Secondary,1193.8
+Brazil,2015,35--39,Male,Lower Secondary,1377
+Brazil,2020,35--39,Male,Lower Secondary,1679.7
+Brazil,2005,40--44,Male,Lower Secondary,990.8
+Brazil,2010,40--44,Male,Lower Secondary,1069.4
+Brazil,2015,40--44,Male,Lower Secondary,1160.9
+Brazil,2020,40--44,Male,Lower Secondary,1353.9
+Brazil,2005,45--49,Male,Lower Secondary,756.7
+Brazil,2010,45--49,Male,Lower Secondary,964.5
+Brazil,2015,45--49,Male,Lower Secondary,1042.7
+Brazil,2020,45--49,Male,Lower Secondary,1135.5
+Brazil,2005,50--54,Male,Lower Secondary,532.1
+Brazil,2010,50--54,Male,Lower Secondary,729.6
+Brazil,2015,50--54,Male,Lower Secondary,910.6
+Brazil,2020,50--54,Male,Lower Secondary,1011.1
+Brazil,2005,55--59,Male,Lower Secondary,335.2
+Brazil,2010,55--59,Male,Lower Secondary,505.8
+Brazil,2015,55--59,Male,Lower Secondary,685
+Brazil,2020,55--59,Male,Lower Secondary,871.7
+Brazil,2005,60--64,Male,Lower Secondary,210.8
+Brazil,2010,60--64,Male,Lower Secondary,312.3
+Brazil,2015,60--64,Male,Lower Secondary,470.2
+Brazil,2020,60--64,Male,Lower Secondary,644.5
+Brazil,2005,15--19,Female,Lower Secondary,3934.2
+Brazil,2010,15--19,Female,Lower Secondary,3981.7
+Brazil,2015,15--19,Female,Lower Secondary,4455.2
+Brazil,2020,15--19,Female,Lower Secondary,4475.2
+Brazil,2005,20--24,Female,Lower Secondary,2338.5
+Brazil,2010,20--24,Female,Lower Secondary,2029.2
+Brazil,2015,20--24,Female,Lower Secondary,1741.7
+Brazil,2020,20--24,Female,Lower Secondary,1499.5
+Brazil,2005,25--29,Female,Lower Secondary,1415.6
+Brazil,2010,25--29,Female,Lower Secondary,1583.5
+Brazil,2015,25--29,Female,Lower Secondary,1477.6
+Brazil,2020,25--29,Female,Lower Secondary,1388.9
+Brazil,2005,30--34,Female,Lower Secondary,1252.8
+Brazil,2010,30--34,Female,Lower Secondary,1409.6
+Brazil,2015,30--34,Female,Lower Secondary,1567.2
+Brazil,2020,30--34,Female,Lower Secondary,1470
+Brazil,2005,35--39,Female,Lower Secondary,1137.3
+Brazil,2010,35--39,Female,Lower Secondary,1245.5
+Brazil,2015,35--39,Female,Lower Secondary,1383.3
+Brazil,2020,35--39,Female,Lower Secondary,1558.2
+Brazil,2005,40--44,Female,Lower Secondary,1034
+Brazil,2010,40--44,Female,Lower Secondary,1127.5
+Brazil,2015,40--44,Female,Lower Secondary,1222.7
+Brazil,2020,40--44,Female,Lower Secondary,1372.7
+Brazil,2005,45--49,Female,Lower Secondary,791.8
+Brazil,2010,45--49,Female,Lower Secondary,1020.8
+Brazil,2015,45--49,Female,Lower Secondary,1111.2
+Brazil,2020,45--49,Female,Lower Secondary,1208.8
+Brazil,2005,50--54,Female,Lower Secondary,563.1
+Brazil,2010,50--54,Female,Lower Secondary,777
+Brazil,2015,50--54,Female,Lower Secondary,977.5
+Brazil,2020,50--54,Female,Lower Secondary,1092.3
+Brazil,2005,55--59,Female,Lower Secondary,369.7
+Brazil,2010,55--59,Female,Lower Secondary,547.9
+Brazil,2015,55--59,Female,Lower Secondary,744.9
+Brazil,2020,55--59,Female,Lower Secondary,953.9
+Brazil,2005,60--64,Female,Lower Secondary,244.7
+Brazil,2010,60--64,Female,Lower Secondary,355.2
+Brazil,2015,60--64,Female,Lower Secondary,523.6
+Brazil,2020,60--64,Female,Lower Secondary,718.9
+Brazil,2005,15--19,Male,Upper Secondary,1312.6
+Brazil,2010,15--19,Male,Upper Secondary,1316.5
+Brazil,2015,15--19,Male,Upper Secondary,1735.4
+Brazil,2020,15--19,Male,Upper Secondary,1975.4
+Brazil,2005,20--24,Male,Upper Secondary,3224.2
+Brazil,2010,20--24,Male,Upper Secondary,3566.7
+Brazil,2015,20--24,Male,Upper Secondary,3921.9
+Brazil,2020,20--24,Male,Upper Secondary,4350.4
+Brazil,2005,25--29,Male,Upper Secondary,2827.7
+Brazil,2010,25--29,Male,Upper Secondary,3509.5
+Brazil,2015,25--29,Male,Upper Secondary,3642.3
+Brazil,2020,25--29,Male,Upper Secondary,3777.5
+Brazil,2005,30--34,Male,Upper Secondary,1933.9
+Brazil,2010,30--34,Male,Upper Secondary,2598.4
+Brazil,2015,30--34,Male,Upper Secondary,3231.1
+Brazil,2020,30--34,Male,Upper Secondary,3464.5
+Brazil,2005,35--39,Male,Upper Secondary,1571.1
+Brazil,2010,35--39,Male,Upper Secondary,1906.2
+Brazil,2015,35--39,Male,Upper Secondary,2530.6
+Brazil,2020,35--39,Male,Upper Secondary,3189.6
+Brazil,2005,40--44,Male,Upper Secondary,1372.4
+Brazil,2010,40--44,Male,Upper Secondary,1542.7
+Brazil,2015,40--44,Male,Upper Secondary,1856.8
+Brazil,2020,40--44,Male,Upper Secondary,2492.1
+Brazil,2005,45--49,Male,Upper Secondary,1022.3
+Brazil,2010,45--49,Male,Upper Secondary,1339
+Brazil,2015,45--49,Male,Upper Secondary,1507.7
+Brazil,2020,45--49,Male,Upper Secondary,1820.1
+Brazil,2005,50--54,Male,Upper Secondary,698
+Brazil,2010,50--54,Male,Upper Secondary,988.7
+Brazil,2015,50--54,Male,Upper Secondary,1268.2
+Brazil,2020,50--54,Male,Upper Secondary,1466.4
+Brazil,2005,55--59,Male,Upper Secondary,415.2
+Brazil,2010,55--59,Male,Upper Secondary,666.3
+Brazil,2015,55--59,Male,Upper Secondary,932.3
+Brazil,2020,55--59,Male,Upper Secondary,1219
+Brazil,2005,60--64,Male,Upper Secondary,238.4
+Brazil,2010,60--64,Male,Upper Secondary,389.1
+Brazil,2015,60--64,Male,Upper Secondary,623.1
+Brazil,2020,60--64,Male,Upper Secondary,882.1
+Brazil,2005,15--19,Female,Upper Secondary,1756
+Brazil,2010,15--19,Female,Upper Secondary,1749.9
+Brazil,2015,15--19,Female,Upper Secondary,2077.9
+Brazil,2020,15--19,Female,Upper Secondary,2201.6
+Brazil,2005,20--24,Female,Upper Secondary,3767.5
+Brazil,2010,20--24,Female,Upper Secondary,4117.8
+Brazil,2015,20--24,Female,Upper Secondary,4248
+Brazil,2020,20--24,Female,Upper Secondary,4481.3
+Brazil,2005,25--29,Female,Upper Secondary,3145.8
+Brazil,2010,25--29,Female,Upper Secondary,3831.7
+Brazil,2015,25--29,Female,Upper Secondary,3807
+Brazil,2020,25--29,Female,Upper Secondary,3801.4
+Brazil,2005,30--34,Female,Upper Secondary,2175.1
+Brazil,2010,30--34,Female,Upper Secondary,2857.2
+Brazil,2015,30--34,Female,Upper Secondary,3568.3
+Brazil,2020,30--34,Female,Upper Secondary,3648.4
+Brazil,2005,35--39,Female,Upper Secondary,1783.1
+Brazil,2010,35--39,Female,Upper Secondary,2163.5
+Brazil,2015,35--39,Female,Upper Secondary,2805.1
+Brazil,2020,35--39,Female,Upper Secondary,3548.9
+Brazil,2005,40--44,Female,Upper Secondary,1506.2
+Brazil,2010,40--44,Female,Upper Secondary,1769.2
+Brazil,2015,40--44,Female,Upper Secondary,2125.1
+Brazil,2020,40--44,Female,Upper Secondary,2784.9
+Brazil,2005,45--49,Female,Upper Secondary,1099.4
+Brazil,2010,45--49,Female,Upper Secondary,1488.5
+Brazil,2015,45--49,Female,Upper Secondary,1745.1
+Brazil,2020,45--49,Female,Upper Secondary,2102.8
+Brazil,2005,50--54,Female,Upper Secondary,754.5
+Brazil,2010,50--54,Female,Upper Secondary,1080.7
+Brazil,2015,50--54,Female,Upper Secondary,1427.4
+Brazil,2020,50--54,Female,Upper Secondary,1717.7
+Brazil,2005,55--59,Female,Upper Secondary,459
+Brazil,2010,55--59,Female,Upper Secondary,736
+Brazil,2015,55--59,Female,Upper Secondary,1038
+Brazil,2020,55--59,Female,Upper Secondary,1395.5
+Brazil,2005,60--64,Female,Upper Secondary,271.8
+Brazil,2010,60--64,Female,Upper Secondary,442.6
+Brazil,2015,60--64,Female,Upper Secondary,705.3
+Brazil,2020,60--64,Female,Upper Secondary,1004.6
+Brazil,2005,15--19,Male,Post Secondary,0
+Brazil,2010,15--19,Male,Post Secondary,0
+Brazil,2015,15--19,Male,Post Secondary,0
+Brazil,2020,15--19,Male,Post Secondary,0
+Brazil,2005,20--24,Male,Post Secondary,417.7
+Brazil,2010,20--24,Male,Post Secondary,392.3
+Brazil,2015,20--24,Male,Post Secondary,601.4
+Brazil,2020,20--24,Male,Post Secondary,832.1
+Brazil,2005,25--29,Male,Post Secondary,740.8
+Brazil,2010,25--29,Male,Post Secondary,918.6
+Brazil,2015,25--29,Male,Post Secondary,1064.5
+Brazil,2020,25--29,Male,Post Secondary,1215.2
+Brazil,2005,30--34,Male,Post Secondary,739.1
+Brazil,2010,30--34,Male,Post Secondary,926.8
+Brazil,2015,30--34,Male,Post Secondary,1103.5
+Brazil,2020,30--34,Male,Post Secondary,1191.2
+Brazil,2005,35--39,Male,Post Secondary,645.2
+Brazil,2010,35--39,Male,Post Secondary,729.4
+Brazil,2015,35--39,Male,Post Secondary,903.7
+Brazil,2020,35--39,Male,Post Secondary,1091.7
+Brazil,2005,40--44,Male,Post Secondary,638
+Brazil,2010,40--44,Male,Post Secondary,634.6
+Brazil,2015,40--44,Male,Post Secondary,711.7
+Brazil,2020,40--44,Male,Post Secondary,891.9
+Brazil,2005,45--49,Male,Post Secondary,538.4
+Brazil,2010,45--49,Male,Post Secondary,623.9
+Brazil,2015,45--49,Male,Post Secondary,621.5
+Brazil,2020,45--49,Male,Post Secondary,699.2
+Brazil,2005,50--54,Male,Post Secondary,434.8
+Brazil,2010,50--54,Male,Post Secondary,522.2
+Brazil,2015,50--54,Male,Post Secondary,592.6
+Brazil,2020,50--54,Male,Post Secondary,606.3
+Brazil,2005,55--59,Male,Post Secondary,308.6
+Brazil,2010,55--59,Male,Post Secondary,416.7
+Brazil,2015,55--59,Male,Post Secondary,494.4
+Brazil,2020,55--59,Male,Post Secondary,571.9
+Brazil,2005,60--64,Male,Post Secondary,190
+Brazil,2010,60--64,Male,Post Secondary,290.8
+Brazil,2015,60--64,Male,Post Secondary,391.8
+Brazil,2020,60--64,Male,Post Secondary,470.3
+Brazil,2005,15--19,Female,Post Secondary,0
+Brazil,2010,15--19,Female,Post Secondary,0
+Brazil,2015,15--19,Female,Post Secondary,0
+Brazil,2020,15--19,Female,Post Secondary,0
+Brazil,2005,20--24,Female,Post Secondary,655.9
+Brazil,2010,20--24,Female,Post Secondary,625.5
+Brazil,2015,20--24,Female,Post Secondary,909.1
+Brazil,2020,20--24,Female,Post Secondary,1201.8
+Brazil,2005,25--29,Female,Post Secondary,1031.7
+Brazil,2010,25--29,Female,Post Secondary,1326.6
+Brazil,2015,25--29,Female,Post Secondary,1503.7
+Brazil,2020,25--29,Female,Post Secondary,1686.8
+Brazil,2005,30--34,Female,Post Secondary,1063
+Brazil,2010,30--34,Female,Post Secondary,1304.5
+Brazil,2015,30--34,Female,Post Secondary,1540.6
+Brazil,2020,30--34,Female,Post Secondary,1644.3
+Brazil,2005,35--39,Female,Post Secondary,947.3
+Brazil,2010,35--39,Female,Post Secondary,1057.9
+Brazil,2015,35--39,Female,Post Secondary,1281.2
+Brazil,2020,35--39,Female,Post Secondary,1533.9
+Brazil,2005,40--44,Female,Post Secondary,895
+Brazil,2010,40--44,Female,Post Secondary,940.6
+Brazil,2015,40--44,Female,Post Secondary,1039.7
+Brazil,2020,40--44,Female,Post Secondary,1273.2
+Brazil,2005,45--49,Female,Post Secondary,701.5
+Brazil,2010,45--49,Female,Post Secondary,885.5
+Brazil,2015,45--49,Female,Post Secondary,928.6
+Brazil,2020,45--49,Female,Post Secondary,1029.8
+Brazil,2005,50--54,Female,Post Secondary,521
+Brazil,2010,50--54,Female,Post Secondary,690.6
+Brazil,2015,50--54,Female,Post Secondary,850.3
+Brazil,2020,50--54,Female,Post Secondary,915.2
+Brazil,2005,55--59,Female,Post Secondary,331.5
+Brazil,2010,55--59,Female,Post Secondary,509.3
+Brazil,2015,55--59,Female,Post Secondary,664.6
+Brazil,2020,55--59,Female,Post Secondary,832.7
+Brazil,2005,60--64,Female,Post Secondary,180.6
+Brazil,2010,60--64,Female,Post Secondary,320.7
+Brazil,2015,60--64,Female,Post Secondary,489.4
+Brazil,2020,60--64,Female,Post Secondary,644.8
+Brazil,2015,15--19,Male,Short Post Secondary,0
+Brazil,2020,15--19,Male,Short Post Secondary,0
+Brazil,2015,20--24,Male,Short Post Secondary,0
+Brazil,2020,20--24,Male,Short Post Secondary,0
+Brazil,2015,25--29,Male,Short Post Secondary,0
+Brazil,2020,25--29,Male,Short Post Secondary,0
+Brazil,2015,30--34,Male,Short Post Secondary,0
+Brazil,2020,30--34,Male,Short Post Secondary,0
+Brazil,2015,35--39,Male,Short Post Secondary,0
+Brazil,2020,35--39,Male,Short Post Secondary,0
+Brazil,2015,40--44,Male,Short Post Secondary,0
+Brazil,2020,40--44,Male,Short Post Secondary,0
+Brazil,2015,45--49,Male,Short Post Secondary,0
+Brazil,2020,45--49,Male,Short Post Secondary,0
+Brazil,2015,50--54,Male,Short Post Secondary,0
+Brazil,2020,50--54,Male,Short Post Secondary,0
+Brazil,2015,55--59,Male,Short Post Secondary,0
+Brazil,2020,55--59,Male,Short Post Secondary,0
+Brazil,2015,60--64,Male,Short Post Secondary,0
+Brazil,2020,60--64,Male,Short Post Secondary,0
+Brazil,2015,15--19,Female,Short Post Secondary,0
+Brazil,2020,15--19,Female,Short Post Secondary,0
+Brazil,2015,20--24,Female,Short Post Secondary,0
+Brazil,2020,20--24,Female,Short Post Secondary,0
+Brazil,2015,25--29,Female,Short Post Secondary,0
+Brazil,2020,25--29,Female,Short Post Secondary,0
+Brazil,2015,30--34,Female,Short Post Secondary,0
+Brazil,2020,30--34,Female,Short Post Secondary,0
+Brazil,2015,35--39,Female,Short Post Secondary,0
+Brazil,2020,35--39,Female,Short Post Secondary,0
+Brazil,2015,40--44,Female,Short Post Secondary,0
+Brazil,2020,40--44,Female,Short Post Secondary,0
+Brazil,2015,45--49,Female,Short Post Secondary,0
+Brazil,2020,45--49,Female,Short Post Secondary,0
+Brazil,2015,50--54,Female,Short Post Secondary,0
+Brazil,2020,50--54,Female,Short Post Secondary,0
+Brazil,2015,55--59,Female,Short Post Secondary,0
+Brazil,2020,55--59,Female,Short Post Secondary,0
+Brazil,2015,60--64,Female,Short Post Secondary,0
+Brazil,2020,60--64,Female,Short Post Secondary,0
+Brazil,2015,15--19,Male,Bachelor,0
+Brazil,2020,15--19,Male,Bachelor,0
+Brazil,2015,20--24,Male,Bachelor,589.9
+Brazil,2020,20--24,Male,Bachelor,816.3
+Brazil,2015,25--29,Male,Bachelor,1026.2
+Brazil,2020,25--29,Male,Bachelor,1171.5
+Brazil,2015,30--34,Male,Bachelor,1053.9
+Brazil,2020,30--34,Male,Bachelor,1137.6
+Brazil,2015,35--39,Male,Bachelor,847.8
+Brazil,2020,35--39,Male,Bachelor,1042.5
+Brazil,2015,40--44,Male,Bachelor,655.8
+Brazil,2020,40--44,Male,Bachelor,836.7
+Brazil,2015,45--49,Male,Bachelor,570.4
+Brazil,2020,45--49,Male,Bachelor,644.4
+Brazil,2015,50--54,Male,Bachelor,542.2
+Brazil,2020,50--54,Male,Bachelor,556.5
+Brazil,2015,55--59,Male,Bachelor,452.7
+Brazil,2020,55--59,Male,Bachelor,523.2
+Brazil,2015,60--64,Male,Bachelor,358
+Brazil,2020,60--64,Male,Bachelor,430.6
+Brazil,2015,15--19,Female,Bachelor,0
+Brazil,2020,15--19,Female,Bachelor,0
+Brazil,2015,20--24,Female,Bachelor,885.4
+Brazil,2020,20--24,Female,Bachelor,1170.6
+Brazil,2015,25--29,Female,Bachelor,1430
+Brazil,2020,25--29,Female,Bachelor,1604.2
+Brazil,2015,30--34,Female,Bachelor,1446.7
+Brazil,2020,30--34,Female,Bachelor,1544
+Brazil,2015,35--39,Female,Bachelor,1219.8
+Brazil,2020,35--39,Female,Bachelor,1440.3
+Brazil,2015,40--44,Female,Bachelor,985.3
+Brazil,2020,40--44,Female,Bachelor,1212.2
+Brazil,2015,45--49,Female,Bachelor,881.2
+Brazil,2020,45--49,Female,Bachelor,975.9
+Brazil,2015,50--54,Female,Bachelor,801.8
+Brazil,2020,50--54,Female,Bachelor,868.5
+Brazil,2015,55--59,Female,Bachelor,627.1
+Brazil,2020,55--59,Female,Bachelor,785.3
+Brazil,2015,60--64,Female,Bachelor,461.7
+Brazil,2020,60--64,Female,Bachelor,608.4
+Brazil,2015,15--19,Male,Master and higher,0
+Brazil,2020,15--19,Male,Master and higher,0
+Brazil,2015,20--24,Male,Master and higher,11.4
+Brazil,2020,20--24,Male,Master and higher,15.8
+Brazil,2015,25--29,Male,Master and higher,38.3
+Brazil,2020,25--29,Male,Master and higher,43.7
+Brazil,2015,30--34,Male,Master and higher,49.7
+Brazil,2020,30--34,Male,Master and higher,53.6
+Brazil,2015,35--39,Male,Master and higher,55.9
+Brazil,2020,35--39,Male,Master and higher,49.1
+Brazil,2015,40--44,Male,Master and higher,55.9
+Brazil,2020,40--44,Male,Master and higher,55.2
+Brazil,2015,45--49,Male,Master and higher,51
+Brazil,2020,45--49,Male,Master and higher,54.9
+Brazil,2015,50--54,Male,Master and higher,50.4
+Brazil,2020,50--54,Male,Master and higher,49.8
+Brazil,2015,55--59,Male,Master and higher,41.7
+Brazil,2020,55--59,Male,Master and higher,48.7
+Brazil,2015,60--64,Male,Master and higher,33.8
+Brazil,2020,60--64,Male,Master and higher,39.7
+Brazil,2015,15--19,Female,Master and higher,0
+Brazil,2020,15--19,Female,Master and higher,0
+Brazil,2015,20--24,Female,Master and higher,23.6
+Brazil,2020,20--24,Female,Master and higher,31.2
+Brazil,2015,25--29,Female,Master and higher,73.7
+Brazil,2020,25--29,Female,Master and higher,82.7
+Brazil,2015,30--34,Female,Master and higher,94
+Brazil,2020,30--34,Female,Master and higher,100.3
+Brazil,2015,35--39,Female,Master and higher,61.4
+Brazil,2020,35--39,Female,Master and higher,93.6
+Brazil,2015,40--44,Female,Master and higher,54.4
+Brazil,2020,40--44,Female,Master and higher,61
+Brazil,2015,45--49,Female,Master and higher,47.4
+Brazil,2020,45--49,Female,Master and higher,53.9
+Brazil,2015,50--54,Female,Master and higher,48.4
+Brazil,2020,50--54,Female,Master and higher,46.7
+Brazil,2015,55--59,Female,Master and higher,37.5
+Brazil,2020,55--59,Female,Master and higher,47.4
+Brazil,2015,60--64,Female,Master and higher,27.7
+Brazil,2020,60--64,Female,Master and higher,36.4
