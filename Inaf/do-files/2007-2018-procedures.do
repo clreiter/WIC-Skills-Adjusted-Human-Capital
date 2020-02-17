@@ -1,6 +1,6 @@
 clear all
 
-global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Inaf\"
+global directory "D:\Dropbox (Pessoal)\GitHub\WiC-EducationQualityMatters\Inaf\"
 
 global data "$directory\data"
 
@@ -107,9 +107,18 @@ restore
 
 // 1 - Descriptive Analysis - Proficiency
 
+/* DONT RUN - WILL REPLACE EDITED GRAPHS
 twoway (histogram inaf_score) (kdensity inaf_score), by(ano)
 
-/* DONT RUN - WILL REPLACE EDITED GRAPHS
+twoway (kdensity inaf_score if ano==2007) (kdensity inaf_score if ano==2009) ///
+	(kdensity inaf_score if ano==2011) (kdensity inaf_score if ano==2015) ///
+		kdensity inaf_score if ano==2018), ///
+		legend(order(1 "2007" 2 "2009" 3 "2011" 4 "2015" 5 "2018"))
+
+* Excluding 2007
+twoway (kdensity inaf_score if ano==2009) (kdensity inaf_score if ano==2011) ///
+	(kdensity inaf_score if ano==2015) (kdensity inaf_score if ano==2018), ///
+		legend(order(1 "2009" 2 "2011" 3 "2015" 4 "2018"))
 
 // Graphs by age-group
 preserve
@@ -127,8 +136,6 @@ preserve
 	}
 restore
 
-*/
-
 * Some statistical significance.
 
 // Y as continuous (with tobit)
@@ -138,4 +145,61 @@ foreach ano in 2007 2009 2011 2015 2018 {
 	graph save Graph "$results\tobit_`ano'_age_sex.gph", replace
 	margins age_group#schooling, plot
 	graph save Graph "$results\tobit_`ano'_age_educ.gph", replace
+}
+*/
+
+// Aggregate modelling
+
+cd "$results"
+collapse (median) medianinaf_score= inaf_score, by(ano age_group sex schooling)
+recode ano (2007=1) (2009=2) (2011=3) (2015=4) (2018=5), gen(period)
+gen cohort=10-age_group+period
+*identification assumption. cohort 14=cohort 13
+replace cohort=13 if cohort==14
+save "$data\Inaf_IPC_Model.dta", replace
+
+foreach s in 1 2 {
+	use "$data\Inaf_IPC_Model.dta", clear
+	reg medianinaf_score i.age_group i.period i.cohort i.sex i.schooling 
+	parmest, label saving(Coef_IPC_Inaf_Sex_`s'.dta, replace) 
+	use Coef_IPC_Inaf_Sex_`s', clear
+	gen lb=estimate-std
+	gen ub=estimate+std
+	destring label, replace
+	replace label=_n
+	label define label 1 "15-19" ///
+		2 "20-24" ///
+		3 "25-29" ///
+		4 "30-34" ///
+		5 "35-39" ///
+		6 "40-44" ///
+		7 "45-49" ///
+		8 "50-54" ///
+		9 "55-59" ///
+		10 "60-64" ///
+		11 "2007" ///
+		12 "2009" ///
+		13 "2011" ///
+		14 "2015" ///
+		15 "2018" ///
+		16 "1943-1947/1948-1952" ///
+		17 "1953-1957" ///
+		18 "1955-1959" ///
+		19 "1958-1962" ///
+		20 "1960-1964" ///
+		21 "1965-1969" ///
+		22 "1970-1974" ///
+		23 "1975-1979" ///
+		24 "1980-1984" ///
+		25 "1985-1989" ///
+		26 "1990-1994" ///
+		27 "1995-1999" ///
+		28 "2000-2004"
+	label values label label
+	twoway 	(scatter estimate label if label<11, xlabel(1 "15-19" 2 "20-24" ///
+				3 "25-29" 4 "30-34" 5 "35-39" 6 "40-44" 7 "45-49" 8 "50-54" ///
+				9 "55-59" 10 "60-64", valuelabel)) ///
+			(line estimate label if label<11)
+	graph save Graph "$results\ipc_age_effects_`s'.gph", replace
+	save Coef_IPC_Inaf_Sex_`s', replace
 }
