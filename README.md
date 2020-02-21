@@ -9,14 +9,19 @@ This repository refers to the codes, data and procedures of the Human Capital Qu
 ### Coordinators
 
 Wolfgang Lutz
+
 Anne Goujon
 
 ### Researchers
 
 Caner Özdemir
+
 Claudia Reiter
+
 Dilek Yildiz
+
 Melissa Lima
+
 Raquel Guimaraes
 
 
