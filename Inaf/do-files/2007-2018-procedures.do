@@ -1,6 +1,6 @@
 clear all
 
-global directory "D:\Dropbox (Pessoal)\GitHub\WiC-EducationQualityMatters\Inaf\"
+global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Inaf\"
 
 global data "$directory\data"
 
@@ -158,11 +158,58 @@ gen cohort=10-age_group+period
 replace cohort=13 if cohort==14
 save "$data\Inaf_IPC_Model.dta", replace
 
-foreach s in 1 2 {
+// Sex and education change levels of decay function
+use "$data\Inaf_IPC_Model.dta", clear
+reg medianinaf_score i.age_group i.period i.cohort i.sex i.schooling 
+parmest, label saving(Coef_IPC_Inaf.dta, replace) 
+use Coef_IPC_Inaf, clear
+gen lb=estimate-std
+gen ub=estimate+std
+destring label, replace
+replace label=_n
+label define label 1 "15-19" ///
+	2 "20-24" ///
+	3 "25-29" ///
+	4 "30-34" ///
+	5 "35-39" ///
+	6 "40-44" ///
+	7 "45-49" ///
+	8 "50-54" ///
+	9 "55-59" ///
+	10 "60-64" ///
+	11 "2007" ///
+	12 "2009" ///
+	13 "2011" ///
+	14 "2015" ///
+	15 "2018" ///
+	16 "1943-1947/1948-1952" ///
+	17 "1953-1957" ///
+	18 "1955-1959" ///
+	19 "1958-1962" ///
+	20 "1960-1964" ///
+	21 "1965-1969" ///
+	22 "1970-1974" ///
+	23 "1975-1979" ///
+	24 "1980-1984" ///
+	25 "1985-1989" ///
+	26 "1990-1994" ///
+	27 "1995-1999" ///
+	28 "2000-2004"
+label values label label
+rename estimate estimate_`s'
+twoway 	(scatter estimate label if label<11, xlabel(1 "15-19" 2 "20-24" ///
+			3 "25-29" 4 "30-34" 5 "35-39" 6 "40-44" 7 "45-49" 8 "50-54" ///
+			9 "55-59" 10 "60-64", valuelabel)) ///
+		(line estimate label if label<11)
+graph save Graph "$results\ipc_age_effects.gph", replace
+
+// Different education decay functions 
+// No tertiary - different age groups
+foreach schooling in 1 2 3 {
 	use "$data\Inaf_IPC_Model.dta", clear
-	reg medianinaf_score i.age_group i.period i.cohort i.sex i.schooling 
-	parmest, label saving(Coef_IPC_Inaf_Sex_`s'.dta, replace) 
-	use Coef_IPC_Inaf_Sex_`s', clear
+	reg medianinaf_score i.age_group i.period i.cohort i.sex if schooling==`schooling'
+	parmest, label saving(Coef_IPC_Inaf_Educ_`schooling'.dta, replace) 
+	use Coef_IPC_Inaf_Educ_`schooling'.dta, clear
 	gen lb=estimate-std
 	gen ub=estimate+std
 	destring label, replace
@@ -196,10 +243,74 @@ foreach s in 1 2 {
 		27 "1995-1999" ///
 		28 "2000-2004"
 	label values label label
+	rename estimate estimate_`schooling'
 	twoway 	(scatter estimate label if label<11, xlabel(1 "15-19" 2 "20-24" ///
 				3 "25-29" 4 "30-34" 5 "35-39" 6 "40-44" 7 "45-49" 8 "50-54" ///
 				9 "55-59" 10 "60-64", valuelabel)) ///
 			(line estimate label if label<11)
-	graph save Graph "$results\ipc_age_effects_`s'.gph", replace
-	save Coef_IPC_Inaf_Sex_`s', replace
+	graph save Graph "$results\ipc_age_effects_`schooling'.gph", replace
+	save Coef_IPC_Inaf_Educ_`schooling'.dta, replace
+}
+
+// Tertiary
+foreach schooling in 5 {
+	use "$data\Inaf_IPC_Model.dta", clear
+	drop if age==1
+	gen age_group2=age_group-1
+	drop age_group
+	recode age_group2 (20/24=1  "20-24") ///
+			 (25/29=2  "25-29") ///
+			 (30/34=3  "30-34") ///
+			 (35/39=4  "35-39") ///			
+			 (40/44=5  "40-44") ///
+			 (45/49=6  "45-49") ///
+			 (50/54=7  "50-54") ///
+			 (55/59=8  "55-59") ///
+			 (60/64=9 "60-64"), gen(age_group)
+	drop cohort
+	gen cohort=10-age_group+period
+	*identification assumption. cohort 14=cohort 13
+	replace cohort=13 if cohort==14
+	reg medianinaf_score i.age_group i.period i.cohort i.sex if schooling==`schooling'
+	parmest, label saving(Coef_IPC_Inaf_Educ_`schooling'.dta, replace) 
+	use Coef_IPC_Inaf_Educ_`schooling'.dta, clear
+	gen lb=estimate-std
+	gen ub=estimate+std
+	destring label, replace
+	replace label=_n
+	label define label ///
+		1 "20-24" ///
+		2 "25-29" ///
+		3 "30-34" ///
+		4 "35-39" ///
+		5 "40-44" ///
+		6 "45-49" ///
+		7 "50-54" ///
+		8 "55-59" ///
+		9 "60-64" ///
+		10 "2007" ///
+		11 "2009" ///
+		12 "2011" ///
+		13 "2015" ///
+		14 "2018" ///
+		15 "1943-1947/1948-1952" ///
+		16 "1953-1957" ///
+		17 "1955-1959" ///
+		18 "1958-1962" ///
+		29 "1960-1964" ///
+		20 "1965-1969" ///
+		21 "1970-1974" ///
+		22 "1975-1979" ///
+		23 "1980-1984" ///
+		24 "1985-1989" ///
+		25 "1990-1994" ///
+		26 "1995-1999"
+	label values label label
+	rename estimate estimate_`schooling'
+	twoway 	(scatter estimate label if label<10, xlabel(1 "20-24" ///
+				2 "25-29" 3 "30-34" 4 "35-39" 5 "40-44" 6 "45-49" 7 "50-54" ///
+				8 "55-59" 9 "60-64", valuelabel)) ///
+			(line estimate label if label<10)
+	graph save Graph "$results\ipc_age_effects_`schooling'.gph", replace
+	save Coef_IPC_Inaf_Educ_`schooling'.dta, replace
 }
