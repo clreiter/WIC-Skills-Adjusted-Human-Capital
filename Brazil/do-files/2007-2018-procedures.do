@@ -1,6 +1,6 @@
 clear all
 
-global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Inaf\"
+global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Brazil\"
 
 global data "$directory\data"
 
