@@ -1,6 +1,6 @@
 clear all
 
-global directory "C:\Users\guimaraes\Dropbox\GitHub\WiC-EducationQualityMatters\Brazil\"
+global directory "D:\Dropbox (Pessoal)\GitHub\WiC-EducationQualityMatters\Brazil\"
 
 global data "$directory\data"
 
@@ -148,4 +148,13 @@ foreach ano in 2007 2009 2011 2015 2018 {
 }
 */
 
-// Aggregate modelling
+// Pooled cross-section analysis
+
+*Lets try a Lexis diagram by single age groups
+
+gen age=idade_real
+gen cohort=ano-age
+
+tobit inaf_score i.sex i.schooling c.age##c.age cohort, ll
+margins schooling, at(age=(15 (5) 60)) plot
+margins schooling, at(cohort=(1943 (5) 2003)) plot(__swapxp)
