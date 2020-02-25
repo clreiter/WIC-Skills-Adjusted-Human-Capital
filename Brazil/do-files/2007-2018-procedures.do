@@ -223,4 +223,14 @@ gen posicao_inaf=1 if inaf_score> mean_inaf_age_sex
 replace posicao_inaf=0 if inaf_score<= mean_inaf_age_sex
 label define posicao_inaf 1 "Above the average" 0 "Equal or less than the average"
 label values posicao_inaf posicao_inaf
-export excel using "$directory\results\excel\Quality_Distribution.xlsx", firstrow(variables) replace
+save "$data\Quality_Distribution_Inaf.dta", replace
+export excel using "$directory\results\excel\Quality_Distribution_Inaf.xlsx", firstrow(variables) replace
+
+use "$data\Quality_Distribution_Inaf.dta", clear
+* use 2018 as a proxy for 2020
+replace ano=2020 if ano==2018
+merge 1:1 ano age_group sex schooling using "$data\wic-pop-age-educ-2015-2020-ssp2-br.dta"
+keep if _m==3
+drop pop inaf_score mean_inaf_age_sex totalpop _merge
+save "$data\Quality_Distribution_WiC.dta", replace
+export excel using "$directory\results\excel\Quality_Distribution_WiC.xlsx", firstrow(variables) replace
