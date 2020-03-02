@@ -1,0 +1,59 @@
+---
+title: "adj_fct_reg"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Estimating adjustment factor for 2015 for all WIC countries
+
+WIC data includes 3 age groups: 15+, 25+ and 20-64
+
+illiteracy: use uis 2015-2018, 2010-2018, Europe in relation to poland, caner's estimates in txt. file
+
+Claudia: QAMYs and MYS by age, sex, and education were first calculated separately (based on different adjustment factors for each different age-sex-educ combination) and then again aggregated based on age-sex educational attainment distribution from WIC. What you see in the file are aggregated MYS and aggregated QAMYs (which are the same for all education groups), but different adjustment factors. Values for age and sex only (educ=0) are different as they are based only on an an age-sex-adjustment factor. 
+
+
+#### Model 1: by country 
+
+Adj_fct[cc] ~ wic_mys + highLS + illiterate_prop + broad_age_pop + HLO_mean 
+  
+Adj_fct calculated for 20-64.   
+
+
+The above model used withQAMYS calculated from PIAAC and STEP predicts negative QAMYS for low income countries
+less 7-8 years. 
+
+Therefore, we decided to use DHS data for those countries.
+
+Four countries have both DHS and PIAAC
+
+Colons can be used to align columns.
+
+| Country | PIAAC QAMYS | DHS full QAMYS | DHS partial QAMYS|
+|---------|-------------|----------------|------------------|
+| Ghana   | 3.8         | 3.5            | 4.2              |
+| Kenya   | 5.4         | 6.6            | 7.3              |
+| Bolivia | 7.1         | 9.1            | 9.2              |
+| Peru    | 7.5         | 9.5            | 9.8              |
+
+
+
+#### Nex steps:
+* by country and sex
+
+  Adj_fct[cc,ss] ~ wic_mys + highLS + illiterate_prop + broad_age_pop + HLO_mean + sex
+
+* by country, sex and age group 
+
+  + up to 35-39 age group: Adj_fct[cc,aa,ss] ~ wic_mys + highLS + illiterate_prop + broad_age_pop + HLO_mean + age_gr + sex
+  
+  + 40-44 age group and older: Adj_fct[cc,aa,ss] ~ wic_mys + highLS + illiterate_prop + broad_age_pop + HLO_mean + age_gr + sex
+  
+### Estimating adjustment factor for 2015 for DHS countries
+
+* Model 4: by country (if HLO not available it will be removed from the equation)
+
+  Adj_fct[cc] ~ MYS + LS + literacy + broad_age_pop + HLO + DHS_tested_literacy
