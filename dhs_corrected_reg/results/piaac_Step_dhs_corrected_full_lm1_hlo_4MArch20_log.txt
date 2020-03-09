@@ -1,0 +1,25 @@
+
+Call:
+lm(formula = log(qamys) ~ log(wic_mys) + highLS + prop_19 + prop_20_64 + 
+    hlo_mean, data = r1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.37864 -0.05038  0.00762  0.06251  0.41360 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -2.4539685  0.4866253  -5.043 2.91e-06 ***
+log(wic_mys)  1.7080876  0.0645704  26.453  < 2e-16 ***
+highLS       -0.0016850  0.0012827  -1.314   0.1928    
+prop_19      -0.1954700  0.4454244  -0.439   0.6620    
+prop_20_64    0.6593901  0.5649664   1.167   0.2467    
+hlo_mean      0.0008876  0.0003524   2.519   0.0138 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1335 on 78 degrees of freedom
+  (118 observations deleted due to missingness)
+Multiple R-squared:  0.981,	Adjusted R-squared:  0.9798 
+F-statistic: 805.6 on 5 and 78 DF,  p-value: < 2.2e-16
+
