@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = log(qamys) ~ log(wic_mys) + prop_19 + illiterate_prop + 
+    year, data = r1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.57554 -0.05141  0.00306  0.06016  0.46393 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      7.6968034  0.7741459   9.942  < 2e-16 ***
+log(wic_mys)     1.2718947  0.0276621  45.980  < 2e-16 ***
+prop_19         -0.5355550  0.0795800  -6.730 4.14e-11 ***
+illiterate_prop -0.0081932  0.0006594 -12.425  < 2e-16 ***
+year            -0.0041080  0.0003895 -10.546  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1307 on 572 degrees of freedom
+  (1443 observations deleted due to missingness)
+Multiple R-squared:  0.9727,	Adjusted R-squared:  0.9725 
+F-statistic:  5097 on 4 and 572 DF,  p-value: < 2.2e-16
+

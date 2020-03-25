@@ -1,0 +1,2021 @@
+country,year,iso,tot_dep
+Afghanistan,1970,4,0.88
+Afghanistan,1975,4,0.91
+Afghanistan,1980,4,0.94
+Afghanistan,1985,4,0.99
+Afghanistan,1990,4,1.03
+Afghanistan,1995,4,1.02
+Afghanistan,2000,4,1.05
+Afghanistan,2005,4,1.02
+Afghanistan,2010,4,1.03
+Afghanistan,2015,4,0.89
+Albania,1970,8,0.86
+Albania,1975,8,0.79
+Albania,1980,8,0.7
+Albania,1985,8,0.65
+Albania,1990,8,0.62
+Albania,1995,8,0.64
+Albania,2000,8,0.6
+Albania,2005,8,0.54
+Albania,2010,8,0.5
+Albania,2015,8,0.44
+Algeria,1970,12,1.02
+Algeria,1975,12,1.01
+Algeria,1980,12,0.99
+Algeria,1985,12,0.95
+Algeria,1990,12,0.88
+Algeria,1995,12,0.77
+Algeria,2000,12,0.63
+Algeria,2005,12,0.52
+Algeria,2010,12,0.49
+Algeria,2015,12,0.53
+Angola,1970,24,1.02
+Angola,1975,24,1.04
+Angola,1980,24,1.08
+Angola,1985,24,1.1
+Angola,1990,24,1.11
+Angola,1995,24,1.1
+Angola,2000,24,1.09
+Angola,2005,24,1.09
+Angola,2010,24,1.1
+Angola,2015,24,0.98
+Antigua and Barbuda,1970,28,0.83
+Antigua and Barbuda,1975,28,0.76
+Antigua and Barbuda,1980,28,0.67
+Antigua and Barbuda,1985,28,0.59
+Antigua and Barbuda,1990,28,0.63
+Antigua and Barbuda,1995,28,0.61
+Antigua and Barbuda,2000,28,0.56
+Antigua and Barbuda,2005,28,0.54
+Antigua and Barbuda,2010,28,0.5
+Antigua and Barbuda,2015,28,0.45
+Argentina,1970,32,0.57
+Argentina,1975,32,0.58
+Argentina,1980,32,0.63
+Argentina,1985,32,0.65
+Argentina,1990,32,0.66
+Argentina,1995,32,0.63
+Argentina,2000,32,0.61
+Argentina,2005,32,0.59
+Argentina,2010,32,0.57
+Argentina,2015,32,0.57
+Armenia,1970,51,0.81
+Armenia,1975,51,0.67
+Armenia,1980,51,0.57
+Armenia,1985,51,0.55
+Armenia,1990,51,0.56
+Armenia,1995,51,0.6
+Armenia,2000,51,0.56
+Armenia,2005,51,0.49
+Armenia,2010,51,0.43
+Armenia,2015,51,0.44
+Aruba,1970,533,0.7
+Aruba,1975,533,0.6
+Aruba,1980,533,0.5
+Aruba,1985,533,0.47
+Aruba,1990,533,0.48
+Aruba,1995,533,0.44
+Aruba,2000,533,0.44
+Aruba,2005,533,0.43
+Aruba,2010,533,0.45
+Aruba,2015,533,0.45
+Australia,1970,36,0.59
+Australia,1975,36,0.57
+Australia,1980,36,0.53
+Australia,1985,36,0.51
+Australia,1990,36,0.5
+Australia,1995,36,0.5
+Australia,2000,36,0.5
+Australia,2005,36,0.49
+Australia,2010,36,0.48
+Australia,2015,36,0.51
+Austria,1970,40,0.63
+Austria,1975,40,0.61
+Austria,1980,40,0.55
+Austria,1985,40,0.48
+Austria,1990,40,0.47
+Austria,1995,40,0.49
+Austria,2000,40,0.47
+Austria,2005,40,0.47
+Austria,2010,40,0.48
+Austria,2015,40,0.49
+Azerbaijan,1970,31,0.98
+Azerbaijan,1975,31,0.84
+Azerbaijan,1980,31,0.67
+Azerbaijan,1985,31,0.6
+Azerbaijan,1990,31,0.61
+Azerbaijan,1995,31,0.62
+Azerbaijan,2000,31,0.58
+Azerbaijan,2005,31,0.48
+Azerbaijan,2010,31,0.4
+Azerbaijan,2015,31,0.4
+Bahamas,1970,44,0.84
+Bahamas,1975,44,0.79
+Bahamas,1980,44,0.7
+Bahamas,1985,44,0.64
+Bahamas,1990,44,0.58
+Bahamas,1995,44,0.56
+Bahamas,2000,44,0.53
+Bahamas,2005,44,0.47
+Bahamas,2010,44,0.42
+Bahamas,2015,44,0.41
+Bahrain,1970,48,0.9
+Bahrain,1975,48,0.72
+Bahrain,1980,48,0.58
+Bahrain,1985,48,0.57
+Bahrain,1990,48,0.54
+Bahrain,1995,48,0.48
+Bahrain,2000,48,0.49
+Bahrain,2005,48,0.4
+Bahrain,2010,48,0.28
+Bahrain,2015,48,0.3
+Bangladesh,1970,50,0.91
+Bangladesh,1975,50,0.93
+Bangladesh,1980,50,0.92
+Bangladesh,1985,50,0.88
+Bangladesh,1990,50,0.83
+Bangladesh,1995,50,0.77
+Bangladesh,2000,50,0.69
+Bangladesh,2005,50,0.63
+Bangladesh,2010,50,0.58
+Bangladesh,2015,50,0.53
+Barbados,1970,52,0.83
+Barbados,1975,52,0.71
+Barbados,1980,52,0.68
+Barbados,1985,52,0.59
+Barbados,1990,52,0.52
+Barbados,1995,52,0.5
+Barbados,2000,52,0.5
+Barbados,2005,52,0.48
+Barbados,2010,52,0.48
+Barbados,2015,52,0.5
+Belarus,1970,112,0.6
+Belarus,1975,112,0.54
+Belarus,1980,112,0.5
+Belarus,1985,112,0.49
+Belarus,1990,112,0.51
+Belarus,1995,112,0.52
+Belarus,2000,112,0.47
+Belarus,2005,112,0.43
+Belarus,2010,112,0.4
+Belarus,2015,112,0.44
+Belgium,1970,56,0.59
+Belgium,1975,56,0.57
+Belgium,1980,56,0.53
+Belgium,1985,56,0.48
+Belgium,1990,56,0.49
+Belgium,1995,56,0.51
+Belgium,2000,56,0.53
+Belgium,2005,56,0.52
+Belgium,2010,56,0.52
+Belgium,2015,56,0.54
+Belize,1970,84,1.06
+Belize,1975,84,1.09
+Belize,1980,84,1.04
+Belize,1985,84,0.96
+Belize,1990,84,0.91
+Belize,1995,84,0.89
+Belize,2000,84,0.81
+Belize,2005,84,0.73
+Belize,2010,84,0.65
+Belize,2015,84,0.57
+Benin,1970,204,0.88
+Benin,1975,204,0.92
+Benin,1980,204,0.95
+Benin,1985,204,0.96
+Benin,1990,204,0.97
+Benin,1995,204,0.93
+Benin,2000,204,0.92
+Benin,2005,204,0.88
+Benin,2010,204,0.84
+Benin,2015,204,0.86
+Bhutan,1970,64,0.84
+Bhutan,1975,64,0.83
+Bhutan,1980,64,0.84
+Bhutan,1985,64,0.87
+Bhutan,1990,64,0.88
+Bhutan,1995,64,0.92
+Bhutan,2000,64,0.83
+Bhutan,2005,64,0.64
+Bhutan,2010,64,0.53
+Bhutan,2015,64,0.47
+Bolivia (Plurinational State of),1970,68,0.86
+Bolivia (Plurinational State of),1975,68,0.85
+Bolivia (Plurinational State of),1980,68,0.86
+Bolivia (Plurinational State of),1985,68,0.85
+Bolivia (Plurinational State of),1990,68,0.84
+Bolivia (Plurinational State of),1995,68,0.81
+Bolivia (Plurinational State of),2000,68,0.77
+Bolivia (Plurinational State of),2005,68,0.72
+Bolivia (Plurinational State of),2010,68,0.68
+Bolivia (Plurinational State of),2015,68,0.64
+Bosnia and Herzegovina,1970,70,0.66
+Bosnia and Herzegovina,1975,70,0.61
+Bosnia and Herzegovina,1980,70,0.53
+Bosnia and Herzegovina,1985,70,0.47
+Bosnia and Herzegovina,1990,70,0.43
+Bosnia and Herzegovina,1995,70,0.44
+Bosnia and Herzegovina,2000,70,0.45
+Bosnia and Herzegovina,2005,70,0.43
+Bosnia and Herzegovina,2010,70,0.4
+Bosnia and Herzegovina,2015,70,0.43
+Botswana,1970,72,1.05
+Botswana,1975,72,1
+Botswana,1980,72,0.97
+Botswana,1985,72,0.96
+Botswana,1990,72,0.89
+Botswana,1995,72,0.78
+Botswana,2000,72,0.69
+Botswana,2005,72,0.62
+Botswana,2010,72,0.57
+Botswana,2015,72,0.55
+Brazil,1970,76,0.84
+Brazil,1975,76,0.78
+Brazil,1980,76,0.72
+Brazil,1985,76,0.69
+Brazil,1990,76,0.65
+Brazil,1995,76,0.59
+Brazil,2000,76,0.54
+Brazil,2005,76,0.5
+Brazil,2010,76,0.46
+Brazil,2015,76,0.44
+Brunei Darussalam,1970,96,0.87
+Brunei Darussalam,1975,96,0.79
+Brunei Darussalam,1980,96,0.72
+Brunei Darussalam,1985,96,0.69
+Brunei Darussalam,1990,96,0.59
+Brunei Darussalam,1995,96,0.56
+Brunei Darussalam,2000,96,0.49
+Brunei Darussalam,2005,96,0.45
+Brunei Darussalam,2010,96,0.42
+Brunei Darussalam,2015,96,0.38
+Bulgaria,1970,100,0.48
+Bulgaria,1975,100,0.5
+Bulgaria,1980,100,0.52
+Bulgaria,1985,100,0.49
+Bulgaria,1990,100,0.5
+Bulgaria,1995,100,0.49
+Bulgaria,2000,100,0.48
+Bulgaria,2005,100,0.45
+Bulgaria,2010,100,0.46
+Bulgaria,2015,100,0.52
+Burkina Faso,1970,854,0.85
+Burkina Faso,1975,854,0.89
+Burkina Faso,1980,854,0.95
+Burkina Faso,1985,854,1
+Burkina Faso,1990,854,1.02
+Burkina Faso,1995,854,1.01
+Burkina Faso,2000,854,0.98
+Burkina Faso,2005,854,0.96
+Burkina Faso,2010,854,0.95
+Burkina Faso,2015,854,0.92
+Burundi,1970,108,0.93
+Burundi,1975,108,0.94
+Burundi,1980,108,0.9
+Burundi,1985,108,0.94
+Burundi,1990,108,0.99
+Burundi,1995,108,1.05
+Burundi,2000,108,1.03
+Burundi,2005,108,0.88
+Burundi,2010,108,0.81
+Burundi,2015,108,0.9
+Cambodia,1970,116,0.92
+Cambodia,1975,116,0.87
+Cambodia,1980,116,0.78
+Cambodia,1985,116,0.82
+Cambodia,1990,116,0.89
+Cambodia,1995,116,0.98
+Cambodia,2000,116,0.8
+Cambodia,2005,116,0.68
+Cambodia,2010,116,0.59
+Cambodia,2015,116,0.56
+Cameroon,1970,120,0.82
+Cameroon,1975,120,0.86
+Cameroon,1980,120,0.91
+Cameroon,1985,120,0.94
+Cameroon,1990,120,0.97
+Cameroon,1995,120,0.95
+Cameroon,2000,120,0.91
+Cameroon,2005,120,0.87
+Cameroon,2010,120,0.88
+Cameroon,2015,120,0.86
+Canada,1970,124,0.62
+Canada,1975,124,0.53
+Canada,1980,124,0.47
+Canada,1985,124,0.46
+Canada,1990,124,0.47
+Canada,1995,124,0.48
+Canada,2000,124,0.46
+Canada,2005,124,0.44
+Canada,2010,124,0.44
+Canada,2015,124,0.47
+Cape Verde,1970,132,1.11
+Cape Verde,1975,132,1.14
+Cape Verde,1980,132,1.1
+Cape Verde,1985,132,0.99
+Cape Verde,1990,132,1.01
+Cape Verde,1995,132,1
+Cape Verde,2000,132,0.93
+Cape Verde,2005,132,0.78
+Cape Verde,2010,132,0.65
+Cape Verde,2015,132,0.55
+Central African Republic,1970,140,0.81
+Central African Republic,1975,140,0.85
+Central African Republic,1980,140,0.87
+Central African Republic,1985,140,0.87
+Central African Republic,1990,140,0.89
+Central African Republic,1995,140,0.88
+Central African Republic,2000,140,0.85
+Central African Republic,2005,140,0.85
+Central African Republic,2010,140,0.86
+Central African Republic,2015,140,0.9
+Chad,1970,148,0.86
+Chad,1975,148,0.9
+Chad,1980,148,0.94
+Chad,1985,148,0.99
+Chad,1990,148,1.03
+Chad,1995,148,1.05
+Chad,2000,148,1.07
+Chad,2005,148,1.07
+Chad,2010,148,1.05
+Chad,2015,148,1
+Channel Islands,1970,830,0.55
+Channel Islands,1975,830,0.53
+Channel Islands,1980,830,0.5
+Channel Islands,1985,830,0.46
+Channel Islands,1990,830,0.44
+Channel Islands,1995,830,0.46
+Channel Islands,2000,830,0.46
+Channel Islands,2005,830,0.45
+Channel Islands,2010,830,0.45
+Channel Islands,2015,830,0.47
+Chile,1970,152,0.78
+Chile,1975,152,0.73
+Chile,1980,152,0.65
+Chile,1985,152,0.6
+Chile,1990,152,0.57
+Chile,1995,152,0.56
+Chile,2000,152,0.53
+Chile,2005,152,0.49
+Chile,2010,152,0.46
+Chile,2015,152,0.45
+China,1970,156,0.81
+China,1975,156,0.8
+China,1980,156,0.69
+China,1985,156,0.57
+China,1990,156,0.52
+China,1995,156,0.51
+China,2000,156,0.46
+China,2005,156,0.38
+China,2010,156,0.35
+China,2015,156,0.38
+Colombia,1970,170,0.97
+Colombia,1975,170,0.89
+Colombia,1980,170,0.8
+Colombia,1985,170,0.72
+Colombia,1990,170,0.68
+Colombia,1995,170,0.63
+Colombia,2000,170,0.57
+Colombia,2005,170,0.52
+Colombia,2010,170,0.48
+Colombia,2015,170,0.46
+Comoros,1970,174,0.92
+Comoros,1975,174,0.92
+Comoros,1980,174,0.93
+Comoros,1985,174,0.95
+Comoros,1990,174,0.96
+Comoros,1995,174,0.94
+Comoros,2000,174,0.88
+Comoros,2005,174,0.82
+Comoros,2010,174,0.77
+Comoros,2015,174,0.76
+Congo,1970,178,0.92
+Congo,1975,178,0.94
+Congo,1980,178,0.97
+Congo,1985,178,0.95
+Congo,1990,178,0.92
+Congo,1995,178,0.88
+Congo,2000,178,0.86
+Congo,2005,178,0.88
+Congo,2010,178,0.89
+Congo,2015,178,0.84
+Costa Rica,1970,188,0.89
+Costa Rica,1975,188,0.79
+Costa Rica,1980,188,0.69
+Costa Rica,1985,188,0.66
+Costa Rica,1990,188,0.66
+Costa Rica,1995,188,0.63
+Costa Rica,2000,188,0.57
+Costa Rica,2005,188,0.51
+Costa Rica,2010,188,0.47
+Costa Rica,2015,188,0.45
+Cote d'Ivoire,1970,384,0.89
+Cote d'Ivoire,1975,384,0.91
+Cote d'Ivoire,1980,384,0.93
+Cote d'Ivoire,1985,384,0.93
+Cote d'Ivoire,1990,384,0.92
+Cote d'Ivoire,1995,384,0.88
+Cote d'Ivoire,2000,384,0.87
+Cote d'Ivoire,2005,384,0.9
+Cote d'Ivoire,2010,384,0.89
+Cote d'Ivoire,2015,384,0.84
+Croatia,1970,191,0.48
+Croatia,1975,191,0.49
+Croatia,1980,191,0.49
+Croatia,1985,191,0.46
+Croatia,1990,191,0.46
+Croatia,1995,191,0.47
+Croatia,2000,191,0.49
+Croatia,2005,191,0.49
+Croatia,2010,191,0.49
+Croatia,2015,191,0.51
+Cuba,1970,192,0.77
+Cuba,1975,192,0.79
+Cuba,1980,192,0.65
+Cuba,1985,192,0.54
+Cuba,1990,192,0.47
+Cuba,1995,192,0.47
+Cuba,2000,192,0.46
+Cuba,2005,192,0.44
+Cuba,2010,192,0.43
+Cuba,2015,192,0.43
+Curaçao,1970,531,0.82
+Curaçao,1975,531,0.72
+Curaçao,1980,531,0.59
+Curaçao,1985,531,0.52
+Curaçao,1990,531,0.53
+Curaçao,1995,531,0.55
+Curaçao,2000,531,0.54
+Curaçao,2005,531,0.5
+Curaçao,2010,531,0.49
+Curaçao,2015,531,0.52
+Cyprus,1970,196,0.7
+Cyprus,1975,196,0.6
+Cyprus,1980,196,0.52
+Cyprus,1985,196,0.53
+Cyprus,1990,196,0.55
+Cyprus,1995,196,0.53
+Cyprus,2000,196,0.48
+Cyprus,2005,196,0.44
+Cyprus,2010,196,0.42
+Cyprus,2015,196,0.42
+Czech Republic,1970,203,0.5
+Czech Republic,1975,203,0.54
+Czech Republic,1980,203,0.59
+Czech Republic,1985,203,0.54
+Czech Republic,1990,203,0.52
+Czech Republic,1995,203,0.47
+Czech Republic,2000,203,0.43
+Czech Republic,2005,203,0.4
+Czech Republic,2010,203,0.42
+Czech Republic,2015,203,0.5
+Democratic People's Republic of Korea,1970,408,0.81
+Democratic People's Republic of Korea,1975,408,0.75
+Democratic People's Republic of Korea,1980,408,0.67
+Democratic People's Republic of Korea,1985,408,0.54
+Democratic People's Republic of Korea,1990,408,0.46
+Democratic People's Republic of Korea,1995,408,0.47
+Democratic People's Republic of Korea,2000,408,0.47
+Democratic People's Republic of Korea,2005,408,0.48
+Democratic People's Republic of Korea,2010,408,0.46
+Democratic People's Republic of Korea,2015,408,0.45
+Democratic Republic of the Congo,1970,180,0.88
+Democratic Republic of the Congo,1975,180,0.89
+Democratic Republic of the Congo,1980,180,0.9
+Democratic Republic of the Congo,1985,180,0.92
+Democratic Republic of the Congo,1990,180,0.93
+Democratic Republic of the Congo,1995,180,0.94
+Democratic Republic of the Congo,2000,180,0.94
+Democratic Republic of the Congo,2005,180,0.94
+Democratic Republic of the Congo,2010,180,0.95
+Democratic Republic of the Congo,2015,180,0.97
+Denmark,1970,208,0.55
+Denmark,1975,208,0.56
+Denmark,1980,208,0.54
+Denmark,1985,208,0.5
+Denmark,1990,208,0.48
+Denmark,1995,208,0.48
+Denmark,2000,208,0.5
+Denmark,2005,208,0.51
+Denmark,2010,208,0.53
+Denmark,2015,208,0.56
+Djibouti,1970,262,0.92
+Djibouti,1975,262,0.98
+Djibouti,1980,262,0.95
+Djibouti,1985,262,0.91
+Djibouti,1990,262,0.91
+Djibouti,1995,262,0.85
+Djibouti,2000,262,0.79
+Djibouti,2005,262,0.7
+Djibouti,2010,262,0.63
+Djibouti,2015,262,0.57
+Dominican Republic,1970,214,1.02
+Dominican Republic,1975,214,0.93
+Dominican Republic,1980,214,0.84
+Dominican Republic,1985,214,0.79
+Dominican Republic,1990,214,0.74
+Dominican Republic,1995,214,0.71
+Dominican Republic,2000,214,0.67
+Dominican Republic,2005,214,0.64
+Dominican Republic,2010,214,0.6
+Dominican Republic,2015,214,0.58
+Ecuador,1970,218,0.94
+Ecuador,1975,218,0.9
+Ecuador,1980,218,0.85
+Ecuador,1985,218,0.79
+Ecuador,1990,218,0.74
+Ecuador,1995,218,0.7
+Ecuador,2000,218,0.66
+Ecuador,2005,218,0.62
+Ecuador,2010,218,0.58
+Ecuador,2015,218,0.56
+Egypt,1970,818,0.86
+Egypt,1975,818,0.84
+Egypt,1980,818,0.83
+Egypt,1985,818,0.84
+Egypt,1990,818,0.85
+Egypt,1995,818,0.82
+Egypt,2000,818,0.72
+Egypt,2005,818,0.63
+Egypt,2010,818,0.58
+Egypt,2015,818,0.62
+El Salvador,1970,222,0.95
+El Salvador,1975,222,0.92
+El Salvador,1980,222,0.9
+El Salvador,1985,222,0.86
+El Salvador,1990,222,0.79
+El Salvador,1995,222,0.74
+El Salvador,2000,222,0.73
+El Salvador,2005,222,0.7
+El Salvador,2010,222,0.63
+El Salvador,2015,222,0.57
+Equatorial Guinea,1970,226,0.81
+Equatorial Guinea,1975,226,0.96
+Equatorial Guinea,1980,226,1.02
+Equatorial Guinea,1985,226,0.86
+Equatorial Guinea,1990,226,0.92
+Equatorial Guinea,1995,226,0.97
+Equatorial Guinea,2000,226,0.95
+Equatorial Guinea,2005,226,0.75
+Equatorial Guinea,2010,226,0.71
+Equatorial Guinea,2015,226,0.68
+Eritrea,1970,232,0.87
+Eritrea,1975,232,0.88
+Eritrea,1980,232,0.88
+Eritrea,1985,232,0.89
+Eritrea,1990,232,0.91
+Eritrea,1995,232,1.03
+Eritrea,2000,232,0.92
+Eritrea,2005,232,0.8
+Eritrea,2010,232,0.82
+Eritrea,2015,232,0.85
+Estonia,1970,233,0.51
+Estonia,1975,233,0.52
+Estonia,1980,233,0.52
+Estonia,1985,233,0.5
+Estonia,1990,233,0.51
+Estonia,1995,233,0.52
+Estonia,2000,233,0.48
+Estonia,2005,233,0.47
+Estonia,2010,233,0.48
+Estonia,2015,233,0.54
+Ethiopia,1970,231,0.88
+Ethiopia,1975,231,0.91
+Ethiopia,1980,231,0.93
+Ethiopia,1985,231,0.97
+Ethiopia,1990,231,0.98
+Ethiopia,1995,231,0.99
+Ethiopia,2000,231,0.98
+Ethiopia,2005,231,0.97
+Ethiopia,2010,231,0.91
+Ethiopia,2015,231,0.82
+Fiji,1970,242,0.85
+Fiji,1975,242,0.74
+Fiji,1980,242,0.72
+Fiji,1985,242,0.72
+Fiji,1990,242,0.71
+Fiji,1995,242,0.66
+Fiji,2000,242,0.62
+Fiji,2005,242,0.53
+Fiji,2010,242,0.51
+Fiji,2015,242,0.53
+Finland,1970,246,0.51
+Finland,1975,246,0.48
+Finland,1980,246,0.48
+Finland,1985,246,0.47
+Finland,1990,246,0.49
+Finland,1995,246,0.5
+Finland,2000,246,0.49
+Finland,2005,246,0.5
+Finland,2010,246,0.51
+Finland,2015,246,0.58
+France,1970,250,0.6
+France,1975,250,0.59
+France,1980,250,0.56
+France,1985,250,0.51
+France,1990,250,0.51
+France,1995,250,0.53
+France,2000,250,0.54
+France,2005,250,0.54
+France,2010,250,0.55
+France,2015,250,0.59
+French Guiana,1970,254,0.78
+French Guiana,1975,254,0.76
+French Guiana,1980,254,0.64
+French Guiana,1985,254,0.6
+French Guiana,1990,254,0.63
+French Guiana,1995,254,0.64
+French Guiana,2000,254,0.65
+French Guiana,2005,254,0.65
+French Guiana,2010,254,0.65
+French Guiana,2015,254,0.63
+French Polynesia,1970,258,0.94
+French Polynesia,1975,258,0.85
+French Polynesia,1980,258,0.76
+French Polynesia,1985,258,0.65
+French Polynesia,1990,258,0.64
+French Polynesia,1995,258,0.61
+French Polynesia,2000,258,0.56
+French Polynesia,2005,258,0.49
+French Polynesia,2010,258,0.46
+French Polynesia,2015,258,0.45
+Gabon,1970,266,0.69
+Gabon,1975,266,0.77
+Gabon,1980,266,0.83
+Gabon,1985,266,0.88
+Gabon,1990,266,0.91
+Gabon,1995,266,0.91
+Gabon,2000,266,0.87
+Gabon,2005,266,0.82
+Gabon,2010,266,0.79
+Gabon,2015,266,0.67
+Gambia,1970,270,0.76
+Gambia,1975,270,0.84
+Gambia,1980,270,0.93
+Gambia,1985,270,0.97
+Gambia,1990,270,0.96
+Gambia,1995,270,0.97
+Gambia,2000,270,0.95
+Gambia,2005,270,0.95
+Gambia,2010,270,0.95
+Gambia,2015,270,0.92
+Georgia,1970,268,0.64
+Georgia,1975,268,0.58
+Georgia,1980,268,0.53
+Georgia,1985,268,0.5
+Georgia,1990,268,0.51
+Georgia,1995,268,0.55
+Georgia,2000,268,0.53
+Georgia,2005,268,0.51
+Georgia,2010,268,0.47
+Georgia,2015,268,0.5
+Germany,1970,276,0.59
+Germany,1975,276,0.58
+Germany,1980,276,0.52
+Germany,1985,276,0.44
+Germany,1990,276,0.45
+Germany,1995,276,0.46
+Germany,2000,276,0.46
+Germany,2005,276,0.5
+Germany,2010,276,0.52
+Germany,2015,276,0.52
+Ghana,1970,288,0.93
+Ghana,1975,288,0.95
+Ghana,1980,288,0.93
+Ghana,1985,288,0.91
+Ghana,1990,288,0.87
+Ghana,1995,288,0.84
+Ghana,2000,288,0.81
+Ghana,2005,288,0.79
+Ghana,2010,288,0.76
+Ghana,2015,288,0.73
+Greece,1970,300,0.58
+Greece,1975,300,0.58
+Greece,1980,300,0.57
+Greece,1985,300,0.54
+Greece,1990,300,0.5
+Greece,1995,300,0.48
+Greece,2000,300,0.48
+Greece,2005,300,0.51
+Greece,2010,300,0.52
+Greece,2015,300,0.53
+Grenada,1970,308,1.2
+Grenada,1975,308,0.95
+Grenada,1980,308,0.89
+Grenada,1985,308,0.8
+Grenada,1990,308,0.88
+Grenada,1995,308,0.85
+Grenada,2000,308,0.75
+Grenada,2005,308,0.61
+Grenada,2010,308,0.53
+Grenada,2015,308,0.51
+Guadeloupe,1970,312,0.91
+Guadeloupe,1975,312,0.91
+Guadeloupe,1980,312,0.7
+Guadeloupe,1985,312,0.62
+Guadeloupe,1990,312,0.54
+Guadeloupe,1995,312,0.51
+Guadeloupe,2000,312,0.52
+Guadeloupe,2005,312,0.53
+Guadeloupe,2010,312,0.53
+Guadeloupe,2015,312,0.56
+Guam,1970,316,0.69
+Guam,1975,316,0.64
+Guam,1980,316,0.59
+Guam,1985,316,0.55
+Guam,1990,316,0.51
+Guam,1995,316,0.55
+Guam,2000,316,0.56
+Guam,2005,316,0.56
+Guam,2010,316,0.53
+Guam,2015,316,0.52
+Guatemala,1970,320,0.96
+Guatemala,1975,320,0.96
+Guatemala,1980,320,0.97
+Guatemala,1985,320,0.99
+Guatemala,1990,320,0.97
+Guatemala,1995,320,0.94
+Guatemala,2000,320,0.9
+Guatemala,2005,320,0.87
+Guatemala,2010,320,0.77
+Guatemala,2015,320,0.69
+Guinea,1970,324,0.79
+Guinea,1975,324,0.79
+Guinea,1980,324,0.82
+Guinea,1985,324,0.86
+Guinea,1990,324,0.9
+Guinea,1995,324,0.91
+Guinea,2000,324,0.91
+Guinea,2005,324,0.9
+Guinea,2010,324,0.85
+Guinea,2015,324,0.84
+Guinea-Bissau,1970,624,0.76
+Guinea-Bissau,1975,624,0.79
+Guinea-Bissau,1980,624,0.82
+Guinea-Bissau,1985,624,0.9
+Guinea-Bissau,1990,624,0.93
+Guinea-Bissau,1995,624,0.92
+Guinea-Bissau,2000,624,0.87
+Guinea-Bissau,2005,624,0.82
+Guinea-Bissau,2010,624,0.78
+Guinea-Bissau,2015,624,0.8
+Guyana,1970,328,1.03
+Guyana,1975,328,0.94
+Guyana,1980,328,0.86
+Guyana,1985,328,0.78
+Guyana,1990,328,0.68
+Guyana,1995,328,0.71
+Guyana,2000,328,0.68
+Guyana,2005,328,0.68
+Guyana,2010,328,0.59
+Guyana,2015,328,0.54
+Haiti,1970,332,0.84
+Haiti,1975,332,0.82
+Haiti,1980,332,0.82
+Haiti,1985,332,0.86
+Haiti,1990,332,0.89
+Haiti,1995,332,0.87
+Haiti,2000,332,0.8
+Haiti,2005,332,0.73
+Haiti,2010,332,0.68
+Haiti,2015,332,0.62
+Honduras,1970,340,1.04
+Honduras,1975,340,1.04
+Honduras,1980,340,1.03
+Honduras,1985,340,1
+Honduras,1990,340,0.97
+Honduras,1995,340,0.94
+Honduras,2000,340,0.9
+Honduras,2005,340,0.84
+Honduras,2010,340,0.74
+Honduras,2015,340,0.6
+Hong Kong Special Administrative Region of China,1970,344,0.67
+Hong Kong Special Administrative Region of China,1975,344,0.56
+Hong Kong Special Administrative Region of China,1980,344,0.44
+Hong Kong Special Administrative Region of China,1985,344,0.44
+Hong Kong Special Administrative Region of China,1990,344,0.42
+Hong Kong Special Administrative Region of China,1995,344,0.4
+Hong Kong Special Administrative Region of China,2000,344,0.38
+Hong Kong Special Administrative Region of China,2005,344,0.36
+Hong Kong Special Administrative Region of China,2010,344,0.33
+Hong Kong Special Administrative Region of China,2015,344,0.36
+Hungary,1970,348,0.48
+Hungary,1975,348,0.49
+Hungary,1980,348,0.55
+Hungary,1985,348,0.51
+Hungary,1990,348,0.51
+Hungary,1995,348,0.48
+Hungary,2000,348,0.47
+Hungary,2005,348,0.45
+Hungary,2010,348,0.46
+Hungary,2015,348,0.47
+Iceland,1970,352,0.71
+Iceland,1975,352,0.65
+Iceland,1980,352,0.6
+Iceland,1985,352,0.57
+Iceland,1990,352,0.55
+Iceland,1995,352,0.55
+Iceland,2000,352,0.53
+Iceland,2005,352,0.51
+Iceland,2010,352,0.49
+Iceland,2015,352,0.52
+India,1970,356,0.79
+India,1975,356,0.77
+India,1980,356,0.75
+India,1985,356,0.74
+India,1990,356,0.72
+India,1995,356,0.69
+India,2000,356,0.64
+India,2005,356,0.6
+India,2010,356,0.56
+India,2015,356,0.52
+Indonesia,1970,360,0.87
+Indonesia,1975,360,0.85
+Indonesia,1980,360,0.81
+Indonesia,1985,360,0.74
+Indonesia,1990,360,0.67
+Indonesia,1995,360,0.61
+Indonesia,2000,360,0.55
+Indonesia,2005,360,0.53
+Indonesia,2010,360,0.51
+Indonesia,2015,360,0.49
+Iran (Islamic Republic of),1970,364,0.9
+Iran (Islamic Republic of),1975,364,0.87
+Iran (Islamic Republic of),1980,364,0.87
+Iran (Islamic Republic of),1985,364,0.94
+Iran (Islamic Republic of),1990,364,0.95
+Iran (Islamic Republic of),1995,364,0.85
+Iran (Islamic Republic of),2000,364,0.65
+Iran (Islamic Republic of),2005,364,0.45
+Iran (Islamic Republic of),2010,364,0.4
+Iran (Islamic Republic of),2015,364,0.4
+Iraq,1970,368,0.95
+Iraq,1975,368,1.02
+Iraq,1980,368,1.04
+Iraq,1985,368,1.01
+Iraq,1990,368,0.99
+Iraq,1995,368,0.92
+Iraq,2000,368,0.87
+Iraq,2005,368,0.83
+Iraq,2010,368,0.82
+Iraq,2015,368,0.78
+Ireland,1970,372,0.72
+Ireland,1975,372,0.71
+Ireland,1980,372,0.7
+Ireland,1985,372,0.68
+Ireland,1990,372,0.63
+Ireland,1995,372,0.54
+Ireland,2000,372,0.47
+Ireland,2005,372,0.44
+Ireland,2010,372,0.47
+Ireland,2015,372,0.54
+Israel,1970,376,0.65
+Israel,1975,376,0.67
+Israel,1980,376,0.71
+Israel,1985,376,0.71
+Israel,1990,376,0.67
+Israel,1995,376,0.63
+Israel,2000,376,0.62
+Israel,2005,376,0.61
+Israel,2010,376,0.61
+Israel,2015,376,0.64
+Italy,1970,380,0.56
+Italy,1975,380,0.57
+Italy,1980,380,0.55
+Italy,1985,380,0.48
+Italy,1990,380,0.46
+Italy,1995,380,0.46
+Italy,2000,380,0.48
+Italy,2005,380,0.51
+Italy,2010,380,0.53
+Italy,2015,380,0.56
+Jamaica,1970,388,1.09
+Jamaica,1975,388,1.03
+Jamaica,1980,388,0.88
+Jamaica,1985,388,0.8
+Jamaica,1990,388,0.74
+Jamaica,1995,388,0.71
+Jamaica,2000,388,0.68
+Jamaica,2005,388,0.62
+Jamaica,2010,388,0.55
+Jamaica,2015,388,0.49
+Japan,1970,392,0.46
+Japan,1975,392,0.48
+Japan,1980,392,0.49
+Japan,1985,392,0.47
+Japan,1990,392,0.44
+Japan,1995,392,0.44
+Japan,2000,392,0.47
+Japan,2005,392,0.51
+Japan,2010,392,0.57
+Japan,2015,392,0.64
+Jordan,1970,400,1
+Jordan,1975,400,1.05
+Jordan,1980,400,1.13
+Jordan,1985,400,1.07
+Jordan,1990,400,1.03
+Jordan,1995,400,0.82
+Jordan,2000,400,0.79
+Jordan,2005,400,0.75
+Jordan,2010,400,0.75
+Jordan,2015,400,0.66
+Kazakhstan,1970,398,0.75
+Kazakhstan,1975,398,0.67
+Kazakhstan,1980,398,0.62
+Kazakhstan,1985,398,0.6
+Kazakhstan,1990,398,0.6
+Kazakhstan,1995,398,0.59
+Kazakhstan,2000,398,0.53
+Kazakhstan,2005,398,0.48
+Kazakhstan,2010,398,0.45
+Kazakhstan,2015,398,0.5
+Kenya,1970,404,1.11
+Kenya,1975,404,1.12
+Kenya,1980,404,1.13
+Kenya,1985,404,1.12
+Kenya,1990,404,1.07
+Kenya,1995,404,0.97
+Kenya,2000,404,0.92
+Kenya,2005,404,0.87
+Kenya,2010,404,0.86
+Kenya,2015,404,0.78
+Kiribati,1970,296,0.93
+Kiribati,1975,296,0.82
+Kiribati,1980,296,0.75
+Kiribati,1985,296,0.75
+Kiribati,1990,296,0.78
+Kiribati,1995,296,0.8
+Kiribati,2000,296,0.76
+Kiribati,2005,296,0.68
+Kiribati,2010,296,0.66
+Kiribati,2015,296,0.63
+Kuwait,1970,414,0.84
+Kuwait,1975,414,0.86
+Kuwait,1980,414,0.72
+Kuwait,1985,414,0.63
+Kuwait,1990,414,0.58
+Kuwait,1995,414,0.47
+Kuwait,2000,414,0.46
+Kuwait,2005,414,0.4
+Kuwait,2010,414,0.33
+Kuwait,2015,414,0.3
+Kyrgyzstan,1970,417,0.92
+Kyrgyzstan,1975,417,0.84
+Kyrgyzstan,1980,417,0.75
+Kyrgyzstan,1985,417,0.72
+Kyrgyzstan,1990,417,0.74
+Kyrgyzstan,1995,417,0.75
+Kyrgyzstan,2000,417,0.67
+Kyrgyzstan,2005,417,0.57
+Kyrgyzstan,2010,417,0.52
+Kyrgyzstan,2015,417,0.55
+Lao People's Democratic Republic,1970,418,0.83
+Lao People's Democratic Republic,1975,418,0.84
+Lao People's Democratic Republic,1980,418,0.92
+Lao People's Democratic Republic,1985,418,0.93
+Lao People's Democratic Republic,1990,418,0.92
+Lao People's Democratic Republic,1995,418,0.92
+Lao People's Democratic Republic,2000,418,0.88
+Lao People's Democratic Republic,2005,418,0.79
+Lao People's Democratic Republic,2010,418,0.67
+Lao People's Democratic Republic,2015,418,0.6
+Latvia,1970,428,0.51
+Latvia,1975,428,0.51
+Latvia,1980,428,0.5
+Latvia,1985,428,0.49
+Latvia,1990,428,0.5
+Latvia,1995,428,0.53
+Latvia,2000,428,0.49
+Latvia,2005,428,0.47
+Latvia,2010,428,0.48
+Latvia,2015,428,0.52
+Lebanon,1970,422,0.88
+Lebanon,1975,422,0.81
+Lebanon,1980,422,0.8
+Lebanon,1985,422,0.72
+Lebanon,1990,422,0.67
+Lebanon,1995,422,0.61
+Lebanon,2000,422,0.56
+Lebanon,2005,422,0.55
+Lebanon,2010,422,0.47
+Lebanon,2015,422,0.47
+Lesotho,1970,426,0.93
+Lesotho,1975,426,0.95
+Lesotho,1980,426,0.94
+Lesotho,1985,426,0.95
+Lesotho,1990,426,0.94
+Lesotho,1995,426,0.87
+Lesotho,2000,426,0.85
+Lesotho,2005,426,0.8
+Lesotho,2010,426,0.73
+Lesotho,2015,426,0.67
+Liberia,1970,430,0.85
+Liberia,1975,430,0.88
+Liberia,1980,430,0.9
+Liberia,1985,430,0.93
+Liberia,1990,430,0.92
+Liberia,1995,430,0.89
+Liberia,2000,430,0.86
+Liberia,2005,430,0.86
+Liberia,2010,430,0.86
+Liberia,2015,430,0.83
+Libyan Arab Jamahiriya,1970,434,0.97
+Libyan Arab Jamahiriya,1975,434,1.03
+Libyan Arab Jamahiriya,1980,434,1.03
+Libyan Arab Jamahiriya,1985,434,0.91
+Libyan Arab Jamahiriya,1990,434,0.81
+Libyan Arab Jamahiriya,1995,434,0.7
+Libyan Arab Jamahiriya,2000,434,0.6
+Libyan Arab Jamahiriya,2005,434,0.52
+Libyan Arab Jamahiriya,2010,434,0.48
+Libyan Arab Jamahiriya,2015,434,0.49
+Lithuania,1970,440,0.59
+Lithuania,1975,440,0.57
+Lithuania,1980,440,0.53
+Lithuania,1985,440,0.5
+Lithuania,1990,440,0.5
+Lithuania,1995,440,0.52
+Lithuania,2000,440,0.51
+Lithuania,2005,440,0.49
+Lithuania,2010,440,0.48
+Lithuania,2015,440,0.5
+Luxembourg,1970,442,0.53
+Luxembourg,1975,442,0.51
+Luxembourg,1980,442,0.48
+Luxembourg,1985,442,0.44
+Luxembourg,1990,442,0.44
+Luxembourg,1995,442,0.48
+Luxembourg,2000,442,0.49
+Luxembourg,2005,442,0.49
+Luxembourg,2010,442,0.46
+Luxembourg,2015,442,0.44
+Macao Special Administrative Region of China,1970,446,0.8
+Macao Special Administrative Region of China,1975,446,0.55
+Macao Special Administrative Region of China,1980,446,0.47
+Macao Special Administrative Region of China,1985,446,0.45
+Macao Special Administrative Region of China,1990,446,0.46
+Macao Special Administrative Region of China,1995,446,0.48
+Macao Special Administrative Region of China,2000,446,0.43
+Macao Special Administrative Region of China,2005,446,0.33
+Macao Special Administrative Region of China,2010,446,0.25
+Macao Special Administrative Region of China,2015,446,0.27
+Madagascar,1970,450,0.96
+Madagascar,1975,450,0.98
+Madagascar,1980,450,0.98
+Madagascar,1985,450,0.97
+Madagascar,1990,450,0.94
+Madagascar,1995,450,0.92
+Madagascar,2000,450,0.94
+Madagascar,2005,450,0.91
+Madagascar,2010,450,0.87
+Madagascar,2015,450,0.8
+Malawi,1970,454,0.93
+Malawi,1975,454,0.96
+Malawi,1980,454,0.99
+Malawi,1985,454,1
+Malawi,1990,454,0.94
+Malawi,1995,454,0.98
+Malawi,2000,454,1.01
+Malawi,2005,454,1.01
+Malawi,2010,454,1
+Malawi,2015,454,0.91
+Malaysia,1970,458,0.91
+Malaysia,1975,458,0.83
+Malaysia,1980,458,0.75
+Malaysia,1985,458,0.72
+Malaysia,1990,458,0.68
+Malaysia,1995,458,0.64
+Malaysia,2000,458,0.59
+Malaysia,2005,458,0.54
+Malaysia,2010,458,0.49
+Malaysia,2015,458,0.45
+Maldives,1970,462,0.95
+Maldives,1975,462,0.93
+Maldives,1980,462,0.92
+Maldives,1985,462,0.96
+Maldives,1990,462,1.01
+Maldives,1995,462,0.98
+Maldives,2000,462,0.8
+Maldives,2005,462,0.6
+Maldives,2010,462,0.43
+Maldives,2015,462,0.38
+Mali,1970,466,0.81
+Mali,1975,466,0.84
+Mali,1980,466,0.9
+Mali,1985,466,0.95
+Mali,1990,466,1.02
+Mali,1995,466,1.01
+Mali,2000,466,0.99
+Mali,2005,466,0.98
+Mali,2010,466,0.99
+Mali,2015,466,1.02
+Malta,1970,470,0.6
+Malta,1975,470,0.55
+Malta,1980,470,0.51
+Malta,1985,470,0.52
+Malta,1990,470,0.52
+Malta,1995,470,0.49
+Malta,2000,470,0.47
+Malta,2005,470,0.48
+Malta,2010,470,0.46
+Malta,2015,470,0.49
+Martinique,1970,474,0.87
+Martinique,1975,474,0.87
+Martinique,1980,474,0.63
+Martinique,1985,474,0.57
+Martinique,1990,474,0.52
+Martinique,1995,474,0.53
+Martinique,2000,474,0.54
+Martinique,2005,474,0.53
+Martinique,2010,474,0.53
+Martinique,2015,474,0.57
+Mauritania,1970,478,0.94
+Mauritania,1975,478,0.94
+Mauritania,1980,478,0.93
+Mauritania,1985,478,0.92
+Mauritania,1990,478,0.92
+Mauritania,1995,478,0.9
+Mauritania,2000,478,0.86
+Mauritania,2005,478,0.83
+Mauritania,2010,478,0.8
+Mauritania,2015,478,0.76
+Mauritius,1970,480,0.86
+Mauritius,1975,480,0.74
+Mauritius,1980,480,0.65
+Mauritius,1985,480,0.56
+Mauritius,1990,480,0.51
+Mauritius,1995,480,0.49
+Mauritius,2000,480,0.47
+Mauritius,2005,480,0.46
+Mauritius,2010,480,0.42
+Mauritius,2015,480,0.42
+Mayotte,1970,175,1.07
+Mayotte,1975,175,1.15
+Mayotte,1980,175,1.14
+Mayotte,1985,175,1.09
+Mayotte,1990,175,1.04
+Mayotte,1995,175,0.94
+Mayotte,2000,175,0.89
+Mayotte,2005,175,0.84
+Mayotte,2010,175,0.86
+Mayotte,2015,175,0.83
+Mexico,1970,484,1.01
+Mexico,1975,484,1.01
+Mexico,1980,484,0.97
+Mexico,1985,484,0.88
+Mexico,1990,484,0.76
+Mexico,1995,484,0.69
+Mexico,2000,484,0.64
+Mexico,2005,484,0.6
+Mexico,2010,484,0.55
+Mexico,2015,484,0.51
+Micronesia (Federated States of),1970,583,0.97
+Micronesia (Federated States of),1975,583,1.07
+Micronesia (Federated States of),1980,583,1.04
+Micronesia (Federated States of),1985,583,0.97
+Micronesia (Federated States of),1990,583,0.91
+Micronesia (Federated States of),1995,583,0.89
+Micronesia (Federated States of),2000,583,0.79
+Micronesia (Federated States of),2005,583,0.75
+Micronesia (Federated States of),2010,583,0.69
+Micronesia (Federated States of),2015,583,0.62
+Mongolia,1970,496,0.96
+Mongolia,1975,496,1.01
+Mongolia,1980,496,0.93
+Mongolia,1985,496,0.87
+Mongolia,1990,496,0.8
+Mongolia,1995,496,0.74
+Mongolia,2000,496,0.63
+Mongolia,2005,496,0.48
+Mongolia,2010,496,0.44
+Mongolia,2015,496,0.49
+Montenegro,1970,499,0.67
+Montenegro,1975,499,0.61
+Montenegro,1980,499,0.55
+Montenegro,1985,499,0.5
+Montenegro,1990,499,0.51
+Montenegro,1995,499,0.5
+Montenegro,2000,499,0.49
+Montenegro,2005,499,0.5
+Montenegro,2010,499,0.48
+Montenegro,2015,499,0.48
+Morocco,1970,504,1.04
+Morocco,1975,504,0.97
+Morocco,1980,504,0.87
+Morocco,1985,504,0.82
+Morocco,1990,504,0.77
+Morocco,1995,504,0.72
+Morocco,2000,504,0.63
+Morocco,2005,504,0.57
+Morocco,2010,504,0.53
+Morocco,2015,504,0.52
+Mozambique,1970,508,0.86
+Mozambique,1975,508,0.88
+Mozambique,1980,508,0.89
+Mozambique,1985,508,0.92
+Mozambique,1990,508,1.01
+Mozambique,1995,508,0.91
+Mozambique,2000,508,0.92
+Mozambique,2005,508,0.94
+Mozambique,2010,508,0.96
+Mozambique,2015,508,0.94
+Myanmar,1970,104,0.83
+Myanmar,1975,104,0.81
+Myanmar,1980,104,0.79
+Myanmar,1985,104,0.76
+Myanmar,1990,104,0.7
+Myanmar,1995,104,0.63
+Myanmar,2000,104,0.57
+Myanmar,2005,104,0.54
+Myanmar,2010,104,0.52
+Myanmar,2015,104,0.5
+Namibia,1970,516,0.88
+Namibia,1975,516,0.91
+Namibia,1980,516,1
+Namibia,1985,516,1.02
+Namibia,1990,516,0.89
+Namibia,1995,516,0.83
+Namibia,2000,516,0.78
+Namibia,2005,516,0.76
+Namibia,2010,516,0.71
+Namibia,2015,516,0.68
+Nepal,1970,524,0.78
+Nepal,1975,524,0.79
+Nepal,1980,524,0.81
+Nepal,1985,524,0.83
+Nepal,1990,524,0.85
+Nepal,1995,524,0.83
+Nepal,2000,524,0.81
+Nepal,2005,524,0.79
+Nepal,2010,524,0.73
+Nepal,2015,524,0.61
+Netherlands,1970,528,0.6
+Netherlands,1975,528,0.57
+Netherlands,1980,528,0.51
+Netherlands,1985,528,0.46
+Netherlands,1990,528,0.45
+Netherlands,1995,528,0.46
+Netherlands,2000,528,0.47
+Netherlands,2005,528,0.48
+Netherlands,2010,528,0.49
+Netherlands,2015,528,0.53
+New Caledonia,1970,540,0.71
+New Caledonia,1975,540,0.73
+New Caledonia,1980,540,0.72
+New Caledonia,1985,540,0.68
+New Caledonia,1990,540,0.59
+New Caledonia,1995,540,0.55
+New Caledonia,2000,540,0.54
+New Caledonia,2005,540,0.53
+New Caledonia,2010,540,0.51
+New Caledonia,2015,540,0.48
+New Zealand,1970,554,0.67
+New Zealand,1975,554,0.63
+New Zealand,1980,554,0.59
+New Zealand,1985,554,0.54
+New Zealand,1990,554,0.52
+New Zealand,1995,554,0.53
+New Zealand,2000,554,0.53
+New Zealand,2005,554,0.51
+New Zealand,2010,554,0.5
+New Zealand,2015,554,0.53
+Nicaragua,1970,558,1.02
+Nicaragua,1975,558,0.98
+Nicaragua,1980,558,0.99
+Nicaragua,1985,558,0.99
+Nicaragua,1990,558,0.96
+Nicaragua,1995,558,0.87
+Nicaragua,2000,558,0.77
+Nicaragua,2005,558,0.67
+Nicaragua,2010,558,0.6
+Nicaragua,2015,558,0.54
+Niger,1970,562,1.01
+Niger,1975,562,1
+Niger,1980,562,0.99
+Niger,1985,562,1.02
+Niger,1990,562,1.03
+Niger,1995,562,1.02
+Niger,2000,562,1.03
+Niger,2005,562,1.08
+Niger,2010,562,1.11
+Niger,2015,562,1.12
+Nigeria,1970,566,0.83
+Nigeria,1975,566,0.86
+Nigeria,1980,566,0.88
+Nigeria,1985,566,0.91
+Nigeria,1990,566,0.91
+Nigeria,1995,566,0.89
+Nigeria,2000,566,0.86
+Nigeria,2005,566,0.86
+Nigeria,2010,566,0.87
+Nigeria,2015,566,0.88
+Norway,1970,578,0.6
+Norway,1975,578,0.6
+Norway,1980,578,0.58
+Norway,1985,578,0.55
+Norway,1990,578,0.54
+Norway,1995,578,0.55
+Norway,2000,578,0.54
+Norway,2005,578,0.52
+Norway,2010,578,0.51
+Norway,2015,578,0.52
+Occupied Palestinian Territory,1970,275,1.1
+Occupied Palestinian Territory,1975,275,1.13
+Occupied Palestinian Territory,1980,275,1.09
+Occupied Palestinian Territory,1985,275,1.04
+Occupied Palestinian Territory,1990,275,1.03
+Occupied Palestinian Territory,1995,275,1.03
+Occupied Palestinian Territory,2000,275,1
+Occupied Palestinian Territory,2005,275,0.93
+Occupied Palestinian Territory,2010,275,0.82
+Occupied Palestinian Territory,2015,275,0.76
+Oman,1970,512,0.98
+Oman,1975,512,0.96
+Oman,1980,512,0.92
+Oman,1985,512,0.92
+Oman,1990,512,0.91
+Oman,1995,512,0.72
+Oman,2000,512,0.66
+Oman,2005,512,0.55
+Oman,2010,512,0.4
+Oman,2015,512,0.32
+Pakistan,1970,586,0.86
+Pakistan,1975,586,0.88
+Pakistan,1980,586,0.88
+Pakistan,1985,586,0.87
+Pakistan,1990,586,0.88
+Pakistan,1995,586,0.88
+Pakistan,2000,586,0.83
+Pakistan,2005,586,0.74
+Pakistan,2010,586,0.68
+Pakistan,2015,586,0.65
+Panama,1970,591,0.92
+Panama,1975,591,0.88
+Panama,1980,591,0.82
+Panama,1985,591,0.75
+Panama,1990,591,0.68
+Panama,1995,591,0.63
+Panama,2000,591,0.6
+Panama,2005,591,0.58
+Panama,2010,591,0.56
+Panama,2015,591,0.55
+Papua New Guinea,1970,598,0.86
+Papua New Guinea,1975,598,0.86
+Papua New Guinea,1980,598,0.86
+Papua New Guinea,1985,598,0.85
+Papua New Guinea,1990,598,0.82
+Papua New Guinea,1995,598,0.78
+Papua New Guinea,2000,598,0.75
+Papua New Guinea,2005,598,0.74
+Papua New Guinea,2010,598,0.71
+Papua New Guinea,2015,598,0.67
+Paraguay,1970,600,0.98
+Paraguay,1975,600,0.91
+Paraguay,1980,600,0.86
+Paraguay,1985,600,0.83
+Paraguay,1990,600,0.83
+Paraguay,1995,600,0.8
+Paraguay,2000,600,0.74
+Paraguay,2005,600,0.67
+Paraguay,2010,600,0.61
+Paraguay,2015,600,0.57
+Peru,1970,604,0.92
+Peru,1975,604,0.89
+Peru,1980,604,0.85
+Peru,1985,604,0.79
+Peru,1990,604,0.74
+Peru,1995,604,0.69
+Peru,2000,604,0.65
+Peru,2005,604,0.6
+Peru,2010,604,0.55
+Peru,2015,604,0.53
+Philippines,1970,608,0.96
+Philippines,1975,608,0.91
+Philippines,1980,608,0.86
+Philippines,1985,608,0.82
+Philippines,1990,608,0.79
+Philippines,1995,608,0.75
+Philippines,2000,608,0.72
+Philippines,2005,608,0.68
+Philippines,2010,608,0.61
+Philippines,2015,608,0.58
+Poland,1970,616,0.55
+Poland,1975,616,0.5
+Poland,1980,616,0.52
+Poland,1985,616,0.53
+Poland,1990,616,0.54
+Poland,1995,616,0.52
+Poland,2000,616,0.47
+Poland,2005,616,0.42
+Poland,2010,616,0.4
+Poland,2015,616,0.44
+Portugal,1970,620,0.63
+Portugal,1975,620,0.61
+Portugal,1980,620,0.6
+Portugal,1985,620,0.56
+Portugal,1990,620,0.52
+Portugal,1995,620,0.49
+Portugal,2000,620,0.48
+Portugal,2005,620,0.49
+Portugal,2010,620,0.51
+Portugal,2015,620,0.53
+Puerto Rico,1970,630,0.76
+Puerto Rico,1975,630,0.66
+Puerto Rico,1980,630,0.65
+Puerto Rico,1985,630,0.62
+Puerto Rico,1990,630,0.58
+Puerto Rico,1995,630,0.56
+Puerto Rico,2000,630,0.54
+Puerto Rico,2005,630,0.52
+Puerto Rico,2010,630,0.51
+Puerto Rico,2015,630,0.5
+Qatar,1970,634,0.62
+Qatar,1975,634,0.55
+Qatar,1980,634,0.54
+Qatar,1985,634,0.43
+Qatar,1990,634,0.42
+Qatar,1995,634,0.41
+Qatar,2000,634,0.38
+Qatar,2005,634,0.32
+Qatar,2010,634,0.17
+Qatar,2015,634,0.18
+Republic of Korea,1970,410,0.85
+Republic of Korea,1975,410,0.73
+Republic of Korea,1980,410,0.62
+Republic of Korea,1985,410,0.53
+Republic of Korea,1990,410,0.44
+Republic of Korea,1995,410,0.41
+Republic of Korea,2000,410,0.4
+Republic of Korea,2005,410,0.39
+Republic of Korea,2010,410,0.38
+Republic of Korea,2015,410,0.37
+Republic of Moldova,1970,498,0.62
+Republic of Moldova,1975,498,0.55
+Republic of Moldova,1980,498,0.53
+Republic of Moldova,1985,498,0.53
+Republic of Moldova,1990,498,0.57
+Republic of Moldova,1995,498,0.55
+Republic of Moldova,2000,498,0.49
+Republic of Moldova,2005,498,0.4
+Republic of Moldova,2010,498,0.36
+Republic of Moldova,2015,498,0.35
+Reunion,1970,638,0.95
+Reunion,1975,638,0.84
+Reunion,1980,638,0.72
+Reunion,1985,638,0.62
+Reunion,1990,638,0.58
+Reunion,1995,638,0.56
+Reunion,2000,638,0.55
+Reunion,2005,638,0.52
+Reunion,2010,638,0.51
+Reunion,2015,638,0.53
+Romania,1970,642,0.52
+Romania,1975,642,0.53
+Romania,1980,642,0.59
+Romania,1985,642,0.53
+Romania,1990,642,0.52
+Romania,1995,642,0.49
+Romania,2000,642,0.47
+Romania,2005,642,0.45
+Romania,2010,642,0.46
+Romania,2015,642,0.48
+Russian Federation,1970,643,0.51
+Russian Federation,1975,643,0.47
+Russian Federation,1980,643,0.47
+Russian Federation,1985,643,0.48
+Russian Federation,1990,643,0.5
+Russian Federation,1995,643,0.5
+Russian Federation,2000,643,0.44
+Russian Federation,2005,643,0.41
+Russian Federation,2010,643,0.39
+Russian Federation,2015,643,0.44
+Rwanda,1970,646,1.02
+Rwanda,1975,646,0.99
+Rwanda,1980,646,1.01
+Rwanda,1985,646,1.07
+Rwanda,1990,646,1.07
+Rwanda,1995,646,0.84
+Rwanda,2000,646,0.92
+Rwanda,2005,646,0.81
+Rwanda,2010,646,0.81
+Rwanda,2015,646,0.77
+Saint Lucia,1970,662,1.21
+Saint Lucia,1975,662,1.06
+Saint Lucia,1980,662,0.96
+Saint Lucia,1985,662,0.86
+Saint Lucia,1990,662,0.79
+Saint Lucia,1995,662,0.74
+Saint Lucia,2000,662,0.66
+Saint Lucia,2005,662,0.54
+Saint Lucia,2010,662,0.47
+Saint Lucia,2015,662,0.41
+Saint Vincent and the Grenadines,1970,670,1.2
+Saint Vincent and the Grenadines,1975,670,1.12
+Saint Vincent and the Grenadines,1980,670,0.98
+Saint Vincent and the Grenadines,1985,670,0.84
+Saint Vincent and the Grenadines,1990,670,0.79
+Saint Vincent and the Grenadines,1995,670,0.7
+Saint Vincent and the Grenadines,2000,670,0.62
+Saint Vincent and the Grenadines,2005,670,0.56
+Saint Vincent and the Grenadines,2010,670,0.5
+Saint Vincent and the Grenadines,2015,670,0.47
+Samoa,1970,882,1.14
+Samoa,1975,882,1.1
+Samoa,1980,882,0.96
+Samoa,1985,882,0.85
+Samoa,1990,882,0.79
+Samoa,1995,882,0.81
+Samoa,2000,882,0.82
+Samoa,2005,882,0.8
+Samoa,2010,882,0.76
+Samoa,2015,882,0.74
+Sao Tome and Principe,1970,678,1.08
+Sao Tome and Principe,1975,678,1.06
+Sao Tome and Principe,1980,678,1.08
+Sao Tome and Principe,1985,678,1.1
+Sao Tome and Principe,1990,678,1.11
+Sao Tome and Principe,1995,678,1.02
+Sao Tome and Principe,2000,678,0.99
+Sao Tome and Principe,2005,678,0.94
+Sao Tome and Principe,2010,678,0.92
+Sao Tome and Principe,2015,678,0.87
+Saudi Arabia,1970,682,0.91
+Saudi Arabia,1975,682,0.9
+Saudi Arabia,1980,682,0.87
+Saudi Arabia,1985,682,0.81
+Saudi Arabia,1990,682,0.81
+Saudi Arabia,1995,682,0.8
+Saudi Arabia,2000,682,0.67
+Saudi Arabia,2005,682,0.56
+Saudi Arabia,2010,682,0.49
+Saudi Arabia,2015,682,0.41
+Senegal,1970,686,0.9
+Senegal,1975,686,0.9
+Senegal,1980,686,0.97
+Senegal,1985,686,1.02
+Senegal,1990,686,1.01
+Senegal,1995,686,0.97
+Senegal,2000,686,0.93
+Senegal,2005,686,0.88
+Senegal,2010,686,0.86
+Senegal,2015,686,0.85
+Serbia,1970,688,0.5
+Serbia,1975,688,0.51
+Serbia,1980,688,0.51
+Serbia,1985,688,0.49
+Serbia,1990,688,0.5
+Serbia,1995,688,0.5
+Serbia,2000,688,0.52
+Serbia,2005,688,0.5
+Serbia,2010,688,0.48
+Serbia,2015,688,0.49
+Seychelles,1970,690,0.98
+Seychelles,1975,690,0.9
+Seychelles,1980,690,0.82
+Seychelles,1985,690,0.73
+Seychelles,1990,690,0.74
+Seychelles,1995,690,0.62
+Seychelles,2000,690,0.57
+Seychelles,2005,690,0.47
+Seychelles,2010,690,0.44
+Seychelles,2015,690,0.43
+Sierra Leone,1970,694,0.8
+Sierra Leone,1975,694,0.85
+Sierra Leone,1980,694,0.92
+Sierra Leone,1985,694,0.97
+Sierra Leone,1990,694,0.99
+Sierra Leone,1995,694,1
+Sierra Leone,2000,694,0.99
+Sierra Leone,2005,694,0.97
+Sierra Leone,2010,694,0.86
+Sierra Leone,2015,694,0.83
+Singapore,1970,702,0.73
+Singapore,1975,702,0.58
+Singapore,1980,702,0.47
+Singapore,1985,702,0.42
+Singapore,1990,702,0.37
+Singapore,1995,702,0.4
+Singapore,2000,702,0.4
+Singapore,2005,702,0.38
+Singapore,2010,702,0.36
+Singapore,2015,702,0.37
+Slovakia,1970,703,0.58
+Slovakia,1975,703,0.56
+Slovakia,1980,703,0.58
+Slovakia,1985,703,0.56
+Slovakia,1990,703,0.56
+Slovakia,1995,703,0.51
+Slovakia,2000,703,0.45
+Slovakia,2005,703,0.4
+Slovakia,2010,703,0.38
+Slovakia,2015,703,0.42
+Slovenia,1970,705,0.51
+Slovenia,1975,705,0.53
+Slovenia,1980,705,0.53
+Slovenia,1985,705,0.48
+Slovenia,1990,705,0.46
+Slovenia,1995,705,0.44
+Slovenia,2000,705,0.43
+Slovenia,2005,705,0.42
+Slovenia,2010,705,0.44
+Slovenia,2015,705,0.49
+Solomon Islands,1970,90,0.88
+Solomon Islands,1975,90,1.03
+Solomon Islands,1980,90,1.02
+Solomon Islands,1985,90,1.02
+Solomon Islands,1990,90,0.93
+Solomon Islands,1995,90,0.85
+Solomon Islands,2000,90,0.81
+Solomon Islands,2005,90,0.8
+Solomon Islands,2010,90,0.79
+Solomon Islands,2015,90,0.75
+Somalia,1970,706,0.87
+Somalia,1975,706,0.88
+Somalia,1980,706,0.92
+Somalia,1985,706,0.99
+Somalia,1990,706,1.06
+Somalia,1995,706,1.14
+Somalia,2000,706,1.21
+Somalia,2005,706,1.25
+Somalia,2010,706,1.01
+Somalia,2015,706,0.97
+South Africa,1970,710,0.84
+South Africa,1975,710,0.83
+South Africa,1980,710,0.82
+South Africa,1985,710,0.79
+South Africa,1990,710,0.75
+South Africa,1995,710,0.66
+South Africa,2000,710,0.62
+South Africa,2005,710,0.58
+South Africa,2010,710,0.55
+South Africa,2015,710,0.53
+South Sudan,1970,728,0.85
+South Sudan,1975,728,0.88
+South Sudan,1980,728,0.89
+South Sudan,1985,728,0.88
+South Sudan,1990,728,0.89
+South Sudan,1995,728,0.9
+South Sudan,2000,728,0.92
+South Sudan,2005,728,0.9
+South Sudan,2010,728,0.88
+South Sudan,2015,728,0.84
+Spain,1970,724,0.61
+Spain,1975,724,0.6
+Spain,1980,724,0.59
+Spain,1985,724,0.54
+Spain,1990,724,0.5
+Spain,1995,724,0.47
+Spain,2000,724,0.46
+Spain,2005,724,0.45
+Spain,2010,724,0.47
+Spain,2015,724,0.51
+Sri Lanka,1970,144,0.78
+Sri Lanka,1975,144,0.71
+Sri Lanka,1980,144,0.67
+Sri Lanka,1985,144,0.64
+Sri Lanka,1990,144,0.6
+Sri Lanka,1995,144,0.55
+Sri Lanka,2000,144,0.49
+Sri Lanka,2005,144,0.48
+Sri Lanka,2010,144,0.49
+Sri Lanka,2015,144,0.51
+Sudan,1970,729,0.97
+Sudan,1975,729,1
+Sudan,1980,729,1
+Sudan,1985,729,0.99
+Sudan,1990,729,0.95
+Sudan,1995,729,0.88
+Sudan,2000,729,0.85
+Sudan,2005,729,0.84
+Sudan,2010,729,0.8
+Sudan,2015,729,0.82
+Suriname,1970,740,1.09
+Suriname,1975,740,1.05
+Suriname,1980,740,0.78
+Suriname,1985,740,0.66
+Suriname,1990,740,0.63
+Suriname,1995,740,0.64
+Suriname,2000,740,0.61
+Suriname,2005,740,0.58
+Suriname,2010,740,0.54
+Suriname,2015,740,0.51
+Swaziland,1970,748,1
+Swaziland,1975,748,1.03
+Swaziland,1980,748,1.06
+Swaziland,1985,748,1.07
+Swaziland,1990,748,1.03
+Swaziland,1995,748,1.01
+Swaziland,2000,748,0.9
+Swaziland,2005,748,0.82
+Swaziland,2010,748,0.74
+Swaziland,2015,748,0.69
+Sweden,1970,752,0.53
+Sweden,1975,752,0.56
+Sweden,1980,752,0.56
+Sweden,1985,752,0.55
+Sweden,1990,752,0.56
+Sweden,1995,752,0.57
+Sweden,2000,752,0.56
+Sweden,2005,752,0.53
+Sweden,2010,752,0.53
+Sweden,2015,752,0.58
+Switzerland,1970,756,0.54
+Switzerland,1975,756,0.54
+Switzerland,1980,756,0.51
+Switzerland,1985,756,0.47
+Switzerland,1990,756,0.46
+Switzerland,1995,756,0.48
+Switzerland,2000,756,0.49
+Switzerland,2005,756,0.47
+Switzerland,2010,756,0.47
+Switzerland,2015,756,0.49
+Syrian Arab Republic,1970,760,1.05
+Syrian Arab Republic,1975,760,1.05
+Syrian Arab Republic,1980,760,1.07
+Syrian Arab Republic,1985,760,1.06
+Syrian Arab Republic,1990,760,1
+Syrian Arab Republic,1995,760,0.89
+Syrian Arab Republic,2000,760,0.8
+Syrian Arab Republic,2005,760,0.74
+Syrian Arab Republic,2010,760,0.66
+Syrian Arab Republic,2015,760,0.73
+Taiwan Province of China,1970,158,0.77
+Taiwan Province of China,1975,158,0.67
+Taiwan Province of China,1980,158,0.57
+Taiwan Province of China,1985,158,0.53
+Taiwan Province of China,1990,158,0.5
+Taiwan Province of China,1995,158,0.46
+Taiwan Province of China,2000,158,0.42
+Taiwan Province of China,2005,158,0.4
+Taiwan Province of China,2010,158,0.37
+Taiwan Province of China,2015,158,0.35
+Tajikistan,1970,762,1.06
+Tajikistan,1975,762,0.98
+Tajikistan,1980,762,0.9
+Tajikistan,1985,762,0.88
+Tajikistan,1990,762,0.9
+Tajikistan,1995,762,0.93
+Tajikistan,2000,762,0.86
+Tajikistan,2005,762,0.72
+Tajikistan,2010,762,0.64
+Tajikistan,2015,762,0.62
+Thailand,1970,764,0.9
+Thailand,1975,764,0.85
+Thailand,1980,764,0.76
+Thailand,1985,764,0.63
+Thailand,1990,764,0.53
+Thailand,1995,764,0.49
+Thailand,2000,764,0.44
+Thailand,2005,764,0.41
+Thailand,2010,764,0.39
+Thailand,2015,764,0.4
+The former Yugoslav Republic of Macedonia,1970,807,0.63
+The former Yugoslav Republic of Macedonia,1975,807,0.59
+The former Yugoslav Republic of Macedonia,1980,807,0.57
+The former Yugoslav Republic of Macedonia,1985,807,0.51
+The former Yugoslav Republic of Macedonia,1990,807,0.5
+The former Yugoslav Republic of Macedonia,1995,807,0.5
+The former Yugoslav Republic of Macedonia,2000,807,0.47
+The former Yugoslav Republic of Macedonia,2005,807,0.45
+The former Yugoslav Republic of Macedonia,2010,807,0.41
+The former Yugoslav Republic of Macedonia,2015,807,0.42
+Timor-Leste,1970,626,0.8
+Timor-Leste,1975,626,0.78
+Timor-Leste,1980,626,0.72
+Timor-Leste,1985,626,0.73
+Timor-Leste,1990,626,0.7
+Timor-Leste,1995,626,0.82
+Timor-Leste,2000,626,1.13
+Timor-Leste,2005,626,1.09
+Timor-Leste,2010,626,0.96
+Timor-Leste,2015,626,0.9
+Togo,1970,768,0.91
+Togo,1975,768,0.94
+Togo,1980,768,0.97
+Togo,1985,768,0.98
+Togo,1990,768,0.97
+Togo,1995,768,0.94
+Togo,2000,768,0.89
+Togo,2005,768,0.85
+Togo,2010,768,0.84
+Togo,2015,768,0.81
+Tonga,1970,776,1.04
+Tonga,1975,776,0.95
+Tonga,1980,776,0.82
+Tonga,1985,776,0.81
+Tonga,1990,776,0.78
+Tonga,1995,776,0.82
+Tonga,2000,776,0.79
+Tonga,2005,776,0.79
+Tonga,2010,776,0.76
+Tonga,2015,776,0.74
+Trinidad and Tobago,1970,780,0.84
+Trinidad and Tobago,1975,780,0.74
+Trinidad and Tobago,1980,780,0.65
+Trinidad and Tobago,1985,780,0.66
+Trinidad and Tobago,1990,780,0.65
+Trinidad and Tobago,1995,780,0.58
+Trinidad and Tobago,2000,780,0.47
+Trinidad and Tobago,2005,780,0.41
+Trinidad and Tobago,2010,780,0.41
+Trinidad and Tobago,2015,780,0.43
+Tunisia,1970,788,0.96
+Tunisia,1975,788,0.9
+Tunisia,1980,788,0.84
+Tunisia,1985,788,0.78
+Tunisia,1990,788,0.73
+Tunisia,1995,788,0.65
+Tunisia,2000,788,0.57
+Tunisia,2005,788,0.49
+Tunisia,2010,788,0.45
+Tunisia,2015,788,0.46
+Turkey,1970,792,0.84
+Turkey,1975,792,0.83
+Turkey,1980,792,0.8
+Turkey,1985,792,0.74
+Turkey,1990,792,0.68
+Turkey,1995,792,0.62
+Turkey,2000,792,0.58
+Turkey,2005,792,0.54
+Turkey,2010,792,0.51
+Turkey,2015,792,0.5
+Turkmenistan,1970,795,0.98
+Turkmenistan,1975,795,0.92
+Turkmenistan,1980,795,0.85
+Turkmenistan,1985,795,0.8
+Turkmenistan,1990,795,0.8
+Turkmenistan,1995,795,0.78
+Turkmenistan,2000,795,0.68
+Turkmenistan,2005,795,0.59
+Turkmenistan,2010,795,0.51
+Turkmenistan,2015,795,0.53
+Uganda,1970,800,0.98
+Uganda,1975,800,0.99
+Uganda,1980,800,1
+Uganda,1985,800,1.01
+Uganda,1990,800,1.03
+Uganda,1995,800,1.07
+Uganda,2000,800,1.1
+Uganda,2005,800,1.09
+Uganda,2010,800,1.06
+Uganda,2015,800,1.02
+Ukraine,1970,804,0.51
+Ukraine,1975,804,0.5
+Ukraine,1980,804,0.5
+Ukraine,1985,804,0.49
+Ukraine,1990,804,0.5
+Ukraine,1995,804,0.5
+Ukraine,2000,804,0.45
+Ukraine,2005,804,0.44
+Ukraine,2010,804,0.43
+Ukraine,2015,804,0.45
+United Arab Emirates,1970,784,0.57
+United Arab Emirates,1975,784,0.44
+United Arab Emirates,1980,784,0.43
+United Arab Emirates,1985,784,0.51
+United Arab Emirates,1990,784,0.48
+United Arab Emirates,1995,784,0.41
+United Arab Emirates,2000,784,0.38
+United Arab Emirates,2005,784,0.24
+United Arab Emirates,2010,784,0.16
+United Arab Emirates,2015,784,0.17
+United Kingdom of Great Britain and Northern Ireland,1970,826,0.59
+United Kingdom of Great Britain and Northern Ireland,1975,826,0.6
+United Kingdom of Great Britain and Northern Ireland,1980,826,0.56
+United Kingdom of Great Britain and Northern Ireland,1985,826,0.52
+United Kingdom of Great Britain and Northern Ireland,1990,826,0.53
+United Kingdom of Great Britain and Northern Ireland,1995,826,0.55
+United Kingdom of Great Britain and Northern Ireland,2000,826,0.54
+United Kingdom of Great Britain and Northern Ireland,2005,826,0.51
+United Kingdom of Great Britain and Northern Ireland,2010,826,0.51
+United Kingdom of Great Britain and Northern Ireland,2015,826,0.56
+United Republic of Tanzania,1970,834,0.95
+United Republic of Tanzania,1975,834,0.96
+United Republic of Tanzania,1980,834,0.97
+United Republic of Tanzania,1985,834,0.96
+United Republic of Tanzania,1990,834,0.95
+United Republic of Tanzania,1995,834,0.94
+United Republic of Tanzania,2000,834,0.92
+United Republic of Tanzania,2005,834,0.94
+United Republic of Tanzania,2010,834,0.94
+United Republic of Tanzania,2015,834,0.93
+United States of America,1970,840,0.61
+United States of America,1975,840,0.55
+United States of America,1980,840,0.52
+United States of America,1985,840,0.51
+United States of America,1990,840,0.52
+United States of America,1995,840,0.53
+United States of America,2000,840,0.51
+United States of America,2005,840,0.49
+United States of America,2010,840,0.49
+United States of America,2015,840,0.51
+United States Virgin Islands,1970,850,0.66
+United States Virgin Islands,1975,850,0.83
+United States Virgin Islands,1980,850,0.68
+United States Virgin Islands,1985,850,0.64
+United States Virgin Islands,1990,850,0.54
+United States Virgin Islands,1995,850,0.54
+United States Virgin Islands,2000,850,0.53
+United States Virgin Islands,2005,850,0.49
+United States Virgin Islands,2010,850,0.52
+United States Virgin Islands,2015,850,0.61
+Uruguay,1970,858,0.58
+Uruguay,1975,858,0.6
+Uruguay,1980,858,0.6
+Uruguay,1985,858,0.61
+Uruguay,1990,858,0.6
+Uruguay,1995,858,0.6
+Uruguay,2000,858,0.6
+Uruguay,2005,858,0.6
+Uruguay,2010,858,0.57
+Uruguay,2015,858,0.56
+Uzbekistan,1970,860,1.05
+Uzbekistan,1975,860,0.95
+Uzbekistan,1980,860,0.85
+Uzbekistan,1985,860,0.81
+Uzbekistan,1990,860,0.81
+Uzbekistan,1995,860,0.81
+Uzbekistan,2000,860,0.72
+Uzbekistan,2005,860,0.6
+Uzbekistan,2010,860,0.51
+Uzbekistan,2015,860,0.48
+Vanuatu,1970,548,0.93
+Vanuatu,1975,548,0.92
+Vanuatu,1980,548,0.91
+Vanuatu,1985,548,0.91
+Vanuatu,1990,548,0.9
+Vanuatu,1995,548,0.86
+Vanuatu,2000,548,0.81
+Vanuatu,2005,548,0.75
+Vanuatu,2010,548,0.73
+Vanuatu,2015,548,0.69
+Venezuela (Bolivarian Republic of),1970,862,0.96
+Venezuela (Bolivarian Republic of),1975,862,0.88
+Venezuela (Bolivarian Republic of),1980,862,0.79
+Venezuela (Bolivarian Republic of),1985,862,0.73
+Venezuela (Bolivarian Republic of),1990,862,0.71
+Venezuela (Bolivarian Republic of),1995,862,0.67
+Venezuela (Bolivarian Republic of),2000,862,0.63
+Venezuela (Bolivarian Republic of),2005,862,0.58
+Venezuela (Bolivarian Republic of),2010,862,0.54
+Venezuela (Bolivarian Republic of),2015,862,0.53
+Viet Nam,1970,704,0.97
+Viet Nam,1975,704,0.91
+Viet Nam,1980,704,0.86
+Viet Nam,1985,704,0.8
+Viet Nam,1990,704,0.76
+Viet Nam,1995,704,0.71
+Viet Nam,2000,704,0.62
+Viet Nam,2005,704,0.51
+Viet Nam,2010,704,0.43
+Viet Nam,2015,704,0.43
+Western Sahara,1970,732,0.74
+Western Sahara,1975,732,0.94
+Western Sahara,1980,732,0.67
+Western Sahara,1985,732,0.7
+Western Sahara,1990,732,0.71
+Western Sahara,1995,732,0.67
+Western Sahara,2000,732,0.6
+Western Sahara,2005,732,0.51
+Western Sahara,2010,732,0.46
+Western Sahara,2015,732,0.45
+World,1970,900,0.75
+World,1975,900,0.74
+World,1980,900,0.7
+World,1985,900,0.66
+World,1990,900,0.64
+World,1995,900,0.62
+World,2000,900,0.59
+World,2005,900,0.55
+World,2010,900,0.52
+World,2015,900,0.53
+Yemen,1970,887,0.92
+Yemen,1975,887,1.03
+Yemen,1980,887,1.1
+Yemen,1985,887,1.15
+Yemen,1990,887,1.2
+Yemen,1995,887,1.15
+Yemen,2000,887,1.06
+Yemen,2005,887,0.93
+Yemen,2010,887,0.82
+Yemen,2015,887,0.77
+Zambia,1970,894,0.99
+Zambia,1975,894,1.01
+Zambia,1980,894,1.02
+Zambia,1985,894,1
+Zambia,1990,894,0.98
+Zambia,1995,894,0.97
+Zambia,2000,894,0.97
+Zambia,2005,894,0.99
+Zambia,2010,894,0.98
+Zambia,2015,894,0.92
+Zimbabwe,1970,716,1.05
+Zimbabwe,1975,716,1.05
+Zimbabwe,1980,716,1.07
+Zimbabwe,1985,716,1.02
+Zimbabwe,1990,716,0.94
+Zimbabwe,1995,716,0.89
+Zimbabwe,2000,716,0.83
+Zimbabwe,2005,716,0.82
+Zimbabwe,2010,716,0.82
+Zimbabwe,2015,716,0.8
