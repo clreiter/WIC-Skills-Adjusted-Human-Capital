@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585503183582.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E2A4CBF5",
+    "lastKnownWriteTime" : 1585503799,
+    "last_content_update" : 1585503799208,
+    "path" : "~/GitHub/WiC-Human-Capital-Quality-Projections/adj_fact/code/model_comparison.R",
+    "project_path" : "code/model_comparison.R",
+    "properties" : {
+        "cursorPosition" : "22,59",
+        "scrollLine" : "22"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
