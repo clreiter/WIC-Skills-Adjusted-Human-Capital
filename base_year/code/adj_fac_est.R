@@ -49,7 +49,7 @@ d9 <- read.csv("./data/air.csv")
   #mutate(illiterate_prop=illiterate_prop/100)
 #write.csv(d9, "./data/air.csv", row.names = F)
 
-d10 <- read.csv("./wic_educ.csv")%>% 
+#d10 <- read.csv("./wic_educ.csv")%>% 
   select(iso, cc, above_sec, bach_n_higher, master_n_above)%>% 
   mutate(above_sec=above_sec/100,
          bach_n_higher=bach_n_higher/100,
@@ -66,11 +66,12 @@ r1 <- d2 %>%
   left_join(d6) %>% 
   left_join(d7) %>%
   left_join(d8) %>%
-  left_join(d10) %>%
   left_join(d11)%>%
   mutate(illiterate_prop=ifelse(is.na(illiterate_prop), 0.013, illiterate_prop),#manually enter illiterate proportion for channel islands as 1.13 source: uis
-          qamys = qamys_piaac, 
-         qamys = ifelse(is.na(qamys), (qamys_dhs_full * 0.80), qamys))
+         qamys = qamys_piaac, 
+         qamys = ifelse(is.na(qamys), (qamys_dhs_full * 0.80), qamys),
+         adj_fact_dhs = qamys/wic_mys,
+         adj_factor = adj_fact_dhs)
 r1 <- r1[-c(199),] #removing world
 
 write.csv(r1, "./data/piaac_step_dhs_adj_qamys.csv", row.names = F)
@@ -143,7 +144,7 @@ p9 <- ggplot(r1_temp, aes(x = hlo_mean, y = log(adj_factor))) +
   xlab("HLO") +
   ylab("Log Adjustment factor")
 
-pdf("./figures/Scatterplot_adj_factor_log2.pdf")
+pdf("./figures/Scatterplot_adj_factor_log.pdf")
 print(p1)
 print(p2)
 print(p3)
@@ -177,7 +178,7 @@ summary(model3)
 ols_vif_tol(model3)
 
 #model4 adj factor as y 0.89 fit multicollinearity vanishes
-model4<-lm(log(adj_factor) ~  highLS + old_dep + youth_dep + illiterate_prop, data = r1)
+model4<-lm(log(adj_factor) ~  highLS + old_dep + illiterate_prop, data = r1)
 summary(model4)
 ols_vif_tol(model4)
 
@@ -211,8 +212,8 @@ png("./figures/piaac_step_dhs_full_corrected_fit_adj_fac.png", width = 5, height
 ggplot(df1, aes(x = qamys, y = fit2)) +
   geom_point(alpha = 0.6) +
   geom_abline() +
-  xlab("Empirical QAMYS") +
-  ylab("Estimated QAMYS") +
+  xlab("Empirical SAMYS") +
+  ylab("Estimated SAMYS") +
   theme(legend.title = element_blank())+
   xlim(-1, 16) +
   ylim(-1, 16) +
@@ -228,7 +229,7 @@ p1 <- ggplot(df1 %>% filter(!is.na(fit2), plot == 1), aes(x = reorder(cc, wic_my
   geom_errorbar(aes(ymin = lwr2, ymax = upr2)) +
   xlab("Country") +
   ylab("WIC MYS & QAMYS (95% CI)") +
-  ylim(-2.5, 17.5) +
+  ylim(-2.5, 19) +
   coord_flip() +
   theme_bw()
 
@@ -273,3 +274,4 @@ dev.off()
 png("./figures/adj_est_predicted_mys3.png", res = 300, unit = "in", height = 10, width = 10)
 print(p3)
 dev.off()
+
