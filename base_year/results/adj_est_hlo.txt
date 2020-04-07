@@ -4,20 +4,19 @@ lm(formula = log(adj_factor) ~ hlo_mean + old_dep + illiterate_prop,
     data = r2)
 
 Residuals:
-      Min        1Q    Median        3Q       Max 
--0.093970 -0.021487 -0.000155  0.025368  0.121767 
+     Min       1Q   Median       3Q      Max 
+-0.41880 -0.04291  0.01360  0.05001  0.33200 
 
 Coefficients:
                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)     -0.3993264  0.1021104  -3.911 0.000357 ***
-hlo_mean         0.0006851  0.0001962   3.491 0.001210 ** 
-old_dep          0.2777068  0.1065525   2.606 0.012896 *  
-illiterate_prop -2.2177125  0.2705185  -8.198 5.16e-10 ***
+(Intercept)     -0.5693853  0.1166969  -4.879 5.34e-06 ***
+hlo_mean         0.0008844  0.0002884   3.066  0.00296 ** 
+old_dep          0.5086905  0.2292375   2.219  0.02932 *  
+illiterate_prop -1.7072064  0.1177712 -14.496  < 2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.0452 on 39 degrees of freedom
-  (41 observations deleted due to missingness)
-Multiple R-squared:  0.9162,	Adjusted R-squared:  0.9098 
-F-statistic: 142.1 on 3 and 39 DF,  p-value: < 2.2e-16
+Residual standard error: 0.1222 on 80 degrees of freedom
+Multiple R-squared:  0.9344,	Adjusted R-squared:  0.9319 
+F-statistic: 379.6 on 3 and 80 DF,  p-value: < 2.2e-16
 
