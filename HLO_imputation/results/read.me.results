@@ -1,0 +1,16 @@
+# lm1 <- lm(hlo_mean ~ region + tp_ + edu_exp_ + year_1970 +
+            year_1975 + year_1980 + year_1985 + year_1990 +
+            year_1995 + year_2000 + year_2005 + year_2010 +
+            year_2015, data = d4)
+            
+# lm2 <- lm(hlo_mean ~  country + tp_ + edu_exp_ + year_1970 +
+                         year_1975 + year_1980 + year_1985 + year_1990 +
+                       year_1995 + year_2000 + year_2005 + year_2010 +
+                        year_2015, data = d8)
+                        
+# lm3 <- lm(hlo_mean ~ tp_ + edu_exp_ + year_1970 +
+            year_1975 + year_1980 + year_1985 + year_1990 +
+            year_1995 + year_2000 + year_2005 + year_2010 +
+            year_2015, data = d4)
+            
+# lm4 <- lm(hlo_mean ~ country + tp_ + edu_exp_, data = d4)
