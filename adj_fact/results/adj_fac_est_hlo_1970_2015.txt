@@ -6,25 +6,25 @@ lm(formula = log(adj_factor) ~ highLS + illiterate_prop + hlo +
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--0.71122 -0.04751  0.00174  0.05066  0.49548 
+-0.71082 -0.04759  0.00131  0.05075  0.49378 
 
 Coefficients:
                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)     -0.5691864  0.0456216 -12.476  < 2e-16 ***
-highLS           0.2424109  0.0366172   6.620 8.33e-11 ***
-illiterate_prop -1.2127104  0.0491524 -24.672  < 2e-16 ***
-hlo              0.0006665  0.0001067   6.249 8.14e-10 ***
-old_dep          0.2489070  0.1177636   2.114  0.03498 *  
-year_1970        0.1584657  0.0225469   7.028 6.03e-12 ***
-year_1975        0.1327615  0.0221550   5.992 3.68e-09 ***
-year_1980        0.1000836  0.0218985   4.570 5.98e-06 ***
-year_1985        0.0674010  0.0218039   3.091  0.00209 ** 
-year_1990        0.0619566  0.0217096   2.854  0.00448 ** 
+(Intercept)     -0.5717282  0.0455083 -12.563  < 2e-16 ***
+highLS           0.2408404  0.0366153   6.578 1.09e-10 ***
+illiterate_prop -1.2127185  0.0490813 -24.708  < 2e-16 ***
+hlo              0.0006744  0.0001065   6.334 4.88e-10 ***
+old_dep          0.2478732  0.1176307   2.107  0.03554 *  
+year_1970        0.1578234  0.0225356   7.003 7.10e-12 ***
+year_1975        0.1322287  0.0221408   5.972 4.13e-09 ***
+year_1980        0.0997185  0.0218819   4.557 6.36e-06 ***
+year_1985        0.0671079  0.0217853   3.080  0.00217 ** 
+year_1990        0.0619632  0.0216899   2.857  0.00444 ** 
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.1343 on 567 degrees of freedom
+Residual standard error: 0.1342 on 567 degrees of freedom
   (1433 observations deleted due to missingness)
-Multiple R-squared:  0.8598,	Adjusted R-squared:  0.8576 
-F-statistic: 386.4 on 9 and 567 DF,  p-value: < 2.2e-16
+Multiple R-squared:   0.86,	Adjusted R-squared:  0.8578 
+F-statistic: 387.2 on 9 and 567 DF,  p-value: < 2.2e-16
 
