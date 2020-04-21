@@ -167,11 +167,6 @@ r2<-z1%>%
   left_join(z6)%>% 
   left_join(z7)
 
-p<-ggplot(r2, aes(x = samys1, y = samys2)) +
-  geom_point() +
-  geom_abline()
-p
-
 library(gridExtra)
 sc_plots = list()
 sc_plots$sc1 = ggplot(r2, aes(x = samys2, y = samys1)) +
