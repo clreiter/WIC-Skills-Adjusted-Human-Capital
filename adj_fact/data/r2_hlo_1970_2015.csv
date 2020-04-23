@@ -1,0 +1,2011 @@
+iso,year,hlo,cc,geo_big,GEO,geo_det
+4,1970,316.24799,"Afghanistan",3,"Southern Asia",18
+4,1975,318.108,"Afghanistan",3,"Southern Asia",18
+4,1980,320.03,"Afghanistan",3,"Southern Asia",18
+4,1985,322.01199,"Afghanistan",3,"Southern Asia",18
+4,1990,324.05801,"Afghanistan",3,"Southern Asia",18
+4,1995,326.172,"Afghanistan",3,"Southern Asia",18
+4,2000,326.40201,"Afghanistan",3,"Southern Asia",18
+4,2005,390.04001,"Afghanistan",3,"Southern Asia",18
+4,2010,398.14999,"Afghanistan",3,"Southern Asia",18
+4,2015,433.92001,"Afghanistan",3,"Southern Asia",18
+8,1970,400.65,"Albania",4,"Southern Europe",19
+8,1975,400.65,"Albania",4,"Southern Europe",19
+8,1980,400.65,"Albania",4,"Southern Europe",19
+8,1985,400.65,"Albania",4,"Southern Europe",19
+8,1990,400.65,"Albania",4,"Southern Europe",19
+8,1995,400.65,"Albania",4,"Southern Europe",19
+8,2000,400.65,"Albania",4,"Southern Europe",19
+8,2005,399.32,"Albania",4,"Southern Europe",19
+8,2010,402.75,"Albania",4,"Southern Europe",19
+8,2015,436.73,"Albania",4,"Southern Europe",19
+12,1970,390.17,"Algeria",1,"Northern Africa",11
+12,1975,390.17,"Algeria",1,"Northern Africa",11
+12,1980,390.17,"Algeria",1,"Northern Africa",11
+12,1985,390.17,"Algeria",1,"Northern Africa",11
+12,1990,390.17,"Algeria",1,"Northern Africa",11
+12,1995,390.17,"Algeria",1,"Northern Africa",11
+12,2000,390.17,"Algeria",1,"Northern Africa",11
+12,2005,390.17,"Algeria",1,"Northern Africa",11
+12,2010,375.14,"Algeria",1,"Northern Africa",11
+12,2015,375.14,"Algeria",1,"Northern Africa",11
+24,1970,326.02499,"Angola",1,"Middle Africa",10
+24,1975,326.02499,"Angola",1,"Middle Africa",10
+24,1980,326.02499,"Angola",1,"Middle Africa",10
+24,1985,326.02499,"Angola",1,"Middle Africa",10
+24,1990,326.02499,"Angola",1,"Middle Africa",10
+24,1995,326.02499,"Angola",1,"Middle Africa",10
+24,2000,322.19501,"Angola",1,"Middle Africa",10
+24,2005,322.19501,"Angola",1,"Middle Africa",10
+24,2010,320.315,"Angola",1,"Middle Africa",10
+24,2015,385.15424,"Angola",1,"Middle Africa",10
+28,1970,428.33667,"Antigua and Barbuda",2,"Caribbean",2
+28,1975,420.32501,"Antigua and Barbuda",2,"Caribbean",2
+28,1980,420.32501,"Antigua and Barbuda",2,"Caribbean",2
+28,1985,420.32501,"Antigua and Barbuda",2,"Caribbean",2
+28,1990,420.32501,"Antigua and Barbuda",2,"Caribbean",2
+28,1995,420.32501,"Antigua and Barbuda",2,"Caribbean",2
+28,2000,417.45999,"Antigua and Barbuda",2,"Caribbean",2
+28,2005,417.45999,"Antigua and Barbuda",2,"Caribbean",2
+28,2010,389.68668,"Antigua and Barbuda",2,"Caribbean",2
+28,2015,390.91666,"Antigua and Barbuda",2,"Caribbean",2
+31,1970,503.38,"Azerbaijan",3,"Western Asia",21
+31,1975,503.38,"Azerbaijan",3,"Western Asia",21
+31,1980,503.38,"Azerbaijan",3,"Western Asia",21
+31,1985,503.38,"Azerbaijan",3,"Western Asia",21
+31,1990,503.38,"Azerbaijan",3,"Western Asia",21
+31,1995,503.38,"Azerbaijan",3,"Western Asia",21
+31,2000,503.38,"Azerbaijan",3,"Western Asia",21
+31,2005,503.38,"Azerbaijan",3,"Western Asia",21
+31,2010,453.14,"Azerbaijan",3,"Western Asia",21
+31,2015,443.18668,"Azerbaijan",3,"Western Asia",21
+32,1970,377.66,"Argentina",2,"South America",15
+32,1975,377.66,"Argentina",2,"South America",15
+32,1980,377.66,"Argentina",2,"South America",15
+32,1985,377.66,"Argentina",2,"South America",15
+32,1990,377.66,"Argentina",2,"South America",15
+32,1995,377.66,"Argentina",2,"South America",15
+32,2000,409.87,"Argentina",2,"South America",15
+32,2005,405.44,"Argentina",2,"South America",15
+32,2010,413.27,"Argentina",2,"South America",15
+32,2015,429.38,"Argentina",2,"South America",15
+36,1970,484,"Australia",5,"Australia and New Zealand",1
+36,1975,505.47,"Australia",5,"Australia and New Zealand",1
+36,1980,331.55,"Australia",5,"Australia and New Zealand",1
+36,1985,475.87,"Australia",5,"Australia and New Zealand",1
+36,1990,488.69,"Australia",5,"Australia and New Zealand",1
+36,1995,501.93,"Australia",5,"Australia and New Zealand",1
+36,2000,508.87,"Australia",5,"Australia and New Zealand",1
+36,2005,504.44,"Australia",5,"Australia and New Zealand",1
+36,2010,509.98,"Australia",5,"Australia and New Zealand",1
+36,2015,509.22,"Australia",5,"Australia and New Zealand",1
+40,1970,529.96,"Austria",4,"Western Europe",22
+40,1975,529.96,"Austria",4,"Western Europe",22
+40,1980,529.96,"Austria",4,"Western Europe",22
+40,1985,529.96,"Austria",4,"Western Europe",22
+40,1990,529.96,"Austria",4,"Western Europe",22
+40,1995,529.96,"Austria",4,"Western Europe",22
+40,2000,529.67,"Austria",4,"Western Europe",22
+40,2005,516.5,"Austria",4,"Western Europe",22
+40,2010,512.93,"Austria",4,"Western Europe",22
+40,2015,519.54,"Austria",4,"Western Europe",22
+44,1970,428.33667,"Bahamas",2,"Caribbean",2
+44,1975,420.32501,"Bahamas",2,"Caribbean",2
+44,1980,420.32501,"Bahamas",2,"Caribbean",2
+44,1985,420.32501,"Bahamas",2,"Caribbean",2
+44,1990,420.32501,"Bahamas",2,"Caribbean",2
+44,1995,420.32501,"Bahamas",2,"Caribbean",2
+44,2000,417.45999,"Bahamas",2,"Caribbean",2
+44,2005,417.45999,"Bahamas",2,"Caribbean",2
+44,2010,389.68668,"Bahamas",2,"Caribbean",2
+44,2015,390.91666,"Bahamas",2,"Caribbean",2
+48,1970,400.18,"Bahrain",3,"Western Asia",21
+48,1975,400.18,"Bahrain",3,"Western Asia",21
+48,1980,400.18,"Bahrain",3,"Western Asia",21
+48,1985,400.18,"Bahrain",3,"Western Asia",21
+48,1990,400.18,"Bahrain",3,"Western Asia",21
+48,1995,400.18,"Bahrain",3,"Western Asia",21
+48,2000,400.18,"Bahrain",3,"Western Asia",21
+48,2005,400.18,"Bahrain",3,"Western Asia",21
+48,2010,419.25,"Bahrain",3,"Western Asia",21
+48,2015,452.36,"Bahrain",3,"Western Asia",21
+50,1970,316.24799,"Bangladesh",3,"Southern Asia",18
+50,1975,318.108,"Bangladesh",3,"Southern Asia",18
+50,1980,320.03,"Bangladesh",3,"Southern Asia",18
+50,1985,322.01199,"Bangladesh",3,"Southern Asia",18
+50,1990,324.05801,"Bangladesh",3,"Southern Asia",18
+50,1995,326.172,"Bangladesh",3,"Southern Asia",18
+50,2000,326.40201,"Bangladesh",3,"Southern Asia",18
+50,2005,390.04001,"Bangladesh",3,"Southern Asia",18
+50,2010,398.14999,"Bangladesh",3,"Southern Asia",18
+50,2015,433.92001,"Bangladesh",3,"Southern Asia",18
+51,1970,482.68,"Armenia",3,"Western Asia",21
+51,1975,482.68,"Armenia",3,"Western Asia",21
+51,1980,482.68,"Armenia",3,"Western Asia",21
+51,1985,482.68,"Armenia",3,"Western Asia",21
+51,1990,482.68,"Armenia",3,"Western Asia",21
+51,1995,482.68,"Armenia",3,"Western Asia",21
+51,2000,482.68,"Armenia",3,"Western Asia",21
+51,2005,482.68,"Armenia",3,"Western Asia",21
+51,2010,469.07,"Armenia",3,"Western Asia",21
+51,2015,443.18668,"Armenia",3,"Western Asia",21
+52,1970,428.33667,"Barbados",2,"Caribbean",2
+52,1975,420.32501,"Barbados",2,"Caribbean",2
+52,1980,420.32501,"Barbados",2,"Caribbean",2
+52,1985,420.32501,"Barbados",2,"Caribbean",2
+52,1990,420.32501,"Barbados",2,"Caribbean",2
+52,1995,420.32501,"Barbados",2,"Caribbean",2
+52,2000,417.45999,"Barbados",2,"Caribbean",2
+52,2005,417.45999,"Barbados",2,"Caribbean",2
+52,2010,389.68668,"Barbados",2,"Caribbean",2
+52,2015,390.91666,"Barbados",2,"Caribbean",2
+56,1970,531.37,"Belgium",4,"Western Europe",22
+56,1975,531.37,"Belgium",4,"Western Europe",22
+56,1980,531.37,"Belgium",4,"Western Europe",22
+56,1985,531.37,"Belgium",4,"Western Europe",22
+56,1990,531.37,"Belgium",4,"Western Europe",22
+56,1995,531.37,"Belgium",4,"Western Europe",22
+56,2000,531.37,"Belgium",4,"Western Europe",22
+56,2005,535.22,"Belgium",4,"Western Europe",22
+56,2010,534.58,"Belgium",4,"Western Europe",22
+56,2015,529.11,"Belgium",4,"Western Europe",22
+64,1970,316.24799,"Bhutan",3,"Southern Asia",18
+64,1975,318.108,"Bhutan",3,"Southern Asia",18
+64,1980,320.03,"Bhutan",3,"Southern Asia",18
+64,1985,322.01199,"Bhutan",3,"Southern Asia",18
+64,1990,324.05801,"Bhutan",3,"Southern Asia",18
+64,1995,326.172,"Bhutan",3,"Southern Asia",18
+64,2000,326.40201,"Bhutan",3,"Southern Asia",18
+64,2005,390.04001,"Bhutan",3,"Southern Asia",18
+64,2010,398.14999,"Bhutan",3,"Southern Asia",18
+64,2015,433.92001,"Bhutan",3,"Southern Asia",18
+68,1970,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,1975,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,1980,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,1985,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,1990,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,1995,370.4,"Bolivia (Plurinational State of)",2,"South America",15
+68,2000,383.99554,"Bolivia (Plurinational State of)",2,"South America",15
+68,2005,397.64777,"Bolivia (Plurinational State of)",2,"South America",15
+68,2010,408.73557,"Bolivia (Plurinational State of)",2,"South America",15
+68,2015,419.2825,"Bolivia (Plurinational State of)",2,"South America",15
+70,1970,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,1975,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,1980,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,1985,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,1990,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,1995,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,2000,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,2005,460.77,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,2010,478.31668,"Bosnia and Herzegovina",4,"Southern Europe",19
+70,2015,482.44223,"Bosnia and Herzegovina",4,"Southern Europe",19
+72,1970,350.84,"Botswana",1,"Southern Africa",17
+72,1975,350.84,"Botswana",1,"Southern Africa",17
+72,1980,350.84,"Botswana",1,"Southern Africa",17
+72,1985,350.84,"Botswana",1,"Southern Africa",17
+72,1990,350.84,"Botswana",1,"Southern Africa",17
+72,1995,350.84,"Botswana",1,"Southern Africa",17
+72,2000,350.84,"Botswana",1,"Southern Africa",17
+72,2005,356.04,"Botswana",1,"Southern Africa",17
+72,2010,393.9,"Botswana",1,"Southern Africa",17
+72,2015,398.47,"Botswana",1,"Southern Africa",17
+76,1970,270.08,"Brazil",2,"South America",15
+76,1975,270.08,"Brazil",2,"South America",15
+76,1980,270.08,"Brazil",2,"South America",15
+76,1985,270.08,"Brazil",2,"South America",15
+76,1990,270.08,"Brazil",2,"South America",15
+76,1995,370.59,"Brazil",2,"South America",15
+76,2000,359.78,"Brazil",2,"South America",15
+76,2005,397.54,"Brazil",2,"South America",15
+76,2010,407.67,"Brazil",2,"South America",15
+76,2015,408.76,"Brazil",2,"South America",15
+84,1970,368.67999,"Belize",2,"Central America",3
+84,1975,368.67999,"Belize",2,"Central America",3
+84,1980,368.67999,"Belize",2,"Central America",3
+84,1985,368.67999,"Belize",2,"Central America",3
+84,1990,368.67999,"Belize",2,"Central America",3
+84,1995,368.67999,"Belize",2,"Central America",3
+84,2000,377.8757,"Belize",2,"Central America",3
+84,2005,382.51141,"Belize",2,"Central America",3
+84,2010,391.00833,"Belize",2,"Central America",3
+84,2015,397.90799,"Belize",2,"Central America",3
+90,1970,456.20999,"Solomon Islands",5,"Melanesia",8
+90,1975,490.935,"Solomon Islands",5,"Melanesia",8
+90,1980,397.005,"Solomon Islands",5,"Melanesia",8
+90,1985,467.89499,"Solomon Islands",5,"Melanesia",8
+90,1990,453.35501,"Solomon Islands",5,"Melanesia",8
+90,1995,468.63501,"Solomon Islands",5,"Melanesia",8
+90,2000,491.94,"Solomon Islands",5,"Melanesia",8
+90,2005,498.94501,"Solomon Islands",5,"Melanesia",8
+90,2010,499.45999,"Solomon Islands",5,"Melanesia",8
+90,2015,500.95499,"Solomon Islands",5,"Melanesia",8
+96,1970,448.98801,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,1975,461.55334,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,1980,459.15833,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,1985,461.23166,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,1990,470.45001,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,1995,481.67001,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,2000,476.94333,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,2005,474.04834,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,2010,483.76001,"Brunei Darussalam",3,"South-Eastern Asia",16
+96,2015,490.04401,"Brunei Darussalam",3,"South-Eastern Asia",16
+100,1970,521.85,"Bulgaria",4,"Eastern Europe",7
+100,1975,521.85,"Bulgaria",4,"Eastern Europe",7
+100,1980,521.85,"Bulgaria",4,"Eastern Europe",7
+100,1985,521.85,"Bulgaria",4,"Eastern Europe",7
+100,1990,521.85,"Bulgaria",4,"Eastern Europe",7
+100,1995,521.85,"Bulgaria",4,"Eastern Europe",7
+100,2000,497.77,"Bulgaria",4,"Eastern Europe",7
+100,2005,474.23,"Bulgaria",4,"Eastern Europe",7
+100,2010,451.6,"Bulgaria",4,"Eastern Europe",7
+100,2015,490.67,"Bulgaria",4,"Eastern Europe",7
+104,1970,448.98801,"Myanmar",3,"South-Eastern Asia",16
+104,1975,461.55334,"Myanmar",3,"South-Eastern Asia",16
+104,1980,459.15833,"Myanmar",3,"South-Eastern Asia",16
+104,1985,461.23166,"Myanmar",3,"South-Eastern Asia",16
+104,1990,470.45001,"Myanmar",3,"South-Eastern Asia",16
+104,1995,481.67001,"Myanmar",3,"South-Eastern Asia",16
+104,2000,476.94333,"Myanmar",3,"South-Eastern Asia",16
+104,2005,474.04834,"Myanmar",3,"South-Eastern Asia",16
+104,2010,483.76001,"Myanmar",3,"South-Eastern Asia",16
+104,2015,490.04401,"Myanmar",3,"South-Eastern Asia",16
+108,1970,337.04,"Burundi",1,"Eastern Africa",5
+108,1975,337.04,"Burundi",1,"Eastern Africa",5
+108,1980,337.04,"Burundi",1,"Eastern Africa",5
+108,1985,337.04,"Burundi",1,"Eastern Africa",5
+108,1990,337.04,"Burundi",1,"Eastern Africa",5
+108,1995,337.04,"Burundi",1,"Eastern Africa",5
+108,2000,337.04,"Burundi",1,"Eastern Africa",5
+108,2005,332.33,"Burundi",1,"Eastern Africa",5
+108,2010,332.33,"Burundi",1,"Eastern Africa",5
+108,2015,385.15424,"Burundi",1,"Eastern Africa",5
+112,1970,500.43445,"Belarus",4,"Eastern Europe",7
+112,1975,501.29111,"Belarus",4,"Eastern Europe",7
+112,1980,504.39444,"Belarus",4,"Eastern Europe",7
+112,1985,506.99554,"Belarus",4,"Eastern Europe",7
+112,1990,505.90887,"Belarus",4,"Eastern Europe",7
+112,1995,500.45444,"Belarus",4,"Eastern Europe",7
+112,2000,493.62112,"Belarus",4,"Eastern Europe",7
+112,2005,495.87445,"Belarus",4,"Eastern Europe",7
+112,2010,486.90222,"Belarus",4,"Eastern Europe",7
+112,2015,502.23376,"Belarus",4,"Eastern Europe",7
+116,1970,448.98801,"Cambodia",3,"South-Eastern Asia",16
+116,1975,461.55334,"Cambodia",3,"South-Eastern Asia",16
+116,1980,459.15833,"Cambodia",3,"South-Eastern Asia",16
+116,1985,461.23166,"Cambodia",3,"South-Eastern Asia",16
+116,1990,470.45001,"Cambodia",3,"South-Eastern Asia",16
+116,1995,481.67001,"Cambodia",3,"South-Eastern Asia",16
+116,2000,476.94333,"Cambodia",3,"South-Eastern Asia",16
+116,2005,474.04834,"Cambodia",3,"South-Eastern Asia",16
+116,2010,483.76001,"Cambodia",3,"South-Eastern Asia",16
+116,2015,490.04401,"Cambodia",3,"South-Eastern Asia",16
+120,1970,351.96,"Cameroon",1,"Middle Africa",10
+120,1975,351.96,"Cameroon",1,"Middle Africa",10
+120,1980,351.96,"Cameroon",1,"Middle Africa",10
+120,1985,351.96,"Cameroon",1,"Middle Africa",10
+120,1990,351.96,"Cameroon",1,"Middle Africa",10
+120,1995,351.96,"Cameroon",1,"Middle Africa",10
+120,2000,336.64,"Cameroon",1,"Middle Africa",10
+120,2005,336.64,"Cameroon",1,"Middle Africa",10
+120,2010,320.315,"Cameroon",1,"Middle Africa",10
+120,2015,385.15424,"Cameroon",1,"Middle Africa",10
+124,1970,482.16,"Canada",2,"Northern America",12
+124,1975,482.16,"Canada",2,"Northern America",12
+124,1980,482.16,"Canada",2,"Northern America",12
+124,1985,482.16,"Canada",2,"Northern America",12
+124,1990,494.64,"Canada",2,"Northern America",12
+124,1995,512.25,"Canada",2,"Northern America",12
+124,2000,518.2,"Canada",2,"Northern America",12
+124,2005,518.69,"Canada",2,"Northern America",12
+124,2010,519.08,"Canada",2,"Northern America",12
+124,2015,519.69,"Canada",2,"Northern America",12
+132,1970,278.39545,"Cape Verde",1,"Western Africa",20
+132,1975,278.39545,"Cape Verde",1,"Western Africa",20
+132,1980,278.39545,"Cape Verde",1,"Western Africa",20
+132,1985,256.19818,"Cape Verde",1,"Western Africa",20
+132,1990,256.19818,"Cape Verde",1,"Western Africa",20
+132,1995,256.19818,"Cape Verde",1,"Western Africa",20
+132,2000,250.715,"Cape Verde",1,"Western Africa",20
+132,2005,292.46832,"Cape Verde",1,"Western Africa",20
+132,2010,293.06,"Cape Verde",1,"Western Africa",20
+132,2015,385.15424,"Cape Verde",1,"Western Africa",20
+140,1970,326.02499,"Central African Republic",1,"Middle Africa",10
+140,1975,326.02499,"Central African Republic",1,"Middle Africa",10
+140,1980,326.02499,"Central African Republic",1,"Middle Africa",10
+140,1985,326.02499,"Central African Republic",1,"Middle Africa",10
+140,1990,326.02499,"Central African Republic",1,"Middle Africa",10
+140,1995,326.02499,"Central African Republic",1,"Middle Africa",10
+140,2000,322.19501,"Central African Republic",1,"Middle Africa",10
+140,2005,322.19501,"Central African Republic",1,"Middle Africa",10
+140,2010,320.315,"Central African Republic",1,"Middle Africa",10
+140,2015,385.15424,"Central African Republic",1,"Middle Africa",10
+144,1970,292.3,"Sri Lanka",3,"Southern Asia",18
+144,1975,292.3,"Sri Lanka",3,"Southern Asia",18
+144,1980,292.3,"Sri Lanka",3,"Southern Asia",18
+144,1985,292.3,"Sri Lanka",3,"Southern Asia",18
+144,1990,292.3,"Sri Lanka",3,"Southern Asia",18
+144,1995,292.3,"Sri Lanka",3,"Southern Asia",18
+144,2000,292.3,"Sri Lanka",3,"Southern Asia",18
+144,2005,390.04001,"Sri Lanka",3,"Southern Asia",18
+144,2010,398.14999,"Sri Lanka",3,"Southern Asia",18
+144,2015,433.92001,"Sri Lanka",3,"Southern Asia",18
+148,1970,287.21,"Chad",1,"Middle Africa",10
+148,1975,287.21,"Chad",1,"Middle Africa",10
+148,1980,287.21,"Chad",1,"Middle Africa",10
+148,1985,287.21,"Chad",1,"Middle Africa",10
+148,1990,287.21,"Chad",1,"Middle Africa",10
+148,1995,287.21,"Chad",1,"Middle Africa",10
+148,2000,287.21,"Chad",1,"Middle Africa",10
+148,2005,287.21,"Chad",1,"Middle Africa",10
+148,2010,300.46,"Chad",1,"Middle Africa",10
+148,2015,385.15424,"Chad",1,"Middle Africa",10
+152,1970,340.61,"Chile",2,"South America",15
+152,1975,332.81,"Chile",2,"South America",15
+152,1980,330.36,"Chile",2,"South America",15
+152,1985,332.04,"Chile",2,"South America",15
+152,1990,349.23,"Chile",2,"South America",15
+152,1995,351.9,"Chile",2,"South America",15
+152,2000,371.98,"Chile",2,"South America",15
+152,2005,404.38,"Chile",2,"South America",15
+152,2010,430,"Chile",2,"South America",15
+152,2015,455.97,"Chile",2,"South America",15
+156,1970,539.2,"China",3,"Eastern Asia",6
+156,1975,539.2,"China",3,"Eastern Asia",6
+156,1980,539.2,"China",3,"Eastern Asia",6
+156,1985,539.2,"China",3,"Eastern Asia",6
+156,1990,539.2,"China",3,"Eastern Asia",6
+156,1995,539.2,"China",3,"Eastern Asia",6
+156,2000,539.2,"China",3,"Eastern Asia",6
+156,2005,602.23,"China",3,"Eastern Asia",6
+156,2010,602.23,"China",3,"Eastern Asia",6
+156,2015,554.72,"China",3,"Eastern Asia",6
+158,1970,571.59,"Taiwan Province of China",,"",
+158,1975,571.59,"Taiwan Province of China",,"",
+158,1980,571.59,"Taiwan Province of China",,"",
+158,1985,571.59,"Taiwan Province of China",,"",
+158,1990,571.59,"Taiwan Province of China",,"",
+158,1995,558.12,"Taiwan Province of China",,"",
+158,2000,558.12,"Taiwan Province of China",,"",
+158,2005,580.93,"Taiwan Province of China",,"",
+158,2010,596.9,"Taiwan Province of China",,"",
+158,2015,597.75,"Taiwan Province of China",,"",
+170,1970,352.36,"Colombia",2,"South America",15
+170,1975,352.36,"Colombia",2,"South America",15
+170,1980,352.36,"Colombia",2,"South America",15
+170,1985,352.36,"Colombia",2,"South America",15
+170,1990,352.36,"Colombia",2,"South America",15
+170,1995,352.36,"Colombia",2,"South America",15
+170,2000,371.01,"Colombia",2,"South America",15
+170,2005,386.63,"Colombia",2,"South America",15
+170,2010,401.58,"Colombia",2,"South America",15
+170,2015,413.67,"Colombia",2,"South America",15
+174,1970,297.43,"Comoros",1,"Eastern Africa",5
+174,1975,297.43,"Comoros",1,"Eastern Africa",5
+174,1980,297.43,"Comoros",1,"Eastern Africa",5
+174,1985,297.43,"Comoros",1,"Eastern Africa",5
+174,1990,297.43,"Comoros",1,"Eastern Africa",5
+174,1995,297.43,"Comoros",1,"Eastern Africa",5
+174,2000,297.43,"Comoros",1,"Eastern Africa",5
+174,2005,297.43,"Comoros",1,"Eastern Africa",5
+174,2010,297.43,"Comoros",1,"Eastern Africa",5
+174,2015,385.15424,"Comoros",1,"Eastern Africa",5
+175,1970,349.38834,"Mayotte",1,"Eastern Africa",5
+175,1975,349.38834,"Mayotte",1,"Eastern Africa",5
+175,1980,349.38834,"Mayotte",1,"Eastern Africa",5
+175,1985,349.38834,"Mayotte",1,"Eastern Africa",5
+175,1990,349.38834,"Mayotte",1,"Eastern Africa",5
+175,1995,363.36584,"Mayotte",1,"Eastern Africa",5
+175,2000,333.64999,"Mayotte",1,"Eastern Africa",5
+175,2005,342.89001,"Mayotte",1,"Eastern Africa",5
+175,2010,358.16333,"Mayotte",1,"Eastern Africa",5
+175,2015,385.15424,"Mayotte",1,"Eastern Africa",5
+178,1970,326.02499,"Congo",1,"Middle Africa",10
+178,1975,326.02499,"Congo",1,"Middle Africa",10
+178,1980,326.02499,"Congo",1,"Middle Africa",10
+178,1985,326.02499,"Congo",1,"Middle Africa",10
+178,1990,326.02499,"Congo",1,"Middle Africa",10
+178,1995,326.02499,"Congo",1,"Middle Africa",10
+178,2000,322.19501,"Congo",1,"Middle Africa",10
+178,2005,322.19501,"Congo",1,"Middle Africa",10
+178,2010,320.315,"Congo",1,"Middle Africa",10
+178,2015,385.15424,"Congo",1,"Middle Africa",10
+180,1970,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,1975,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,1980,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,1985,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,1990,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,1995,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,2000,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,2005,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,2010,340.17,"Democratic Republic of the Congo",1,"Middle Africa",10
+180,2015,385.15424,"Democratic Republic of the Congo",1,"Middle Africa",10
+188,1970,440.23,"Costa Rica",2,"Central America",3
+188,1975,440.23,"Costa Rica",2,"Central America",3
+188,1980,440.23,"Costa Rica",2,"Central America",3
+188,1985,440.23,"Costa Rica",2,"Central America",3
+188,1990,440.23,"Costa Rica",2,"Central America",3
+188,1995,440.23,"Costa Rica",2,"Central America",3
+188,2000,440.23,"Costa Rica",2,"Central America",3
+188,2005,440.23,"Costa Rica",2,"Central America",3
+188,2010,431.01,"Costa Rica",2,"Central America",3
+188,2015,422.54,"Costa Rica",2,"Central America",3
+191,1970,436.37,"Croatia",4,"Southern Europe",19
+191,1975,436.37,"Croatia",4,"Southern Europe",19
+191,1980,436.37,"Croatia",4,"Southern Europe",19
+191,1985,436.37,"Croatia",4,"Southern Europe",19
+191,1990,436.37,"Croatia",4,"Southern Europe",19
+191,1995,436.37,"Croatia",4,"Southern Europe",19
+191,2000,436.37,"Croatia",4,"Southern Europe",19
+191,2005,489.34,"Croatia",4,"Southern Europe",19
+191,2010,483.87,"Croatia",4,"Southern Europe",19
+191,2015,491.55,"Croatia",4,"Southern Europe",19
+192,1970,505.21,"Cuba",2,"Caribbean",2
+192,1975,505.21,"Cuba",2,"Caribbean",2
+192,1980,505.21,"Cuba",2,"Caribbean",2
+192,1985,505.21,"Cuba",2,"Caribbean",2
+192,1990,505.21,"Cuba",2,"Caribbean",2
+192,1995,505.21,"Cuba",2,"Caribbean",2
+192,2000,507.91,"Cuba",2,"Caribbean",2
+192,2005,507.91,"Cuba",2,"Caribbean",2
+192,2010,389.68668,"Cuba",2,"Caribbean",2
+192,2015,390.91666,"Cuba",2,"Caribbean",2
+196,1970,438.76,"Cyprus",3,"Western Asia",21
+196,1975,438.76,"Cyprus",3,"Western Asia",21
+196,1980,438.76,"Cyprus",3,"Western Asia",21
+196,1985,438.76,"Cyprus",3,"Western Asia",21
+196,1990,438.76,"Cyprus",3,"Western Asia",21
+196,1995,471.45,"Cyprus",3,"Western Asia",21
+196,2000,484.05,"Cyprus",3,"Western Asia",21
+196,2005,486.82,"Cyprus",3,"Western Asia",21
+196,2010,512.86,"Cyprus",3,"Western Asia",21
+196,2015,518,"Cyprus",3,"Western Asia",21
+203,1970,543.48,"Czech Republic",4,"Eastern Europe",7
+203,1975,543.48,"Czech Republic",4,"Eastern Europe",7
+203,1980,543.48,"Czech Republic",4,"Eastern Europe",7
+203,1985,543.48,"Czech Republic",4,"Eastern Europe",7
+203,1990,543.48,"Czech Republic",4,"Eastern Europe",7
+203,1995,543.48,"Czech Republic",4,"Eastern Europe",7
+203,2000,517.66,"Czech Republic",4,"Eastern Europe",7
+203,2005,501.2,"Czech Republic",4,"Eastern Europe",7
+203,2010,508.26,"Czech Republic",4,"Eastern Europe",7
+203,2015,516.2,"Czech Republic",4,"Eastern Europe",7
+204,1970,279.03,"Benin",1,"Western Africa",20
+204,1975,279.03,"Benin",1,"Western Africa",20
+204,1980,279.03,"Benin",1,"Western Africa",20
+204,1985,279.03,"Benin",1,"Western Africa",20
+204,1990,279.03,"Benin",1,"Western Africa",20
+204,1995,279.03,"Benin",1,"Western Africa",20
+204,2000,279.03,"Benin",1,"Western Africa",20
+204,2005,279.03,"Benin",1,"Western Africa",20
+204,2010,293.06,"Benin",1,"Western Africa",20
+204,2015,385.15424,"Benin",1,"Western Africa",20
+208,1970,531.87,"Denmark",4,"Northern Europe",13
+208,1975,531.87,"Denmark",4,"Northern Europe",13
+208,1980,531.87,"Denmark",4,"Northern Europe",13
+208,1985,531.87,"Denmark",4,"Northern Europe",13
+208,1990,531.87,"Denmark",4,"Northern Europe",13
+208,1995,531.87,"Denmark",4,"Northern Europe",13
+208,2000,531.87,"Denmark",4,"Northern Europe",13
+208,2005,525.59,"Denmark",4,"Northern Europe",13
+208,2010,527,"Denmark",4,"Northern Europe",13
+208,2015,534.18,"Denmark",4,"Northern Europe",13
+214,1970,344.74,"Dominican Republic",2,"Caribbean",2
+214,1975,344.74,"Dominican Republic",2,"Caribbean",2
+214,1980,344.74,"Dominican Republic",2,"Caribbean",2
+214,1985,344.74,"Dominican Republic",2,"Caribbean",2
+214,1990,344.74,"Dominican Republic",2,"Caribbean",2
+214,1995,344.74,"Dominican Republic",2,"Caribbean",2
+214,2000,330.58,"Dominican Republic",2,"Caribbean",2
+214,2005,330.58,"Dominican Republic",2,"Caribbean",2
+214,2010,337.71,"Dominican Republic",2,"Caribbean",2
+214,2015,337.71,"Dominican Republic",2,"Caribbean",2
+218,1970,361.91,"Ecuador",2,"South America",15
+218,1975,361.91,"Ecuador",2,"South America",15
+218,1980,361.91,"Ecuador",2,"South America",15
+218,1985,361.91,"Ecuador",2,"South America",15
+218,1990,361.91,"Ecuador",2,"South America",15
+218,1995,361.91,"Ecuador",2,"South America",15
+218,2000,361.91,"Ecuador",2,"South America",15
+218,2005,361.91,"Ecuador",2,"South America",15
+218,2010,385.38,"Ecuador",2,"South America",15
+218,2015,414.71,"Ecuador",2,"South America",15
+222,1970,363.87,"El Salvador",2,"Central America",3
+222,1975,363.87,"El Salvador",2,"Central America",3
+222,1980,363.87,"El Salvador",2,"Central America",3
+222,1985,363.87,"El Salvador",2,"Central America",3
+222,1990,363.87,"El Salvador",2,"Central America",3
+222,1995,363.87,"El Salvador",2,"Central America",3
+222,2000,363.87,"El Salvador",2,"Central America",3
+222,2005,363.87,"El Salvador",2,"Central America",3
+222,2010,391.00833,"El Salvador",2,"Central America",3
+222,2015,397.90799,"El Salvador",2,"Central America",3
+226,1970,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,1975,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,1980,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,1985,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,1990,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,1995,326.02499,"Equatorial Guinea",1,"Middle Africa",10
+226,2000,322.19501,"Equatorial Guinea",1,"Middle Africa",10
+226,2005,322.19501,"Equatorial Guinea",1,"Middle Africa",10
+226,2010,320.315,"Equatorial Guinea",1,"Middle Africa",10
+226,2015,385.15424,"Equatorial Guinea",1,"Middle Africa",10
+231,1970,349.38834,"Ethiopia",1,"Eastern Africa",5
+231,1975,349.38834,"Ethiopia",1,"Eastern Africa",5
+231,1980,349.38834,"Ethiopia",1,"Eastern Africa",5
+231,1985,349.38834,"Ethiopia",1,"Eastern Africa",5
+231,1990,349.38834,"Ethiopia",1,"Eastern Africa",5
+231,1995,363.36584,"Ethiopia",1,"Eastern Africa",5
+231,2000,333.64999,"Ethiopia",1,"Eastern Africa",5
+231,2005,342.89001,"Ethiopia",1,"Eastern Africa",5
+231,2010,358.16333,"Ethiopia",1,"Eastern Africa",5
+231,2015,385.15424,"Ethiopia",1,"Eastern Africa",5
+232,1970,349.38834,"Eritrea",1,"Eastern Africa",5
+232,1975,349.38834,"Eritrea",1,"Eastern Africa",5
+232,1980,349.38834,"Eritrea",1,"Eastern Africa",5
+232,1985,349.38834,"Eritrea",1,"Eastern Africa",5
+232,1990,349.38834,"Eritrea",1,"Eastern Africa",5
+232,1995,363.36584,"Eritrea",1,"Eastern Africa",5
+232,2000,333.64999,"Eritrea",1,"Eastern Africa",5
+232,2005,342.89001,"Eritrea",1,"Eastern Africa",5
+232,2010,358.16333,"Eritrea",1,"Eastern Africa",5
+232,2015,385.15424,"Eritrea",1,"Eastern Africa",5
+233,1970,534.88,"Estonia",4,"Northern Europe",13
+233,1975,534.88,"Estonia",4,"Northern Europe",13
+233,1980,534.88,"Estonia",4,"Northern Europe",13
+233,1985,534.88,"Estonia",4,"Northern Europe",13
+233,1990,534.88,"Estonia",4,"Northern Europe",13
+233,1995,534.88,"Estonia",4,"Northern Europe",13
+233,2000,534.88,"Estonia",4,"Northern Europe",13
+233,2005,534.88,"Estonia",4,"Northern Europe",13
+233,2010,536.41,"Estonia",4,"Northern Europe",13
+233,2015,542.42,"Estonia",4,"Northern Europe",13
+242,1970,456.20999,"Fiji",5,"Melanesia",8
+242,1975,490.935,"Fiji",5,"Melanesia",8
+242,1980,397.005,"Fiji",5,"Melanesia",8
+242,1985,467.89499,"Fiji",5,"Melanesia",8
+242,1990,453.35501,"Fiji",5,"Melanesia",8
+242,1995,468.63501,"Fiji",5,"Melanesia",8
+242,2000,491.94,"Fiji",5,"Melanesia",8
+242,2005,498.94501,"Fiji",5,"Melanesia",8
+242,2010,499.45999,"Fiji",5,"Melanesia",8
+242,2015,500.95499,"Fiji",5,"Melanesia",8
+246,1970,528.76,"Finland",4,"Northern Europe",13
+246,1975,500.54,"Finland",4,"Northern Europe",13
+246,1980,575.41,"Finland",4,"Northern Europe",13
+246,1985,458.37,"Finland",4,"Northern Europe",13
+246,1990,468.42,"Finland",4,"Northern Europe",13
+246,1995,441.11,"Finland",4,"Northern Europe",13
+246,2000,516.86,"Finland",4,"Northern Europe",13
+246,2005,523.91,"Finland",4,"Northern Europe",13
+246,2010,527.99,"Finland",4,"Northern Europe",13
+246,2015,531.13,"Finland",4,"Northern Europe",13
+250,1970,438.91,"France",4,"Western Europe",22
+250,1975,494.83,"France",4,"Western Europe",22
+250,1980,406.65,"France",4,"Western Europe",22
+250,1985,505.94,"France",4,"Western Europe",22
+250,1990,505.12,"France",4,"Western Europe",22
+250,1995,516.52,"France",4,"Western Europe",22
+250,2000,533.4,"France",4,"Western Europe",22
+250,2005,507.39,"France",4,"Western Europe",22
+250,2010,516.74,"France",4,"Western Europe",22
+250,2015,499.18,"France",4,"Western Europe",22
+254,1970,355.763,"French Guiana",2,"South America",15
+254,1975,354.983,"French Guiana",2,"South America",15
+254,1980,354.73801,"French Guiana",2,"South America",15
+254,1985,354.90601,"French Guiana",2,"South America",15
+254,1990,356.625,"French Guiana",2,"South America",15
+254,1995,366.94299,"French Guiana",2,"South America",15
+254,2000,383.99554,"French Guiana",2,"South America",15
+254,2005,397.64777,"French Guiana",2,"South America",15
+254,2010,408.73557,"French Guiana",2,"South America",15
+254,2015,419.2825,"French Guiana",2,"South America",15
+258,1970,456.20999,"French Polynesia",5,"Polynesia",14
+258,1975,490.935,"French Polynesia",5,"Polynesia",14
+258,1980,397.005,"French Polynesia",5,"Polynesia",14
+258,1985,467.89499,"French Polynesia",5,"Polynesia",14
+258,1990,453.35501,"French Polynesia",5,"Polynesia",14
+258,1995,468.63501,"French Polynesia",5,"Polynesia",14
+258,2000,491.94,"French Polynesia",5,"Polynesia",14
+258,2005,498.94501,"French Polynesia",5,"Polynesia",14
+258,2010,499.45999,"French Polynesia",5,"Polynesia",14
+258,2015,500.95499,"French Polynesia",5,"Polynesia",14
+262,1970,349.38834,"Djibouti",1,"Eastern Africa",5
+262,1975,349.38834,"Djibouti",1,"Eastern Africa",5
+262,1980,349.38834,"Djibouti",1,"Eastern Africa",5
+262,1985,349.38834,"Djibouti",1,"Eastern Africa",5
+262,1990,349.38834,"Djibouti",1,"Eastern Africa",5
+262,1995,363.36584,"Djibouti",1,"Eastern Africa",5
+262,2000,333.64999,"Djibouti",1,"Eastern Africa",5
+262,2005,342.89001,"Djibouti",1,"Eastern Africa",5
+262,2010,358.16333,"Djibouti",1,"Eastern Africa",5
+262,2015,385.15424,"Djibouti",1,"Eastern Africa",5
+266,1970,324.76,"Gabon",1,"Middle Africa",10
+266,1975,324.76,"Gabon",1,"Middle Africa",10
+266,1980,324.76,"Gabon",1,"Middle Africa",10
+266,1985,324.76,"Gabon",1,"Middle Africa",10
+266,1990,324.76,"Gabon",1,"Middle Africa",10
+266,1995,324.76,"Gabon",1,"Middle Africa",10
+266,2000,324.76,"Gabon",1,"Middle Africa",10
+266,2005,324.76,"Gabon",1,"Middle Africa",10
+266,2010,320.315,"Gabon",1,"Middle Africa",10
+266,2015,385.15424,"Gabon",1,"Middle Africa",10
+268,1970,428.57,"Georgia",3,"Western Asia",21
+268,1975,428.57,"Georgia",3,"Western Asia",21
+268,1980,428.57,"Georgia",3,"Western Asia",21
+268,1985,428.57,"Georgia",3,"Western Asia",21
+268,1990,428.57,"Georgia",3,"Western Asia",21
+268,1995,428.57,"Georgia",3,"Western Asia",21
+268,2000,428.57,"Georgia",3,"Western Asia",21
+268,2005,428.57,"Georgia",3,"Western Asia",21
+268,2010,436.96,"Georgia",3,"Western Asia",21
+268,2015,459.68,"Georgia",3,"Western Asia",21
+270,1970,267.32,"Gambia",1,"Western Africa",20
+270,1975,267.32,"Gambia",1,"Western Africa",20
+270,1980,267.32,"Gambia",1,"Western Africa",20
+270,1985,267.32,"Gambia",1,"Western Africa",20
+270,1990,267.32,"Gambia",1,"Western Africa",20
+270,1995,267.32,"Gambia",1,"Western Africa",20
+270,2000,267.32,"Gambia",1,"Western Africa",20
+270,2005,292.46832,"Gambia",1,"Western Africa",20
+270,2010,293.06,"Gambia",1,"Western Africa",20
+270,2015,385.15424,"Gambia",1,"Western Africa",20
+275,1970,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,1975,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,1980,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,1985,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,1990,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,1995,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,2000,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,2005,385.11,"Occupied Palestinian Territory",3,"Western Asia",21
+275,2010,400.62,"Occupied Palestinian Territory",3,"Western Asia",21
+275,2015,443.18668,"Occupied Palestinian Territory",3,"Western Asia",21
+276,1970,352.21,"Germany",4,"Western Europe",22
+276,1975,352.21,"Germany",4,"Western Europe",22
+276,1980,491.27,"Germany",4,"Western Europe",22
+276,1985,491.27,"Germany",4,"Western Europe",22
+276,1990,492.11,"Germany",4,"Western Europe",22
+276,1995,491.59,"Germany",4,"Western Europe",22
+276,2000,502.18,"Germany",4,"Western Europe",22
+276,2005,522.27,"Germany",4,"Western Europe",22
+276,2010,529.12,"Germany",4,"Western Europe",22
+276,2015,524.26,"Germany",4,"Western Europe",22
+288,1970,308.95,"Ghana",1,"Western Africa",20
+288,1975,308.95,"Ghana",1,"Western Africa",20
+288,1980,308.95,"Ghana",1,"Western Africa",20
+288,1985,308.95,"Ghana",1,"Western Africa",20
+288,1990,308.95,"Ghana",1,"Western Africa",20
+288,1995,308.95,"Ghana",1,"Western Africa",20
+288,2000,308.95,"Ghana",1,"Western Africa",20
+288,2005,308.95,"Ghana",1,"Western Africa",20
+288,2010,336.16,"Ghana",1,"Western Africa",20
+288,2015,385.15424,"Ghana",1,"Western Africa",20
+296,1970,456.20999,"Kiribati",5,"Micronesia",9
+296,1975,490.935,"Kiribati",5,"Micronesia",9
+296,1980,397.005,"Kiribati",5,"Micronesia",9
+296,1985,467.89499,"Kiribati",5,"Micronesia",9
+296,1990,453.35501,"Kiribati",5,"Micronesia",9
+296,1995,468.63501,"Kiribati",5,"Micronesia",9
+296,2000,491.94,"Kiribati",5,"Micronesia",9
+296,2005,498.94501,"Kiribati",5,"Micronesia",9
+296,2010,499.45999,"Kiribati",5,"Micronesia",9
+296,2015,500.95499,"Kiribati",5,"Micronesia",9
+300,1970,427.36,"Greece",4,"Southern Europe",19
+300,1975,427.36,"Greece",4,"Southern Europe",19
+300,1980,427.36,"Greece",4,"Southern Europe",19
+300,1985,427.36,"Greece",4,"Southern Europe",19
+300,1990,427.36,"Greece",4,"Southern Europe",19
+300,1995,473.86,"Greece",4,"Southern Europe",19
+300,2000,504.29,"Greece",4,"Southern Europe",19
+300,2005,485.26,"Greece",4,"Southern Europe",19
+300,2010,482.17,"Greece",4,"Southern Europe",19
+300,2015,477.87,"Greece",4,"Southern Europe",19
+308,1970,428.33667,"Grenada",2,"Caribbean",2
+308,1975,420.32501,"Grenada",2,"Caribbean",2
+308,1980,420.32501,"Grenada",2,"Caribbean",2
+308,1985,420.32501,"Grenada",2,"Caribbean",2
+308,1990,420.32501,"Grenada",2,"Caribbean",2
+308,1995,420.32501,"Grenada",2,"Caribbean",2
+308,2000,417.45999,"Grenada",2,"Caribbean",2
+308,2005,417.45999,"Grenada",2,"Caribbean",2
+308,2010,389.68668,"Grenada",2,"Caribbean",2
+308,2015,390.91666,"Grenada",2,"Caribbean",2
+312,1970,428.33667,"Guadeloupe",2,"Caribbean",2
+312,1975,420.32501,"Guadeloupe",2,"Caribbean",2
+312,1980,420.32501,"Guadeloupe",2,"Caribbean",2
+312,1985,420.32501,"Guadeloupe",2,"Caribbean",2
+312,1990,420.32501,"Guadeloupe",2,"Caribbean",2
+312,1995,420.32501,"Guadeloupe",2,"Caribbean",2
+312,2000,417.45999,"Guadeloupe",2,"Caribbean",2
+312,2005,417.45999,"Guadeloupe",2,"Caribbean",2
+312,2010,389.68668,"Guadeloupe",2,"Caribbean",2
+312,2015,390.91666,"Guadeloupe",2,"Caribbean",2
+316,1970,456.20999,"Guam",5,"Micronesia",9
+316,1975,490.935,"Guam",5,"Micronesia",9
+316,1980,397.005,"Guam",5,"Micronesia",9
+316,1985,467.89499,"Guam",5,"Micronesia",9
+316,1990,453.35501,"Guam",5,"Micronesia",9
+316,1995,468.63501,"Guam",5,"Micronesia",9
+316,2000,491.94,"Guam",5,"Micronesia",9
+316,2005,498.94501,"Guam",5,"Micronesia",9
+316,2010,499.45999,"Guam",5,"Micronesia",9
+316,2015,500.95499,"Guam",5,"Micronesia",9
+320,1970,357.76,"Guatemala",2,"Central America",3
+320,1975,357.76,"Guatemala",2,"Central America",3
+320,1980,357.76,"Guatemala",2,"Central America",3
+320,1985,357.76,"Guatemala",2,"Central America",3
+320,1990,357.76,"Guatemala",2,"Central America",3
+320,1995,357.76,"Guatemala",2,"Central America",3
+320,2000,357.76,"Guatemala",2,"Central America",3
+320,2005,357.76,"Guatemala",2,"Central America",3
+320,2010,371.7,"Guatemala",2,"Central America",3
+320,2015,389.02,"Guatemala",2,"Central America",3
+324,1970,278.39545,"Guinea",1,"Western Africa",20
+324,1975,278.39545,"Guinea",1,"Western Africa",20
+324,1980,278.39545,"Guinea",1,"Western Africa",20
+324,1985,256.19818,"Guinea",1,"Western Africa",20
+324,1990,256.19818,"Guinea",1,"Western Africa",20
+324,1995,256.19818,"Guinea",1,"Western Africa",20
+324,2000,250.715,"Guinea",1,"Western Africa",20
+324,2005,292.46832,"Guinea",1,"Western Africa",20
+324,2010,293.06,"Guinea",1,"Western Africa",20
+324,2015,385.15424,"Guinea",1,"Western Africa",20
+328,1970,355.763,"Guyana",2,"South America",15
+328,1975,354.983,"Guyana",2,"South America",15
+328,1980,354.73801,"Guyana",2,"South America",15
+328,1985,354.90601,"Guyana",2,"South America",15
+328,1990,356.625,"Guyana",2,"South America",15
+328,1995,366.94299,"Guyana",2,"South America",15
+328,2000,383.99554,"Guyana",2,"South America",15
+328,2005,397.64777,"Guyana",2,"South America",15
+328,2010,408.73557,"Guyana",2,"South America",15
+328,2015,419.2825,"Guyana",2,"South America",15
+332,1970,428.33667,"Haiti",2,"Caribbean",2
+332,1975,420.32501,"Haiti",2,"Caribbean",2
+332,1980,420.32501,"Haiti",2,"Caribbean",2
+332,1985,420.32501,"Haiti",2,"Caribbean",2
+332,1990,420.32501,"Haiti",2,"Caribbean",2
+332,1995,420.32501,"Haiti",2,"Caribbean",2
+332,2000,417.45999,"Haiti",2,"Caribbean",2
+332,2005,417.45999,"Haiti",2,"Caribbean",2
+332,2010,389.68668,"Haiti",2,"Caribbean",2
+332,2015,390.91666,"Haiti",2,"Caribbean",2
+340,1970,339.45,"Honduras",2,"Central America",3
+340,1975,339.45,"Honduras",2,"Central America",3
+340,1980,339.45,"Honduras",2,"Central America",3
+340,1985,339.45,"Honduras",2,"Central America",3
+340,1990,339.45,"Honduras",2,"Central America",3
+340,1995,339.45,"Honduras",2,"Central America",3
+340,2000,363.71,"Honduras",2,"Central America",3
+340,2005,363.71,"Honduras",2,"Central America",3
+340,2010,363.71,"Honduras",2,"Central America",3
+340,2015,397.90799,"Honduras",2,"Central America",3
+344,1970,445.75,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,1975,445.75,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,1980,445.75,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,1985,505.88,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,1990,535.47,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,1995,562.91,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,2000,575.08,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,2005,585.21,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,2010,592.66,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+344,2015,605.4,"Hong Kong Special Administrative Region of China",3,"Eastern Asia",6
+348,1970,483.32,"Hungary",4,"Eastern Europe",7
+348,1975,491.03,"Hungary",4,"Eastern Europe",7
+348,1980,518.96,"Hungary",4,"Eastern Europe",7
+348,1985,542.37,"Hungary",4,"Eastern Europe",7
+348,1990,532.59,"Hungary",4,"Eastern Europe",7
+348,1995,523.68,"Hungary",4,"Eastern Europe",7
+348,2000,528.23,"Hungary",4,"Eastern Europe",7
+348,2005,521.42,"Hungary",4,"Eastern Europe",7
+348,2010,510.38,"Hungary",4,"Eastern Europe",7
+348,2015,522.5,"Hungary",4,"Eastern Europe",7
+352,1970,420.17,"Iceland",4,"Northern Europe",13
+352,1975,420.17,"Iceland",4,"Northern Europe",13
+352,1980,420.17,"Iceland",4,"Northern Europe",13
+352,1985,420.17,"Iceland",4,"Northern Europe",13
+352,1990,420.17,"Iceland",4,"Northern Europe",13
+352,1995,468.96,"Iceland",4,"Northern Europe",13
+352,2000,528.02,"Iceland",4,"Northern Europe",13
+352,2005,541.16,"Iceland",4,"Northern Europe",13
+352,2010,522.85,"Iceland",4,"Northern Europe",13
+352,2015,511.8,"Iceland",4,"Northern Europe",13
+356,1970,378.54,"India",3,"Southern Asia",18
+356,1975,378.54,"India",3,"Southern Asia",18
+356,1980,378.54,"India",3,"Southern Asia",18
+356,1985,378.54,"India",3,"Southern Asia",18
+356,1990,378.54,"India",3,"Southern Asia",18
+356,1995,378.54,"India",3,"Southern Asia",18
+356,2000,378.54,"India",3,"Southern Asia",18
+356,2005,378.54,"India",3,"Southern Asia",18
+356,2010,378.54,"India",3,"Southern Asia",18
+356,2015,433.92001,"India",3,"Southern Asia",18
+360,1970,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,1975,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,1980,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,1985,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,1990,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,1995,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,2000,404.79,"Indonesia",3,"South-Eastern Asia",16
+360,2005,406.4,"Indonesia",3,"South-Eastern Asia",16
+360,2010,395.33,"Indonesia",3,"South-Eastern Asia",16
+360,2015,396.71,"Indonesia",3,"South-Eastern Asia",16
+364,1970,353.09,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,1975,362.39,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,1980,372,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,1985,381.91,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,1990,392.14,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,1995,402.71,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,2000,403.86,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,2005,401.54,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,2010,417.76,"Iran (Islamic Republic of)",3,"Southern Asia",18
+364,2015,433.92,"Iran (Islamic Republic of)",3,"Southern Asia",18
+368,1970,399.49411,"Iraq",3,"Western Asia",21
+368,1975,399.49411,"Iraq",3,"Western Asia",21
+368,1980,399.49411,"Iraq",3,"Western Asia",21
+368,1985,399.49411,"Iraq",3,"Western Asia",21
+368,1990,399.49411,"Iraq",3,"Western Asia",21
+368,1995,410.88351,"Iraq",3,"Western Asia",21
+368,2000,411.49353,"Iraq",3,"Western Asia",21
+368,2005,409.94705,"Iraq",3,"Western Asia",21
+368,2010,419.99295,"Iraq",3,"Western Asia",21
+368,2015,443.18668,"Iraq",3,"Western Asia",21
+372,1970,478.59,"Ireland",4,"Northern Europe",13
+372,1975,478.59,"Ireland",4,"Northern Europe",13
+372,1980,478.59,"Ireland",4,"Northern Europe",13
+372,1985,478.59,"Ireland",4,"Northern Europe",13
+372,1990,478.59,"Ireland",4,"Northern Europe",13
+372,1995,524.46,"Ireland",4,"Northern Europe",13
+372,2000,525.89,"Ireland",4,"Northern Europe",13
+372,2005,522.14,"Ireland",4,"Northern Europe",13
+372,2010,518.36,"Ireland",4,"Northern Europe",13
+372,2015,535.42,"Ireland",4,"Northern Europe",13
+376,1970,492.7,"Israel",3,"Western Asia",21
+376,1975,492.7,"Israel",3,"Western Asia",21
+376,1980,492.7,"Israel",3,"Western Asia",21
+376,1985,492.7,"Israel",3,"Western Asia",21
+376,1990,492.7,"Israel",3,"Western Asia",21
+376,1995,508.58,"Israel",3,"Western Asia",21
+376,2000,487.43,"Israel",3,"Western Asia",21
+376,2005,484.45,"Israel",3,"Western Asia",21
+376,2010,504.46,"Israel",3,"Western Asia",21
+376,2015,514.24,"Israel",3,"Western Asia",21
+380,1970,412.34,"Italy",4,"Southern Europe",19
+380,1975,427.87,"Italy",4,"Southern Europe",19
+380,1980,458.84,"Italy",4,"Southern Europe",19
+380,1985,458.84,"Italy",4,"Southern Europe",19
+380,1990,507.8,"Italy",4,"Southern Europe",19
+380,1995,479.97,"Italy",4,"Southern Europe",19
+380,2000,504.68,"Italy",4,"Southern Europe",19
+380,2005,493.19,"Italy",4,"Southern Europe",19
+380,2010,500.79,"Italy",4,"Southern Europe",19
+380,2015,500.75,"Italy",4,"Southern Europe",19
+384,1970,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,1975,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,1980,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,1985,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,1990,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,1995,286.02,"Cote d'Ivoire",1,"Western Africa",20
+384,2000,248.28,"Cote d'Ivoire",1,"Western Africa",20
+384,2005,248.28,"Cote d'Ivoire",1,"Western Africa",20
+384,2010,259.79,"Cote d'Ivoire",1,"Western Africa",20
+384,2015,385.15424,"Cote d'Ivoire",1,"Western Africa",20
+388,1970,428.33667,"Jamaica",2,"Caribbean",2
+388,1975,420.32501,"Jamaica",2,"Caribbean",2
+388,1980,420.32501,"Jamaica",2,"Caribbean",2
+388,1985,420.32501,"Jamaica",2,"Caribbean",2
+388,1990,420.32501,"Jamaica",2,"Caribbean",2
+388,1995,420.32501,"Jamaica",2,"Caribbean",2
+388,2000,417.45999,"Jamaica",2,"Caribbean",2
+388,2005,417.45999,"Jamaica",2,"Caribbean",2
+388,2010,389.68668,"Jamaica",2,"Caribbean",2
+388,2015,390.91666,"Jamaica",2,"Caribbean",2
+392,1970,547.77,"Japan",3,"Eastern Asia",6
+392,1975,548.11,"Japan",3,"Eastern Asia",6
+392,1980,552.31,"Japan",3,"Eastern Asia",6
+392,1985,565.04,"Japan",3,"Eastern Asia",6
+392,1990,571.57,"Japan",3,"Eastern Asia",6
+392,1995,574.14,"Japan",3,"Eastern Asia",6
+392,2000,572.07,"Japan",3,"Eastern Asia",6
+392,2005,568.4,"Japan",3,"Eastern Asia",6
+392,2010,576.1,"Japan",3,"Eastern Asia",6
+392,2015,590.89,"Japan",3,"Eastern Asia",6
+398,1970,513.06,"Kazakhstan",3,"Central Asia",4
+398,1975,513.06,"Kazakhstan",3,"Central Asia",4
+398,1980,513.06,"Kazakhstan",3,"Central Asia",4
+398,1985,513.06,"Kazakhstan",3,"Central Asia",4
+398,1990,513.06,"Kazakhstan",3,"Central Asia",4
+398,1995,513.06,"Kazakhstan",3,"Central Asia",4
+398,2000,513.06,"Kazakhstan",3,"Central Asia",4
+398,2005,538.38,"Kazakhstan",3,"Central Asia",4
+398,2010,470.62,"Kazakhstan",3,"Central Asia",4
+398,2015,536.11,"Kazakhstan",3,"Central Asia",4
+400,1970,315.31,"Jordan",3,"Western Asia",21
+400,1975,315.31,"Jordan",3,"Western Asia",21
+400,1980,315.31,"Jordan",3,"Western Asia",21
+400,1985,315.31,"Jordan",3,"Western Asia",21
+400,1990,315.31,"Jordan",3,"Western Asia",21
+400,1995,460.36,"Jordan",3,"Western Asia",21
+400,2000,460.36,"Jordan",3,"Western Asia",21
+400,2005,427.75,"Jordan",3,"Western Asia",21
+400,2010,417.74,"Jordan",3,"Western Asia",21
+400,2015,387.01,"Jordan",3,"Western Asia",21
+404,1970,387.16,"Kenya",1,"Eastern Africa",5
+404,1975,387.16,"Kenya",1,"Eastern Africa",5
+404,1980,387.16,"Kenya",1,"Eastern Africa",5
+404,1985,387.16,"Kenya",1,"Eastern Africa",5
+404,1990,387.16,"Kenya",1,"Eastern Africa",5
+404,1995,387.16,"Kenya",1,"Eastern Africa",5
+404,2000,403.39,"Kenya",1,"Eastern Africa",5
+404,2005,355.93,"Kenya",1,"Eastern Africa",5
+404,2010,358.16333,"Kenya",1,"Eastern Africa",5
+404,2015,385.15424,"Kenya",1,"Eastern Africa",5
+408,1970,496.23334,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,1975,496.29001,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,1980,496.98999,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,1985,509.13333,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,1990,520.75165,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,1995,530.28833,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,2000,533.15668,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,2005,555.63,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,2010,585.48199,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+408,2015,584.02802,"Democratic People's Republic of Korea",3,"Eastern Asia",6
+410,1970,519.99,"Republic of Korea",3,"Eastern Asia",6
+410,1975,519.99,"Republic of Korea",3,"Eastern Asia",6
+410,1980,519.99,"Republic of Korea",3,"Eastern Asia",6
+410,1985,519.99,"Republic of Korea",3,"Eastern Asia",6
+410,1990,553.58,"Republic of Korea",3,"Eastern Asia",6
+410,1995,580.79,"Republic of Korea",3,"Eastern Asia",6
+410,2000,587.9,"Republic of Korea",3,"Eastern Asia",6
+410,2005,594.41,"Republic of Korea",3,"Eastern Asia",6
+410,2010,605.92,"Republic of Korea",3,"Eastern Asia",6
+410,2015,607.23,"Republic of Korea",3,"Eastern Asia",6
+414,1970,346.23,"Kuwait",3,"Western Asia",21
+414,1975,346.23,"Kuwait",3,"Western Asia",21
+414,1980,346.23,"Kuwait",3,"Western Asia",21
+414,1985,346.23,"Kuwait",3,"Western Asia",21
+414,1990,346.23,"Kuwait",3,"Western Asia",21
+414,1995,346.23,"Kuwait",3,"Western Asia",21
+414,2000,346.23,"Kuwait",3,"Western Asia",21
+414,2005,346.23,"Kuwait",3,"Western Asia",21
+414,2010,351.22,"Kuwait",3,"Western Asia",21
+414,2015,372.3,"Kuwait",3,"Western Asia",21
+417,1970,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,1975,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,1980,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,1985,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,1990,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,1995,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,2000,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,2005,353.73,"Kyrgyzstan",3,"Central Asia",4
+417,2010,362.14,"Kyrgyzstan",3,"Central Asia",4
+417,2015,536.10999,"Kyrgyzstan",3,"Central Asia",4
+418,1970,448.98801,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,1975,461.55334,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,1980,459.15833,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,1985,461.23166,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,1990,470.45001,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,1995,481.67001,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,2000,476.94333,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,2005,474.04834,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,2010,483.76001,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+418,2015,490.04401,"Lao People's Democratic Republic",3,"South-Eastern Asia",16
+422,1970,438.92,"Lebanon",3,"Western Asia",21
+422,1975,438.92,"Lebanon",3,"Western Asia",21
+422,1980,438.92,"Lebanon",3,"Western Asia",21
+422,1985,438.92,"Lebanon",3,"Western Asia",21
+422,1990,438.92,"Lebanon",3,"Western Asia",21
+422,1995,438.92,"Lebanon",3,"Western Asia",21
+422,2000,438.92,"Lebanon",3,"Western Asia",21
+422,2005,438.92,"Lebanon",3,"Western Asia",21
+422,2010,452.92,"Lebanon",3,"Western Asia",21
+422,2015,454.42,"Lebanon",3,"Western Asia",21
+426,1970,259.13,"Lesotho",1,"Southern Africa",17
+426,1975,259.13,"Lesotho",1,"Southern Africa",17
+426,1980,259.13,"Lesotho",1,"Southern Africa",17
+426,1985,259.13,"Lesotho",1,"Southern Africa",17
+426,1990,259.13,"Lesotho",1,"Southern Africa",17
+426,1995,259.13,"Lesotho",1,"Southern Africa",17
+426,2000,259.13,"Lesotho",1,"Southern Africa",17
+426,2005,323.52,"Lesotho",1,"Southern Africa",17
+426,2010,371.87,"Lesotho",1,"Southern Africa",17
+426,2015,386.26501,"Lesotho",1,"Southern Africa",17
+428,1970,147.23,"Latvia",4,"Northern Europe",13
+428,1975,147.23,"Latvia",4,"Northern Europe",13
+428,1980,147.23,"Latvia",4,"Northern Europe",13
+428,1985,147.23,"Latvia",4,"Northern Europe",13
+428,1990,147.23,"Latvia",4,"Northern Europe",13
+428,1995,493.14,"Latvia",4,"Northern Europe",13
+428,2000,514.03,"Latvia",4,"Northern Europe",13
+428,2005,520.86,"Latvia",4,"Northern Europe",13
+428,2010,505.88,"Latvia",4,"Northern Europe",13
+428,2015,508.22,"Latvia",4,"Northern Europe",13
+430,1970,273.71,"Liberia",1,"Western Africa",20
+430,1975,273.71,"Liberia",1,"Western Africa",20
+430,1980,273.71,"Liberia",1,"Western Africa",20
+430,1985,273.71,"Liberia",1,"Western Africa",20
+430,1990,273.71,"Liberia",1,"Western Africa",20
+430,1995,273.71,"Liberia",1,"Western Africa",20
+430,2000,273.71,"Liberia",1,"Western Africa",20
+430,2005,292.46832,"Liberia",1,"Western Africa",20
+430,2010,293.06,"Liberia",1,"Western Africa",20
+430,2015,385.15424,"Liberia",1,"Western Africa",20
+434,1970,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,1975,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,1980,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,1985,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,1990,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,1995,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,2000,386.10001,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,2005,382.83499,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,2010,378.52499,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+434,2015,384.45999,"Libyan Arab Jamahiriya",1,"Northern Africa",11
+440,1970,462.74,"Lithuania",4,"Northern Europe",13
+440,1975,462.74,"Lithuania",4,"Northern Europe",13
+440,1980,462.74,"Lithuania",4,"Northern Europe",13
+440,1985,462.74,"Lithuania",4,"Northern Europe",13
+440,1990,462.74,"Lithuania",4,"Northern Europe",13
+440,1995,462.74,"Lithuania",4,"Northern Europe",13
+440,2000,480.04,"Lithuania",4,"Northern Europe",13
+440,2005,517.85,"Lithuania",4,"Northern Europe",13
+440,2010,517.77,"Lithuania",4,"Northern Europe",13
+440,2015,523.24,"Lithuania",4,"Northern Europe",13
+442,1970,329.49,"Luxembourg",4,"Western Europe",22
+442,1975,329.49,"Luxembourg",4,"Western Europe",22
+442,1980,329.49,"Luxembourg",4,"Western Europe",22
+442,1985,439.85,"Luxembourg",4,"Western Europe",22
+442,1990,431.45,"Luxembourg",4,"Western Europe",22
+442,1995,454.01,"Luxembourg",4,"Western Europe",22
+442,2000,461.81,"Luxembourg",4,"Western Europe",22
+442,2005,508.45,"Luxembourg",4,"Western Europe",22
+442,2010,509.77,"Luxembourg",4,"Western Europe",22
+442,2015,508.88,"Luxembourg",4,"Western Europe",22
+446,1970,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,1975,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,1980,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,1985,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,1990,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,1995,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,2000,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,2005,545.25,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,2010,550.5,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+446,2015,561.9,"Macao Special Administrative Region of China",3,"Eastern Asia",6
+450,1970,408.41,"Madagascar",1,"Eastern Africa",5
+450,1975,408.41,"Madagascar",1,"Eastern Africa",5
+450,1980,408.41,"Madagascar",1,"Eastern Africa",5
+450,1985,408.41,"Madagascar",1,"Eastern Africa",5
+450,1990,408.41,"Madagascar",1,"Eastern Africa",5
+450,1995,408.41,"Madagascar",1,"Eastern Africa",5
+450,2000,284.75,"Madagascar",1,"Eastern Africa",5
+450,2005,367.58,"Madagascar",1,"Eastern Africa",5
+450,2010,358.16333,"Madagascar",1,"Eastern Africa",5
+450,2015,385.15424,"Madagascar",1,"Eastern Africa",5
+454,1970,356.68,"Malawi",1,"Eastern Africa",5
+454,1975,356.68,"Malawi",1,"Eastern Africa",5
+454,1980,356.68,"Malawi",1,"Eastern Africa",5
+454,1985,356.68,"Malawi",1,"Eastern Africa",5
+454,1990,356.68,"Malawi",1,"Eastern Africa",5
+454,1995,356.68,"Malawi",1,"Eastern Africa",5
+454,2000,238.04,"Malawi",1,"Eastern Africa",5
+454,2005,322.77,"Malawi",1,"Eastern Africa",5
+454,2010,358.16333,"Malawi",1,"Eastern Africa",5
+454,2015,385.15424,"Malawi",1,"Eastern Africa",5
+458,1970,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,1975,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,1980,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,1985,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,1990,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,1995,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,2000,511.8,"Malaysia",3,"South-Eastern Asia",16
+458,2005,496.7,"Malaysia",3,"South-Eastern Asia",16
+458,2010,453.5,"Malaysia",3,"South-Eastern Asia",16
+458,2015,474.05,"Malaysia",3,"South-Eastern Asia",16
+462,1970,316.24799,"Maldives",3,"Southern Asia",18
+462,1975,318.108,"Maldives",3,"Southern Asia",18
+462,1980,320.03,"Maldives",3,"Southern Asia",18
+462,1985,322.01199,"Maldives",3,"Southern Asia",18
+462,1990,324.05801,"Maldives",3,"Southern Asia",18
+462,1995,326.172,"Maldives",3,"Southern Asia",18
+462,2000,326.40201,"Maldives",3,"Southern Asia",18
+462,2005,390.04001,"Maldives",3,"Southern Asia",18
+462,2010,398.14999,"Maldives",3,"Southern Asia",18
+462,2015,433.92001,"Maldives",3,"Southern Asia",18
+466,1970,170.91,"Mali",1,"Western Africa",20
+466,1975,170.91,"Mali",1,"Western Africa",20
+466,1980,170.91,"Mali",1,"Western Africa",20
+466,1985,170.91,"Mali",1,"Western Africa",20
+466,1990,170.91,"Mali",1,"Western Africa",20
+466,1995,170.91,"Mali",1,"Western Africa",20
+466,2000,170.91,"Mali",1,"Western Africa",20
+466,2005,292.46832,"Mali",1,"Western Africa",20
+466,2010,293.06,"Mali",1,"Western Africa",20
+466,2015,385.15424,"Mali",1,"Western Africa",20
+470,1970,494.21,"Malta",4,"Southern Europe",19
+470,1975,494.21,"Malta",4,"Southern Europe",19
+470,1980,494.21,"Malta",4,"Southern Europe",19
+470,1985,494.21,"Malta",4,"Southern Europe",19
+470,1990,494.21,"Malta",4,"Southern Europe",19
+470,1995,494.21,"Malta",4,"Southern Europe",19
+470,2000,494.21,"Malta",4,"Southern Europe",19
+470,2005,494.21,"Malta",4,"Southern Europe",19
+470,2010,490.06,"Malta",4,"Southern Europe",19
+470,2015,498,"Malta",4,"Southern Europe",19
+474,1970,428.33667,"Martinique",2,"Caribbean",2
+474,1975,420.32501,"Martinique",2,"Caribbean",2
+474,1980,420.32501,"Martinique",2,"Caribbean",2
+474,1985,420.32501,"Martinique",2,"Caribbean",2
+474,1990,420.32501,"Martinique",2,"Caribbean",2
+474,1995,420.32501,"Martinique",2,"Caribbean",2
+474,2000,417.45999,"Martinique",2,"Caribbean",2
+474,2005,417.45999,"Martinique",2,"Caribbean",2
+474,2010,389.68668,"Martinique",2,"Caribbean",2
+474,2015,390.91666,"Martinique",2,"Caribbean",2
+478,1970,278.39545,"Mauritania",1,"Western Africa",20
+478,1975,278.39545,"Mauritania",1,"Western Africa",20
+478,1980,278.39545,"Mauritania",1,"Western Africa",20
+478,1985,256.19818,"Mauritania",1,"Western Africa",20
+478,1990,256.19818,"Mauritania",1,"Western Africa",20
+478,1995,256.19818,"Mauritania",1,"Western Africa",20
+478,2000,250.715,"Mauritania",1,"Western Africa",20
+478,2005,292.46832,"Mauritania",1,"Western Africa",20
+478,2010,293.06,"Mauritania",1,"Western Africa",20
+478,2015,385.15424,"Mauritania",1,"Western Africa",20
+480,1970,416.54,"Mauritius",1,"Eastern Africa",5
+480,1975,416.54,"Mauritius",1,"Eastern Africa",5
+480,1980,416.54,"Mauritius",1,"Eastern Africa",5
+480,1985,416.54,"Mauritius",1,"Eastern Africa",5
+480,1990,416.54,"Mauritius",1,"Eastern Africa",5
+480,1995,416.54,"Mauritius",1,"Eastern Africa",5
+480,2000,397.78,"Mauritius",1,"Eastern Africa",5
+480,2005,405.54,"Mauritius",1,"Eastern Africa",5
+480,2010,444.73,"Mauritius",1,"Eastern Africa",5
+480,2015,385.15424,"Mauritius",1,"Eastern Africa",5
+484,1970,363.22,"Mexico",2,"Central America",3
+484,1975,363.22,"Mexico",2,"Central America",3
+484,1980,363.22,"Mexico",2,"Central America",3
+484,1985,363.22,"Mexico",2,"Central America",3
+484,1990,363.22,"Mexico",2,"Central America",3
+484,1995,363.22,"Mexico",2,"Central America",3
+484,2000,403.33,"Mexico",2,"Central America",3
+484,2005,435.78,"Mexico",2,"Central America",3
+484,2010,440.92,"Mexico",2,"Central America",3
+484,2015,443.36,"Mexico",2,"Central America",3
+496,1970,379.44,"Mongolia",3,"Eastern Asia",6
+496,1975,379.44,"Mongolia",3,"Eastern Asia",6
+496,1980,379.44,"Mongolia",3,"Eastern Asia",6
+496,1985,379.44,"Mongolia",3,"Eastern Asia",6
+496,1990,379.44,"Mongolia",3,"Eastern Asia",6
+496,1995,379.44,"Mongolia",3,"Eastern Asia",6
+496,2000,379.44,"Mongolia",3,"Eastern Asia",6
+496,2005,438.28,"Mongolia",3,"Eastern Asia",6
+496,2010,585.48199,"Mongolia",3,"Eastern Asia",6
+496,2015,584.02802,"Mongolia",3,"Eastern Asia",6
+498,1970,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,1975,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,1980,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,1985,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,1990,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,1995,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,2000,461.67,"Republic of Moldova",4,"Eastern Europe",7
+498,2005,483.69,"Republic of Moldova",4,"Eastern Europe",7
+498,2010,420.56,"Republic of Moldova",4,"Eastern Europe",7
+498,2015,443.29,"Republic of Moldova",4,"Eastern Europe",7
+499,1970,425.49,"Montenegro",,"",
+499,1975,425.49,"Montenegro",,"",
+499,1980,425.49,"Montenegro",,"",
+499,1985,425.49,"Montenegro",,"",
+499,1990,425.49,"Montenegro",,"",
+499,1995,425.49,"Montenegro",,"",
+499,2000,425.49,"Montenegro",,"",
+499,2005,425.49,"Montenegro",,"",
+499,2010,424.16,"Montenegro",,"",
+499,2015,441.38,"Montenegro",,"",
+504,1970,347.24,"Morocco",1,"Northern Africa",11
+504,1975,347.24,"Morocco",1,"Northern Africa",11
+504,1980,347.24,"Morocco",1,"Northern Africa",11
+504,1985,347.24,"Morocco",1,"Northern Africa",11
+504,1990,347.24,"Morocco",1,"Northern Africa",11
+504,1995,347.24,"Morocco",1,"Northern Africa",11
+504,2000,347.24,"Morocco",1,"Northern Africa",11
+504,2005,364.01,"Morocco",1,"Northern Africa",11
+504,2010,354.11,"Morocco",1,"Northern Africa",11
+504,2015,380.75,"Morocco",1,"Northern Africa",11
+508,1970,219.3,"Mozambique",1,"Eastern Africa",5
+508,1975,219.3,"Mozambique",1,"Eastern Africa",5
+508,1980,219.3,"Mozambique",1,"Eastern Africa",5
+508,1985,219.3,"Mozambique",1,"Eastern Africa",5
+508,1990,219.3,"Mozambique",1,"Eastern Africa",5
+508,1995,387.03,"Mozambique",1,"Eastern Africa",5
+508,2000,387.03,"Mozambique",1,"Eastern Africa",5
+508,2005,322.74,"Mozambique",1,"Eastern Africa",5
+508,2010,358.16333,"Mozambique",1,"Eastern Africa",5
+508,2015,385.15424,"Mozambique",1,"Eastern Africa",5
+512,1970,360.9,"Oman",3,"Western Asia",21
+512,1975,360.9,"Oman",3,"Western Asia",21
+512,1980,360.9,"Oman",3,"Western Asia",21
+512,1985,360.9,"Oman",3,"Western Asia",21
+512,1990,360.9,"Oman",3,"Western Asia",21
+512,1995,360.9,"Oman",3,"Western Asia",21
+512,2000,379.82,"Oman",3,"Western Asia",21
+512,2005,379.82,"Oman",3,"Western Asia",21
+512,2010,373.22,"Oman",3,"Western Asia",21
+512,2015,414.85,"Oman",3,"Western Asia",21
+516,1970,350.27,"Namibia",1,"Southern Africa",17
+516,1975,350.27,"Namibia",1,"Southern Africa",17
+516,1980,350.27,"Namibia",1,"Southern Africa",17
+516,1985,350.27,"Namibia",1,"Southern Africa",17
+516,1990,350.27,"Namibia",1,"Southern Africa",17
+516,1995,350.27,"Namibia",1,"Southern Africa",17
+516,2000,231.44,"Namibia",1,"Southern Africa",17
+516,2005,325.14,"Namibia",1,"Southern Africa",17
+516,2010,371.87,"Namibia",1,"Southern Africa",17
+516,2015,386.26501,"Namibia",1,"Southern Africa",17
+524,1970,189.48,"Nepal",3,"Southern Asia",18
+524,1975,189.48,"Nepal",3,"Southern Asia",18
+524,1980,189.48,"Nepal",3,"Southern Asia",18
+524,1985,189.48,"Nepal",3,"Southern Asia",18
+524,1990,189.48,"Nepal",3,"Southern Asia",18
+524,1995,189.48,"Nepal",3,"Southern Asia",18
+524,2000,189.48,"Nepal",3,"Southern Asia",18
+524,2005,390.04001,"Nepal",3,"Southern Asia",18
+524,2010,398.14999,"Nepal",3,"Southern Asia",18
+524,2015,433.92001,"Nepal",3,"Southern Asia",18
+528,1970,469.3,"Netherlands",4,"Western Europe",22
+528,1975,474.08,"Netherlands",4,"Western Europe",22
+528,1980,476.23,"Netherlands",4,"Western Europe",22
+528,1985,475.33,"Netherlands",4,"Western Europe",22
+528,1990,474.52,"Netherlands",4,"Western Europe",22
+528,1995,476.96,"Netherlands",4,"Western Europe",22
+528,2000,516.42,"Netherlands",4,"Western Europe",22
+528,2005,541.27,"Netherlands",4,"Western Europe",22
+528,2010,541.33,"Netherlands",4,"Western Europe",22
+528,2015,530.27,"Netherlands",4,"Western Europe",22
+531,1970,493.66666,"Curaçao",,"",
+531,1975,493.66666,"Curaçao",,"",
+531,1980,493.66666,"Curaçao",,"",
+531,1985,493.66666,"Curaçao",,"",
+531,1990,493.66666,"Curaçao",,"",
+531,1995,489.17667,"Curaçao",,"",
+531,2000,489.17667,"Curaçao",,"",
+531,2005,496.78,"Curaçao",,"",
+531,2010,502.73666,"Curaçao",,"",
+531,2015,517.11664,"Curaçao",,"",
+533,1970,428.33667,"Aruba",2,"Caribbean",2
+533,1975,420.32501,"Aruba",2,"Caribbean",2
+533,1980,420.32501,"Aruba",2,"Caribbean",2
+533,1985,420.32501,"Aruba",2,"Caribbean",2
+533,1990,420.32501,"Aruba",2,"Caribbean",2
+533,1995,420.32501,"Aruba",2,"Caribbean",2
+533,2000,417.45999,"Aruba",2,"Caribbean",2
+533,2005,417.45999,"Aruba",2,"Caribbean",2
+533,2010,389.68668,"Aruba",2,"Caribbean",2
+533,2015,390.91666,"Aruba",2,"Caribbean",2
+540,1970,456.20999,"New Caledonia",5,"Melanesia",8
+540,1975,490.935,"New Caledonia",5,"Melanesia",8
+540,1980,397.005,"New Caledonia",5,"Melanesia",8
+540,1985,467.89499,"New Caledonia",5,"Melanesia",8
+540,1990,453.35501,"New Caledonia",5,"Melanesia",8
+540,1995,468.63501,"New Caledonia",5,"Melanesia",8
+540,2000,491.94,"New Caledonia",5,"Melanesia",8
+540,2005,498.94501,"New Caledonia",5,"Melanesia",8
+540,2010,499.45999,"New Caledonia",5,"Melanesia",8
+540,2015,500.95499,"New Caledonia",5,"Melanesia",8
+548,1970,456.20999,"Vanuatu",5,"Melanesia",8
+548,1975,490.935,"Vanuatu",5,"Melanesia",8
+548,1980,397.005,"Vanuatu",5,"Melanesia",8
+548,1985,467.89499,"Vanuatu",5,"Melanesia",8
+548,1990,453.35501,"Vanuatu",5,"Melanesia",8
+548,1995,468.63501,"Vanuatu",5,"Melanesia",8
+548,2000,491.94,"Vanuatu",5,"Melanesia",8
+548,2005,498.94501,"Vanuatu",5,"Melanesia",8
+548,2010,499.45999,"Vanuatu",5,"Melanesia",8
+548,2015,500.95499,"Vanuatu",5,"Melanesia",8
+554,1970,428.42,"New Zealand",5,"Australia and New Zealand",1
+554,1975,476.4,"New Zealand",5,"Australia and New Zealand",1
+554,1980,462.46,"New Zealand",5,"Australia and New Zealand",1
+554,1985,459.92,"New Zealand",5,"Australia and New Zealand",1
+554,1990,418.02,"New Zealand",5,"Australia and New Zealand",1
+554,1995,435.34,"New Zealand",5,"Australia and New Zealand",1
+554,2000,475.01,"New Zealand",5,"Australia and New Zealand",1
+554,2005,493.45,"New Zealand",5,"Australia and New Zealand",1
+554,2010,488.94,"New Zealand",5,"Australia and New Zealand",1
+554,2015,492.69,"New Zealand",5,"Australia and New Zealand",1
+558,1970,359.68,"Nicaragua",2,"Central America",3
+558,1975,359.68,"Nicaragua",2,"Central America",3
+558,1980,359.68,"Nicaragua",2,"Central America",3
+558,1985,359.68,"Nicaragua",2,"Central America",3
+558,1990,359.68,"Nicaragua",2,"Central America",3
+558,1995,359.68,"Nicaragua",2,"Central America",3
+558,2000,359.68,"Nicaragua",2,"Central America",3
+558,2005,359.68,"Nicaragua",2,"Central America",3
+558,2010,362.49,"Nicaragua",2,"Central America",3
+558,2015,365.66,"Nicaragua",2,"Central America",3
+562,1970,147.45,"Niger",1,"Western Africa",20
+562,1975,147.45,"Niger",1,"Western Africa",20
+562,1980,147.45,"Niger",1,"Western Africa",20
+562,1985,147.45,"Niger",1,"Western Africa",20
+562,1990,147.45,"Niger",1,"Western Africa",20
+562,1995,147.45,"Niger",1,"Western Africa",20
+562,2000,147.45,"Niger",1,"Western Africa",20
+562,2005,292.46832,"Niger",1,"Western Africa",20
+562,2010,293.06,"Niger",1,"Western Africa",20
+562,2015,385.15424,"Niger",1,"Western Africa",20
+566,1970,485.35,"Nigeria",1,"Western Africa",20
+566,1975,485.35,"Nigeria",1,"Western Africa",20
+566,1980,485.35,"Nigeria",1,"Western Africa",20
+566,1985,241.18,"Nigeria",1,"Western Africa",20
+566,1990,241.18,"Nigeria",1,"Western Africa",20
+566,1995,241.18,"Nigeria",1,"Western Africa",20
+566,2000,250.715,"Nigeria",1,"Western Africa",20
+566,2005,292.46832,"Nigeria",1,"Western Africa",20
+566,2010,293.06,"Nigeria",1,"Western Africa",20
+566,2015,385.15424,"Nigeria",1,"Western Africa",20
+578,1970,516.24,"Norway",4,"Northern Europe",13
+578,1975,516.24,"Norway",4,"Northern Europe",13
+578,1980,516.24,"Norway",4,"Northern Europe",13
+578,1985,516.24,"Norway",4,"Northern Europe",13
+578,1990,516.24,"Norway",4,"Northern Europe",13
+578,1995,516.24,"Norway",4,"Northern Europe",13
+578,2000,516.24,"Norway",4,"Northern Europe",13
+578,2005,463.36,"Norway",4,"Northern Europe",13
+578,2010,480.57,"Norway",4,"Northern Europe",13
+578,2015,530.48,"Norway",4,"Northern Europe",13
+583,1970,456.20999,"Micronesia (Federated States of)",5,"Micronesia",9
+583,1975,490.935,"Micronesia (Federated States of)",5,"Micronesia",9
+583,1980,397.005,"Micronesia (Federated States of)",5,"Micronesia",9
+583,1985,467.89499,"Micronesia (Federated States of)",5,"Micronesia",9
+583,1990,453.35501,"Micronesia (Federated States of)",5,"Micronesia",9
+583,1995,468.63501,"Micronesia (Federated States of)",5,"Micronesia",9
+583,2000,491.94,"Micronesia (Federated States of)",5,"Micronesia",9
+583,2005,498.94501,"Micronesia (Federated States of)",5,"Micronesia",9
+583,2010,499.45999,"Micronesia (Federated States of)",5,"Micronesia",9
+583,2015,500.95499,"Micronesia (Federated States of)",5,"Micronesia",9
+586,1970,367.83,"Pakistan",3,"Southern Asia",18
+586,1975,367.83,"Pakistan",3,"Southern Asia",18
+586,1980,367.83,"Pakistan",3,"Southern Asia",18
+586,1985,367.83,"Pakistan",3,"Southern Asia",18
+586,1990,367.83,"Pakistan",3,"Southern Asia",18
+586,1995,367.83,"Pakistan",3,"Southern Asia",18
+586,2000,367.83,"Pakistan",3,"Southern Asia",18
+586,2005,390.04001,"Pakistan",3,"Southern Asia",18
+586,2010,398.14999,"Pakistan",3,"Southern Asia",18
+586,2015,433.92001,"Pakistan",3,"Southern Asia",18
+591,1970,356.55,"Panama",2,"Central America",3
+591,1975,356.55,"Panama",2,"Central America",3
+591,1980,356.55,"Panama",2,"Central America",3
+591,1985,356.55,"Panama",2,"Central America",3
+591,1990,356.55,"Panama",2,"Central America",3
+591,1995,356.55,"Panama",2,"Central America",3
+591,2000,356.55,"Panama",2,"Central America",3
+591,2005,356.55,"Panama",2,"Central America",3
+591,2010,376.22,"Panama",2,"Central America",3
+591,2015,368.96,"Panama",2,"Central America",3
+598,1970,456.20999,"Papua New Guinea",5,"Melanesia",8
+598,1975,490.935,"Papua New Guinea",5,"Melanesia",8
+598,1980,397.005,"Papua New Guinea",5,"Melanesia",8
+598,1985,467.89499,"Papua New Guinea",5,"Melanesia",8
+598,1990,453.35501,"Papua New Guinea",5,"Melanesia",8
+598,1995,468.63501,"Papua New Guinea",5,"Melanesia",8
+598,2000,491.94,"Papua New Guinea",5,"Melanesia",8
+598,2005,498.94501,"Papua New Guinea",5,"Melanesia",8
+598,2010,499.45999,"Papua New Guinea",5,"Melanesia",8
+598,2015,500.95499,"Papua New Guinea",5,"Melanesia",8
+600,1970,353.29,"Paraguay",2,"South America",15
+600,1975,353.29,"Paraguay",2,"South America",15
+600,1980,353.29,"Paraguay",2,"South America",15
+600,1985,353.29,"Paraguay",2,"South America",15
+600,1990,353.29,"Paraguay",2,"South America",15
+600,1995,353.29,"Paraguay",2,"South America",15
+600,2000,373.7,"Paraguay",2,"South America",15
+600,2005,373.7,"Paraguay",2,"South America",15
+600,2010,370.7,"Paraguay",2,"South America",15
+600,2015,366.83,"Paraguay",2,"South America",15
+604,1970,342.03,"Peru",2,"South America",15
+604,1975,342.03,"Peru",2,"South America",15
+604,1980,342.03,"Peru",2,"South America",15
+604,1985,342.03,"Peru",2,"South America",15
+604,1990,342.03,"Peru",2,"South America",15
+604,1995,342.03,"Peru",2,"South America",15
+604,2000,327.14,"Peru",2,"South America",15
+604,2005,368.66,"Peru",2,"South America",15
+604,2010,397.29,"Peru",2,"South America",15
+604,2015,419.49,"Peru",2,"South America",15
+608,1970,360.57,"Philippines",3,"South-Eastern Asia",16
+608,1975,360.57,"Philippines",3,"South-Eastern Asia",16
+608,1980,360.57,"Philippines",3,"South-Eastern Asia",16
+608,1985,360.57,"Philippines",3,"South-Eastern Asia",16
+608,1990,360.57,"Philippines",3,"South-Eastern Asia",16
+608,1995,360.57,"Philippines",3,"South-Eastern Asia",16
+608,2000,360.57,"Philippines",3,"South-Eastern Asia",16
+608,2005,367.48,"Philippines",3,"South-Eastern Asia",16
+608,2010,483.76001,"Philippines",3,"South-Eastern Asia",16
+608,2015,490.04401,"Philippines",3,"South-Eastern Asia",16
+616,1970,486.39,"Poland",4,"Eastern Europe",7
+616,1975,486.39,"Poland",4,"Eastern Europe",7
+616,1980,486.39,"Poland",4,"Eastern Europe",7
+616,1985,486.39,"Poland",4,"Eastern Europe",7
+616,1990,486.39,"Poland",4,"Eastern Europe",7
+616,1995,486.39,"Poland",4,"Eastern Europe",7
+616,2000,486.39,"Poland",4,"Eastern Europe",7
+616,2005,518.56,"Poland",4,"Eastern Europe",7
+616,2010,499.26,"Poland",4,"Eastern Europe",7
+616,2015,528.84,"Poland",4,"Eastern Europe",7
+620,1970,396.81,"Portugal",4,"Southern Europe",19
+620,1975,396.81,"Portugal",4,"Southern Europe",19
+620,1980,396.81,"Portugal",4,"Southern Europe",19
+620,1985,396.81,"Portugal",4,"Southern Europe",19
+620,1990,396.81,"Portugal",4,"Southern Europe",19
+620,1995,446.62,"Portugal",4,"Southern Europe",19
+620,2000,472.24,"Portugal",4,"Southern Europe",19
+620,2005,489.78,"Portugal",4,"Southern Europe",19
+620,2010,515.31,"Portugal",4,"Southern Europe",19
+620,2015,525.21,"Portugal",4,"Southern Europe",19
+624,1970,278.39545,"Guinea-Bissau",1,"Western Africa",20
+624,1975,278.39545,"Guinea-Bissau",1,"Western Africa",20
+624,1980,278.39545,"Guinea-Bissau",1,"Western Africa",20
+624,1985,256.19818,"Guinea-Bissau",1,"Western Africa",20
+624,1990,256.19818,"Guinea-Bissau",1,"Western Africa",20
+624,1995,256.19818,"Guinea-Bissau",1,"Western Africa",20
+624,2000,250.715,"Guinea-Bissau",1,"Western Africa",20
+624,2005,292.46832,"Guinea-Bissau",1,"Western Africa",20
+624,2010,293.06,"Guinea-Bissau",1,"Western Africa",20
+624,2015,385.15424,"Guinea-Bissau",1,"Western Africa",20
+626,1970,448.98801,"Timor-Leste",3,"South-Eastern Asia",16
+626,1975,461.55334,"Timor-Leste",3,"South-Eastern Asia",16
+626,1980,459.15833,"Timor-Leste",3,"South-Eastern Asia",16
+626,1985,461.23166,"Timor-Leste",3,"South-Eastern Asia",16
+626,1990,470.45001,"Timor-Leste",3,"South-Eastern Asia",16
+626,1995,481.67001,"Timor-Leste",3,"South-Eastern Asia",16
+626,2000,476.94333,"Timor-Leste",3,"South-Eastern Asia",16
+626,2005,474.04834,"Timor-Leste",3,"South-Eastern Asia",16
+626,2010,483.76001,"Timor-Leste",3,"South-Eastern Asia",16
+626,2015,490.04401,"Timor-Leste",3,"South-Eastern Asia",16
+630,1970,428.33667,"Puerto Rico",2,"Caribbean",2
+630,1975,396.29,"Puerto Rico",2,"Caribbean",2
+630,1980,396.29,"Puerto Rico",2,"Caribbean",2
+630,1985,396.29,"Puerto Rico",2,"Caribbean",2
+630,1990,396.29,"Puerto Rico",2,"Caribbean",2
+630,1995,396.29,"Puerto Rico",2,"Caribbean",2
+630,2000,396.29,"Puerto Rico",2,"Caribbean",2
+630,2005,396.29,"Puerto Rico",2,"Caribbean",2
+630,2010,396.29,"Puerto Rico",2,"Caribbean",2
+630,2015,396.29,"Puerto Rico",2,"Caribbean",2
+634,1970,335.33,"Qatar",3,"Western Asia",21
+634,1975,335.33,"Qatar",3,"Western Asia",21
+634,1980,335.33,"Qatar",3,"Western Asia",21
+634,1985,335.33,"Qatar",3,"Western Asia",21
+634,1990,335.33,"Qatar",3,"Western Asia",21
+634,1995,335.33,"Qatar",3,"Western Asia",21
+634,2000,335.33,"Qatar",3,"Western Asia",21
+634,2005,335.33,"Qatar",3,"Western Asia",21
+634,2010,378.97,"Qatar",3,"Western Asia",21
+634,2015,438.9,"Qatar",3,"Western Asia",21
+638,1970,349.38834,"Reunion",1,"Eastern Africa",5
+638,1975,349.38834,"Reunion",1,"Eastern Africa",5
+638,1980,349.38834,"Reunion",1,"Eastern Africa",5
+638,1985,349.38834,"Reunion",1,"Eastern Africa",5
+638,1990,349.38834,"Reunion",1,"Eastern Africa",5
+638,1995,363.36584,"Reunion",1,"Eastern Africa",5
+638,2000,333.64999,"Reunion",1,"Eastern Africa",5
+638,2005,342.89001,"Reunion",1,"Eastern Africa",5
+638,2010,358.16333,"Reunion",1,"Eastern Africa",5
+638,2015,385.15424,"Reunion",1,"Eastern Africa",5
+642,1970,463.31,"Romania",4,"Eastern Europe",7
+642,1975,463.31,"Romania",4,"Eastern Europe",7
+642,1980,463.31,"Romania",4,"Eastern Europe",7
+642,1985,463.31,"Romania",4,"Eastern Europe",7
+642,1990,463.31,"Romania",4,"Eastern Europe",7
+642,1995,463.31,"Romania",4,"Eastern Europe",7
+642,2000,468.77,"Romania",4,"Eastern Europe",7
+642,2005,472.23,"Romania",4,"Eastern Europe",7
+642,2010,469.42,"Romania",4,"Eastern Europe",7
+642,2015,469.42,"Romania",4,"Eastern Europe",7
+643,1970,551.76,"Russian Federation",4,"Eastern Europe",7
+643,1975,551.76,"Russian Federation",4,"Eastern Europe",7
+643,1980,551.76,"Russian Federation",4,"Eastern Europe",7
+643,1985,551.76,"Russian Federation",4,"Eastern Europe",7
+643,1990,551.76,"Russian Federation",4,"Eastern Europe",7
+643,1995,511.58,"Russian Federation",4,"Eastern Europe",7
+643,2000,517.79,"Russian Federation",4,"Eastern Europe",7
+643,2005,524.08,"Russian Federation",4,"Eastern Europe",7
+643,2010,537.62,"Russian Federation",4,"Eastern Europe",7
+643,2015,551.63,"Russian Federation",4,"Eastern Europe",7
+646,1970,349.38834,"Rwanda",1,"Eastern Africa",5
+646,1975,349.38834,"Rwanda",1,"Eastern Africa",5
+646,1980,349.38834,"Rwanda",1,"Eastern Africa",5
+646,1985,349.38834,"Rwanda",1,"Eastern Africa",5
+646,1990,349.38834,"Rwanda",1,"Eastern Africa",5
+646,1995,363.36584,"Rwanda",1,"Eastern Africa",5
+646,2000,333.64999,"Rwanda",1,"Eastern Africa",5
+646,2005,342.89001,"Rwanda",1,"Eastern Africa",5
+646,2010,358.16333,"Rwanda",1,"Eastern Africa",5
+646,2015,385.15424,"Rwanda",1,"Eastern Africa",5
+662,1970,428.33667,"Saint Lucia",2,"Caribbean",2
+662,1975,420.32501,"Saint Lucia",2,"Caribbean",2
+662,1980,420.32501,"Saint Lucia",2,"Caribbean",2
+662,1985,420.32501,"Saint Lucia",2,"Caribbean",2
+662,1990,420.32501,"Saint Lucia",2,"Caribbean",2
+662,1995,420.32501,"Saint Lucia",2,"Caribbean",2
+662,2000,417.45999,"Saint Lucia",2,"Caribbean",2
+662,2005,417.45999,"Saint Lucia",2,"Caribbean",2
+662,2010,389.68668,"Saint Lucia",2,"Caribbean",2
+662,2015,390.91666,"Saint Lucia",2,"Caribbean",2
+670,1970,428.33667,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,1975,420.32501,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,1980,420.32501,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,1985,420.32501,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,1990,420.32501,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,1995,420.32501,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,2000,417.45999,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,2005,417.45999,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,2010,389.68668,"Saint Vincent and the Grenadines",2,"Caribbean",2
+670,2015,390.91666,"Saint Vincent and the Grenadines",2,"Caribbean",2
+678,1970,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,1975,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,1980,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,1985,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,1990,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,1995,326.02499,"Sao Tome and Principe",1,"Middle Africa",10
+678,2000,322.19501,"Sao Tome and Principe",1,"Middle Africa",10
+678,2005,322.19501,"Sao Tome and Principe",1,"Middle Africa",10
+678,2010,320.315,"Sao Tome and Principe",1,"Middle Africa",10
+678,2015,385.15424,"Sao Tome and Principe",1,"Middle Africa",10
+682,1970,337.37,"Saudi Arabia",3,"Western Asia",21
+682,1975,337.37,"Saudi Arabia",3,"Western Asia",21
+682,1980,337.37,"Saudi Arabia",3,"Western Asia",21
+682,1985,337.37,"Saudi Arabia",3,"Western Asia",21
+682,1990,337.37,"Saudi Arabia",3,"Western Asia",21
+682,1995,337.37,"Saudi Arabia",3,"Western Asia",21
+682,2000,337.37,"Saudi Arabia",3,"Western Asia",21
+682,2005,337.37,"Saudi Arabia",3,"Western Asia",21
+682,2010,391.22,"Saudi Arabia",3,"Western Asia",21
+682,2015,375.6,"Saudi Arabia",3,"Western Asia",21
+686,1970,256.29,"Senegal",1,"Western Africa",20
+686,1975,256.29,"Senegal",1,"Western Africa",20
+686,1980,256.29,"Senegal",1,"Western Africa",20
+686,1985,256.29,"Senegal",1,"Western Africa",20
+686,1990,256.29,"Senegal",1,"Western Africa",20
+686,1995,256.29,"Senegal",1,"Western Africa",20
+686,2000,261.51,"Senegal",1,"Western Africa",20
+686,2005,319.54,"Senegal",1,"Western Africa",20
+686,2010,293.06,"Senegal",1,"Western Africa",20
+686,2015,385.15424,"Senegal",1,"Western Africa",20
+688,1970,483.92,"Serbia",,"",
+688,1975,483.92,"Serbia",,"",
+688,1980,483.92,"Serbia",,"",
+688,1985,483.92,"Serbia",,"",
+688,1990,483.92,"Serbia",,"",
+688,1995,483.92,"Serbia",,"",
+688,2000,483.92,"Serbia",,"",
+688,2005,483.92,"Serbia",,"",
+688,2010,487.15,"Serbia",,"",
+688,2015,512.22,"Serbia",,"",
+690,1970,379.55,"Seychelles",1,"Eastern Africa",5
+690,1975,379.55,"Seychelles",1,"Eastern Africa",5
+690,1980,379.55,"Seychelles",1,"Eastern Africa",5
+690,1985,379.55,"Seychelles",1,"Eastern Africa",5
+690,1990,379.55,"Seychelles",1,"Eastern Africa",5
+690,1995,379.55,"Seychelles",1,"Eastern Africa",5
+690,2000,379.55,"Seychelles",1,"Eastern Africa",5
+690,2005,360.57,"Seychelles",1,"Eastern Africa",5
+690,2010,358.16333,"Seychelles",1,"Eastern Africa",5
+690,2015,385.15424,"Seychelles",1,"Eastern Africa",5
+694,1970,278.39545,"Sierra Leone",1,"Western Africa",20
+694,1975,278.39545,"Sierra Leone",1,"Western Africa",20
+694,1980,278.39545,"Sierra Leone",1,"Western Africa",20
+694,1985,256.19818,"Sierra Leone",1,"Western Africa",20
+694,1990,256.19818,"Sierra Leone",1,"Western Africa",20
+694,1995,256.19818,"Sierra Leone",1,"Western Africa",20
+694,2000,250.715,"Sierra Leone",1,"Western Africa",20
+694,2005,292.46832,"Sierra Leone",1,"Western Africa",20
+694,2010,293.06,"Sierra Leone",1,"Western Africa",20
+694,2015,385.15424,"Sierra Leone",1,"Western Africa",20
+702,1970,497.46,"Singapore",3,"South-Eastern Asia",16
+702,1975,497.46,"Singapore",3,"South-Eastern Asia",16
+702,1980,497.46,"Singapore",3,"South-Eastern Asia",16
+702,1985,497.46,"Singapore",3,"South-Eastern Asia",16
+702,1990,539.85,"Singapore",3,"South-Eastern Asia",16
+702,1995,600.41,"Singapore",3,"South-Eastern Asia",16
+702,2000,599.81,"Singapore",3,"South-Eastern Asia",16
+702,2005,598.83,"Singapore",3,"South-Eastern Asia",16
+702,2010,605.3,"Singapore",3,"South-Eastern Asia",16
+702,2015,619.17,"Singapore",3,"South-Eastern Asia",16
+703,1970,524.26,"Slovakia",4,"Eastern Europe",7
+703,1975,524.26,"Slovakia",4,"Eastern Europe",7
+703,1980,524.26,"Slovakia",4,"Eastern Europe",7
+703,1985,524.26,"Slovakia",4,"Eastern Europe",7
+703,1990,524.26,"Slovakia",4,"Eastern Europe",7
+703,1995,524.26,"Slovakia",4,"Eastern Europe",7
+703,2000,496.44,"Slovakia",4,"Eastern Europe",7
+703,2005,499.59,"Slovakia",4,"Eastern Europe",7
+703,2010,506.72,"Slovakia",4,"Eastern Europe",7
+703,2015,495.32,"Slovakia",4,"Eastern Europe",7
+704,1970,448.98801,"Viet Nam",3,"South-Eastern Asia",16
+704,1975,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,1980,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,1985,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,1990,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,1995,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,2000,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,2005,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,2010,520.04,"Viet Nam",3,"South-Eastern Asia",16
+704,2015,520.04,"Viet Nam",3,"South-Eastern Asia",16
+705,1970,458.32,"Slovenia",4,"Southern Europe",19
+705,1975,458.32,"Slovenia",4,"Southern Europe",19
+705,1980,458.32,"Slovenia",4,"Southern Europe",19
+705,1985,458.32,"Slovenia",4,"Southern Europe",19
+705,1990,458.32,"Slovenia",4,"Southern Europe",19
+705,1995,528.01,"Slovenia",4,"Southern Europe",19
+705,2000,508.07,"Slovenia",4,"Southern Europe",19
+705,2005,493.62,"Slovenia",4,"Southern Europe",19
+705,2010,506.99,"Slovenia",4,"Southern Europe",19
+705,2015,518.04,"Slovenia",4,"Southern Europe",19
+706,1970,349.38834,"Somalia",1,"Eastern Africa",5
+706,1975,349.38834,"Somalia",1,"Eastern Africa",5
+706,1980,349.38834,"Somalia",1,"Eastern Africa",5
+706,1985,349.38834,"Somalia",1,"Eastern Africa",5
+706,1990,349.38834,"Somalia",1,"Eastern Africa",5
+706,1995,363.36584,"Somalia",1,"Eastern Africa",5
+706,2000,333.64999,"Somalia",1,"Eastern Africa",5
+706,2005,342.89001,"Somalia",1,"Eastern Africa",5
+706,2010,358.16333,"Somalia",1,"Eastern Africa",5
+706,2015,385.15424,"Somalia",1,"Eastern Africa",5
+710,1970,349.88,"South Africa",1,"Southern Africa",17
+710,1975,349.88,"South Africa",1,"Southern Africa",17
+710,1980,349.88,"South Africa",1,"Southern Africa",17
+710,1985,349.88,"South Africa",1,"Southern Africa",17
+710,1990,349.88,"South Africa",1,"Southern Africa",17
+710,1995,349.88,"South Africa",1,"Southern Africa",17
+710,2000,298.71,"South Africa",1,"Southern Africa",17
+710,2005,306.68,"South Africa",1,"Southern Africa",17
+710,2010,349.84,"South Africa",1,"Southern Africa",17
+710,2015,374.06,"South Africa",1,"Southern Africa",17
+716,1970,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,1975,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,1980,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,1985,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,1990,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,1995,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,2000,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,2005,342.99,"Zimbabwe",1,"Eastern Africa",5
+716,2010,358.16333,"Zimbabwe",1,"Eastern Africa",5
+716,2015,385.15424,"Zimbabwe",1,"Eastern Africa",5
+724,1970,495.49,"Spain",4,"Southern Europe",19
+724,1975,495.49,"Spain",4,"Southern Europe",19
+724,1980,495.49,"Spain",4,"Southern Europe",19
+724,1985,495.49,"Spain",4,"Southern Europe",19
+724,1990,495.49,"Spain",4,"Southern Europe",19
+724,1995,477.55,"Spain",4,"Southern Europe",19
+724,2000,491.21,"Spain",4,"Southern Europe",19
+724,2005,507.61,"Spain",4,"Southern Europe",19
+724,2010,490.33,"Spain",4,"Southern Europe",19
+724,2015,504.83,"Spain",4,"Southern Europe",19
+728,1970,386.10001,"South Sudan",1,"Northern Africa",11
+728,1975,386.10001,"South Sudan",1,"Northern Africa",11
+728,1980,386.10001,"South Sudan",1,"Northern Africa",11
+728,1985,386.10001,"South Sudan",1,"Northern Africa",11
+728,1990,386.10001,"South Sudan",1,"Northern Africa",11
+728,1995,386.10001,"South Sudan",1,"Northern Africa",11
+728,2000,386.10001,"South Sudan",1,"Northern Africa",11
+728,2005,382.83499,"South Sudan",1,"Northern Africa",11
+728,2010,378.52499,"South Sudan",1,"Northern Africa",11
+728,2015,384.45999,"South Sudan",1,"Northern Africa",11
+729,1970,386.10001,"Sudan",1,"Northern Africa",11
+729,1975,386.10001,"Sudan",1,"Northern Africa",11
+729,1980,386.10001,"Sudan",1,"Northern Africa",11
+729,1985,386.10001,"Sudan",1,"Northern Africa",11
+729,1990,386.10001,"Sudan",1,"Northern Africa",11
+729,1995,386.10001,"Sudan",1,"Northern Africa",11
+729,2000,386.10001,"Sudan",1,"Northern Africa",11
+729,2005,382.83499,"Sudan",1,"Northern Africa",11
+729,2010,378.52499,"Sudan",1,"Northern Africa",11
+729,2015,384.45999,"Sudan",1,"Northern Africa",11
+732,1970,386.10001,"Western Sahara",1,"Northern Africa",11
+732,1975,386.10001,"Western Sahara",1,"Northern Africa",11
+732,1980,386.10001,"Western Sahara",1,"Northern Africa",11
+732,1985,386.10001,"Western Sahara",1,"Northern Africa",11
+732,1990,386.10001,"Western Sahara",1,"Northern Africa",11
+732,1995,386.10001,"Western Sahara",1,"Northern Africa",11
+732,2000,386.10001,"Western Sahara",1,"Northern Africa",11
+732,2005,382.83499,"Western Sahara",1,"Northern Africa",11
+732,2010,378.52499,"Western Sahara",1,"Northern Africa",11
+732,2015,384.45999,"Western Sahara",1,"Northern Africa",11
+740,1970,355.763,"Suriname",2,"South America",15
+740,1975,354.983,"Suriname",2,"South America",15
+740,1980,354.73801,"Suriname",2,"South America",15
+740,1985,354.90601,"Suriname",2,"South America",15
+740,1990,356.625,"Suriname",2,"South America",15
+740,1995,366.94299,"Suriname",2,"South America",15
+740,2000,383.99554,"Suriname",2,"South America",15
+740,2005,397.64777,"Suriname",2,"South America",15
+740,2010,408.73557,"Suriname",2,"South America",15
+740,2015,419.2825,"Suriname",2,"South America",15
+748,1970,488.92,"Swaziland",1,"Southern Africa",17
+748,1975,488.92,"Swaziland",1,"Southern Africa",17
+748,1980,488.92,"Swaziland",1,"Southern Africa",17
+748,1985,365.36,"Swaziland",1,"Southern Africa",17
+748,1990,365.36,"Swaziland",1,"Southern Africa",17
+748,1995,365.36,"Swaziland",1,"Southern Africa",17
+748,2000,365.36,"Swaziland",1,"Southern Africa",17
+748,2005,335.26,"Swaziland",1,"Southern Africa",17
+748,2010,371.87,"Swaziland",1,"Southern Africa",17
+748,2015,386.26501,"Swaziland",1,"Southern Africa",17
+752,1970,426.84,"Sweden",4,"Northern Europe",13
+752,1975,444.48,"Sweden",4,"Northern Europe",13
+752,1980,411.55,"Sweden",4,"Northern Europe",13
+752,1985,470.88,"Sweden",4,"Northern Europe",13
+752,1990,500.74,"Sweden",4,"Northern Europe",13
+752,1995,526.21,"Sweden",4,"Northern Europe",13
+752,2000,512.31,"Sweden",4,"Northern Europe",13
+752,2005,497.58,"Sweden",4,"Northern Europe",13
+752,2010,494.59,"Sweden",4,"Northern Europe",13
+752,2015,509.15,"Sweden",4,"Northern Europe",13
+756,1970,556.52,"Switzerland",4,"Western Europe",22
+756,1975,556.52,"Switzerland",4,"Western Europe",22
+756,1980,556.52,"Switzerland",4,"Western Europe",22
+756,1985,556.52,"Switzerland",4,"Western Europe",22
+756,1990,556.52,"Switzerland",4,"Western Europe",22
+756,1995,553.21,"Switzerland",4,"Western Europe",22
+756,2000,544.22,"Switzerland",4,"Western Europe",22
+756,2005,550.35,"Switzerland",4,"Western Europe",22
+756,2010,552.37,"Switzerland",4,"Western Europe",22
+756,2015,543.83,"Switzerland",4,"Western Europe",22
+760,1970,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,1975,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,1980,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,1985,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,1990,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,1995,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,2000,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,2005,371.79,"Syrian Arab Republic",3,"Western Asia",21
+760,2010,390.86,"Syrian Arab Republic",3,"Western Asia",21
+760,2015,443.18668,"Syrian Arab Republic",3,"Western Asia",21
+762,1970,433.39499,"Tajikistan",3,"Central Asia",4
+762,1975,433.39499,"Tajikistan",3,"Central Asia",4
+762,1980,433.39499,"Tajikistan",3,"Central Asia",4
+762,1985,433.39499,"Tajikistan",3,"Central Asia",4
+762,1990,433.39499,"Tajikistan",3,"Central Asia",4
+762,1995,433.39499,"Tajikistan",3,"Central Asia",4
+762,2000,433.39499,"Tajikistan",3,"Central Asia",4
+762,2005,446.05499,"Tajikistan",3,"Central Asia",4
+762,2010,416.38,"Tajikistan",3,"Central Asia",4
+762,2015,536.10999,"Tajikistan",3,"Central Asia",4
+764,1970,470.32,"Thailand",3,"South-Eastern Asia",16
+764,1975,474.66,"Thailand",3,"South-Eastern Asia",16
+764,1980,460.29,"Thailand",3,"South-Eastern Asia",16
+764,1985,472.73,"Thailand",3,"South-Eastern Asia",16
+764,1990,485.65,"Thailand",3,"South-Eastern Asia",16
+764,1995,492.41,"Thailand",3,"South-Eastern Asia",16
+764,2000,464.65,"Thailand",3,"South-Eastern Asia",16
+764,2005,454.84,"Thailand",3,"South-Eastern Asia",16
+764,2010,444.63,"Thailand",3,"South-Eastern Asia",16
+764,2015,440.25,"Thailand",3,"South-Eastern Asia",16
+768,1970,253.11,"Togo",1,"Western Africa",20
+768,1975,253.11,"Togo",1,"Western Africa",20
+768,1980,253.11,"Togo",1,"Western Africa",20
+768,1985,253.11,"Togo",1,"Western Africa",20
+768,1990,253.11,"Togo",1,"Western Africa",20
+768,1995,253.11,"Togo",1,"Western Africa",20
+768,2000,253.11,"Togo",1,"Western Africa",20
+768,2005,302.13,"Togo",1,"Western Africa",20
+768,2010,283.23,"Togo",1,"Western Africa",20
+768,2015,385.15424,"Togo",1,"Western Africa",20
+776,1970,456.20999,"Tonga",5,"Polynesia",14
+776,1975,490.935,"Tonga",5,"Polynesia",14
+776,1980,397.005,"Tonga",5,"Polynesia",14
+776,1985,467.89499,"Tonga",5,"Polynesia",14
+776,1990,453.35501,"Tonga",5,"Polynesia",14
+776,1995,468.63501,"Tonga",5,"Polynesia",14
+776,2000,491.94,"Tonga",5,"Polynesia",14
+776,2005,498.94501,"Tonga",5,"Polynesia",14
+776,2010,499.45999,"Tonga",5,"Polynesia",14
+776,2015,500.95499,"Tonga",5,"Polynesia",14
+780,1970,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,1975,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,1980,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,1985,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,1990,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,1995,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,2000,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,2005,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,2010,435.06,"Trinidad and Tobago",2,"Caribbean",2
+780,2015,438.75,"Trinidad and Tobago",2,"Caribbean",2
+784,1970,433.55,"United Arab Emirates",3,"Western Asia",21
+784,1975,433.55,"United Arab Emirates",3,"Western Asia",21
+784,1980,433.55,"United Arab Emirates",3,"Western Asia",21
+784,1985,433.55,"United Arab Emirates",3,"Western Asia",21
+784,1990,433.55,"United Arab Emirates",3,"Western Asia",21
+784,1995,433.55,"United Arab Emirates",3,"Western Asia",21
+784,2000,433.55,"United Arab Emirates",3,"Western Asia",21
+784,2005,433.55,"United Arab Emirates",3,"Western Asia",21
+784,2010,433.55,"United Arab Emirates",3,"Western Asia",21
+784,2015,460.49,"United Arab Emirates",3,"Western Asia",21
+788,1970,404.39,"Tunisia",1,"Northern Africa",11
+788,1975,404.39,"Tunisia",1,"Northern Africa",11
+788,1980,404.39,"Tunisia",1,"Northern Africa",11
+788,1985,404.39,"Tunisia",1,"Northern Africa",11
+788,1990,404.39,"Tunisia",1,"Northern Africa",11
+788,1995,404.39,"Tunisia",1,"Northern Africa",11
+788,2000,404.39,"Tunisia",1,"Northern Africa",11
+788,2005,374.56,"Tunisia",1,"Northern Africa",11
+788,2010,386.94,"Tunisia",1,"Northern Africa",11
+788,2015,384.12,"Tunisia",1,"Northern Africa",11
+792,1970,424.62,"Turkey",3,"Western Asia",21
+792,1975,424.62,"Turkey",3,"Western Asia",21
+792,1980,424.62,"Turkey",3,"Western Asia",21
+792,1985,424.62,"Turkey",3,"Western Asia",21
+792,1990,424.62,"Turkey",3,"Western Asia",21
+792,1995,424.62,"Turkey",3,"Western Asia",21
+792,2000,424.62,"Turkey",3,"Western Asia",21
+792,2005,431.15,"Turkey",3,"Western Asia",21
+792,2010,456.62,"Turkey",3,"Western Asia",21
+792,2015,470.39,"Turkey",3,"Western Asia",21
+795,1970,433.39499,"Turkmenistan",3,"Central Asia",4
+795,1975,433.39499,"Turkmenistan",3,"Central Asia",4
+795,1980,433.39499,"Turkmenistan",3,"Central Asia",4
+795,1985,433.39499,"Turkmenistan",3,"Central Asia",4
+795,1990,433.39499,"Turkmenistan",3,"Central Asia",4
+795,1995,433.39499,"Turkmenistan",3,"Central Asia",4
+795,2000,433.39499,"Turkmenistan",3,"Central Asia",4
+795,2005,446.05499,"Turkmenistan",3,"Central Asia",4
+795,2010,416.38,"Turkmenistan",3,"Central Asia",4
+795,2015,536.10999,"Turkmenistan",3,"Central Asia",4
+800,1970,331.1,"Uganda",1,"Eastern Africa",5
+800,1975,331.1,"Uganda",1,"Eastern Africa",5
+800,1980,331.1,"Uganda",1,"Eastern Africa",5
+800,1985,331.1,"Uganda",1,"Eastern Africa",5
+800,1990,331.1,"Uganda",1,"Eastern Africa",5
+800,1995,331.1,"Uganda",1,"Eastern Africa",5
+800,2000,331.1,"Uganda",1,"Eastern Africa",5
+800,2005,329.42,"Uganda",1,"Eastern Africa",5
+800,2010,358.16333,"Uganda",1,"Eastern Africa",5
+800,2015,385.15424,"Uganda",1,"Eastern Africa",5
+804,1970,467.87,"Ukraine",4,"Eastern Europe",7
+804,1975,467.87,"Ukraine",4,"Eastern Europe",7
+804,1980,467.87,"Ukraine",4,"Eastern Europe",7
+804,1985,467.87,"Ukraine",4,"Eastern Europe",7
+804,1990,467.87,"Ukraine",4,"Eastern Europe",7
+804,1995,467.87,"Ukraine",4,"Eastern Europe",7
+804,2000,467.87,"Ukraine",4,"Eastern Europe",7
+804,2005,467.87,"Ukraine",4,"Eastern Europe",7
+804,2010,478.3,"Ukraine",4,"Eastern Europe",7
+804,2015,502.23376,"Ukraine",4,"Eastern Europe",7
+807,1970,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,1975,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,1980,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,1985,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,1990,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,1995,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,2000,440.71,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,2005,435.98,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,2010,432.58,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+807,2015,389,"The former Yugoslav Republic of Macedonia",4,"Southern Europe",19
+818,1970,402.6,"Egypt",1,"Northern Africa",11
+818,1975,402.6,"Egypt",1,"Northern Africa",11
+818,1980,402.6,"Egypt",1,"Northern Africa",11
+818,1985,402.6,"Egypt",1,"Northern Africa",11
+818,1990,402.6,"Egypt",1,"Northern Africa",11
+818,1995,402.6,"Egypt",1,"Northern Africa",11
+818,2000,402.6,"Egypt",1,"Northern Africa",11
+818,2005,402.6,"Egypt",1,"Northern Africa",11
+818,2010,397.91,"Egypt",1,"Northern Africa",11
+818,2015,397.83,"Egypt",1,"Northern Africa",11
+826,1970,511,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,1975,511,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,1980,511,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,1985,511,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,1990,511,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,1995,545.07,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,2000,545.07,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,2005,510.27,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,2010,513.69,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+826,2015,515.8,"United Kingdom of Great Britain and Northern Ireland",4,"Northern Europe",13
+830,1970,455.832,"Channel Islands",4,"Northern Europe",13
+830,1975,454.77399,"Channel Islands",4,"Northern Europe",13
+830,1980,458.96799,"Channel Islands",4,"Northern Europe",13
+830,1985,453.19699,"Channel Islands",4,"Northern Europe",13
+830,1990,457.18799,"Channel Islands",4,"Northern Europe",13
+830,1995,504.46799,"Channel Islands",4,"Northern Europe",13
+830,2000,520.521,"Channel Islands",4,"Northern Europe",13
+830,2005,515.76001,"Channel Islands",4,"Northern Europe",13
+830,2010,514.51099,"Channel Islands",4,"Northern Europe",13
+830,2015,524.18402,"Channel Islands",4,"Northern Europe",13
+834,1970,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,1975,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,1980,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,1985,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,1990,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,1995,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,2000,361.22,"United Republic of Tanzania",1,"Eastern Africa",5
+834,2005,352.92,"United Republic of Tanzania",1,"Eastern Africa",5
+834,2010,358.16333,"United Republic of Tanzania",1,"Eastern Africa",5
+834,2015,385.15424,"United Republic of Tanzania",1,"Eastern Africa",5
+840,1970,470.27,"United States of America",2,"Northern America",12
+840,1975,471.4,"United States of America",2,"Northern America",12
+840,1980,477.28,"United States of America",2,"Northern America",12
+840,1985,477.74,"United States of America",2,"Northern America",12
+840,1990,494.25,"United States of America",2,"Northern America",12
+840,1995,506.23,"United States of America",2,"Northern America",12
+840,2000,510.81,"United States of America",2,"Northern America",12
+840,2005,515.4,"United States of America",2,"Northern America",12
+840,2010,523.88,"United States of America",2,"Northern America",12
+840,2015,529.09,"United States of America",2,"Northern America",12
+850,1970,428.33667,"United States Virgin Islands",2,"Caribbean",2
+850,1975,420.32501,"United States Virgin Islands",2,"Caribbean",2
+850,1980,420.32501,"United States Virgin Islands",2,"Caribbean",2
+850,1985,420.32501,"United States Virgin Islands",2,"Caribbean",2
+850,1990,420.32501,"United States Virgin Islands",2,"Caribbean",2
+850,1995,420.32501,"United States Virgin Islands",2,"Caribbean",2
+850,2000,417.45999,"United States Virgin Islands",2,"Caribbean",2
+850,2005,417.45999,"United States Virgin Islands",2,"Caribbean",2
+850,2010,389.68668,"United States Virgin Islands",2,"Caribbean",2
+850,2015,390.91666,"United States Virgin Islands",2,"Caribbean",2
+854,1970,334.21,"Burkina Faso",1,"Western Africa",20
+854,1975,334.21,"Burkina Faso",1,"Western Africa",20
+854,1980,334.21,"Burkina Faso",1,"Western Africa",20
+854,1985,334.21,"Burkina Faso",1,"Western Africa",20
+854,1990,334.21,"Burkina Faso",1,"Western Africa",20
+854,1995,334.21,"Burkina Faso",1,"Western Africa",20
+854,2000,296.88,"Burkina Faso",1,"Western Africa",20
+854,2005,296.88,"Burkina Faso",1,"Western Africa",20
+854,2010,293.06,"Burkina Faso",1,"Western Africa",20
+854,2015,385.15424,"Burkina Faso",1,"Western Africa",20
+858,1970,457.86,"Uruguay",2,"South America",15
+858,1975,457.86,"Uruguay",2,"South America",15
+858,1980,457.86,"Uruguay",2,"South America",15
+858,1985,457.86,"Uruguay",2,"South America",15
+858,1990,457.86,"Uruguay",2,"South America",15
+858,1995,457.86,"Uruguay",2,"South America",15
+858,2000,457.86,"Uruguay",2,"South America",15
+858,2005,457.86,"Uruguay",2,"South America",15
+858,2010,450.02,"Uruguay",2,"South America",15
+858,2015,445.45,"Uruguay",2,"South America",15
+860,1970,433.39499,"Uzbekistan",3,"Central Asia",4
+860,1975,433.39499,"Uzbekistan",3,"Central Asia",4
+860,1980,433.39499,"Uzbekistan",3,"Central Asia",4
+860,1985,433.39499,"Uzbekistan",3,"Central Asia",4
+860,1990,433.39499,"Uzbekistan",3,"Central Asia",4
+860,1995,433.39499,"Uzbekistan",3,"Central Asia",4
+860,2000,433.39499,"Uzbekistan",3,"Central Asia",4
+860,2005,446.05499,"Uzbekistan",3,"Central Asia",4
+860,2010,416.38,"Uzbekistan",3,"Central Asia",4
+860,2015,536.10999,"Uzbekistan",3,"Central Asia",4
+862,1970,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,1975,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,1980,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,1985,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,1990,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,1995,331.43,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,2000,422.71,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,2005,422.71,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,2010,422.71,"Venezuela (Bolivarian Republic of)",2,"South America",15
+862,2015,419.2825,"Venezuela (Bolivarian Republic of)",2,"South America",15
+882,1970,456.20999,"Samoa",5,"Polynesia",14
+882,1975,490.935,"Samoa",5,"Polynesia",14
+882,1980,397.005,"Samoa",5,"Polynesia",14
+882,1985,467.89499,"Samoa",5,"Polynesia",14
+882,1990,453.35501,"Samoa",5,"Polynesia",14
+882,1995,468.63501,"Samoa",5,"Polynesia",14
+882,2000,491.94,"Samoa",5,"Polynesia",14
+882,2005,498.94501,"Samoa",5,"Polynesia",14
+882,2010,499.45999,"Samoa",5,"Polynesia",14
+882,2015,500.95499,"Samoa",5,"Polynesia",14
+887,1970,296,"Yemen",3,"Western Asia",21
+887,1975,296,"Yemen",3,"Western Asia",21
+887,1980,296,"Yemen",3,"Western Asia",21
+887,1985,296,"Yemen",3,"Western Asia",21
+887,1990,296,"Yemen",3,"Western Asia",21
+887,1995,296,"Yemen",3,"Western Asia",21
+887,2000,296,"Yemen",3,"Western Asia",21
+887,2005,296,"Yemen",3,"Western Asia",21
+887,2010,297.2,"Yemen",3,"Western Asia",21
+887,2015,443.18668,"Yemen",3,"Western Asia",21
+894,1970,355.24,"Zambia",1,"Eastern Africa",5
+894,1975,355.24,"Zambia",1,"Eastern Africa",5
+894,1980,355.24,"Zambia",1,"Eastern Africa",5
+894,1985,355.24,"Zambia",1,"Eastern Africa",5
+894,1990,355.24,"Zambia",1,"Eastern Africa",5
+894,1995,355.24,"Zambia",1,"Eastern Africa",5
+894,2000,243.48,"Zambia",1,"Eastern Africa",5
+894,2005,324.46,"Zambia",1,"Eastern Africa",5
+894,2010,358.16333,"Zambia",1,"Eastern Africa",5
+894,2015,385.15424,"Zambia",1,"Eastern Africa",5
