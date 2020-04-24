@@ -33,11 +33,14 @@ d6 <- read.csv("./data/qamys_dhs_full_part_2000_2015.csv")
 d7 <- read.csv("./data/wic_dep_1970_2015.csv")%>%
   mutate(cc=country)
 
-d8 <- read.csv("./data/uis_edu_exp.csv")
+d8 <- read.csv("./data/uis_edu_exp.csv")%>%
+            select(-cc)
 
-d9 <- read.csv("./data/uis_tp.csv")
+d9 <- read.csv("./data/uis_tp.csv")%>%
+  select(-cc)
 
-d10 <- read.csv("./data/hlo_1970_2015.csv")
+d10 <- read.csv("./data/r2_hlo_1970_2015.csv")%>%
+  select(-cc)
 
 r1 <- d7 %>% 
   left_join(d1) %>% 
@@ -59,9 +62,9 @@ r1<-r1[!(r1$iso=="900"),] #removing world
  
 library(MASS)
 library(olsrr)
-model1 <-lm(log(adj_factor) ~  highLS + illiterate_prop + old_dep + 
+model1 <-lm(log(adj_factor) ~  highLS + illiterate_prop +  
               year_1970 + year_1975 + year_1980 + year_1985 + year_1990 + year_1995 + 
-              year_2000 + year_2005 + year_2010, data = r1)
+              year_2000 + year_2005 + year_2010 + old_dep, data = r1)
 summ(model1)
 ols_vif_tol(model1)
 
@@ -83,9 +86,9 @@ model4 <-lm(log(adj_factor) ~  highLS + illiterate_prop + edu_exp_ +
 summ(model4)
 ols_vif_tol(model4)
 
-model5 <-lm(log(adj_factor) ~  highLS + illiterate_prop + old_dep + hlo +
+model5 <-lm(log(adj_factor) ~  highLS + illiterate_prop + 
               year_1970 + year_1975 + year_1980 + year_1985 + year_1990 + year_1995 + 
-              year_2000 + year_2005 + year_2010, data = r1)
+              year_2000 + year_2005 + year_2010 + old_dep + hlo, data = r1)
 summ(model5)
 ols_vif_tol(model5)
 
