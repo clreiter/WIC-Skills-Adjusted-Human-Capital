@@ -171,34 +171,35 @@ library(gridExtra)
 sc_plots = list()
 sc_plots$sc1 = ggplot(r2, aes(x = samys2, y = samys1)) +
   geom_point() + geom_abline() +
-  ylab("M w/ old_dep") +
-  xlab("M w/ basic HLO imp.") +
+  ylab("Model 1") +
+  xlab("Model 2.") +
   theme_bw()
 sc_plots$sc2 = ggplot(r2, aes(x = samys3, y = samys1)) +
   geom_point() + geom_abline() +
-  ylab("M w/ old_dep") +
-  xlab("M w/ HLO imp. model 1") +
+  ylab("Model 1") +
+  xlab("Model 3") +
   theme_bw()
 sc_plots$sc3 = ggplot(r2, aes(x = samys4, y = samys1)) +
   geom_point() + geom_abline() +
-  ylab("M w/ old_dep") +
-  xlab("M w/ HLO imp. model 2") +
+  ylab("Model 1") +
+  xlab("Model 4") +
   theme_bw()
 sc_plots$sc4 = ggplot(r2, aes(x = samys4, y = samys1)) +
   geom_point() + geom_abline() +
-  ylab("M w/ old_dep") +
-  xlab("M w/ HLO imp. model 3") +
+  ylab("Model 1") +
+  xlab("Model 5") +
   theme_bw()
 sc_plots$sc5 = ggplot(r2, aes(x = samys5, y = samys1)) +
   geom_point() + geom_abline() +
-  ylab("M w/ old_dep") +
-  xlab("M w/ HLO imp. model 4") +
+  ylab("Model 1") +
+  xlab("Model 6") +
   theme_bw()
 sc_plots$sc6 = ggplot(r2, aes(x = samys6, y = samys1)) +
   geom_point() + geom_abline()+
-  ylab("M w/ old_dep") +
-  xlab("M w/ old_dep and basic HLO imp.") +
+  ylab("Model 1") +
+  xlab("Model 7") +
   theme_bw()
 grid.arrange(sc_plots$sc1, sc_plots$sc2, sc_plots$sc3,
              sc_plots$sc4, sc_plots$sc5, sc_plots$sc6,
              ncol = 3)
+
