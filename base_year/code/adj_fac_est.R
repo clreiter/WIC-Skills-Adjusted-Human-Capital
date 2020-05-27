@@ -228,7 +228,7 @@ p1 <- ggplot(df1 %>% filter(!is.na(fit2), plot == 1), aes(x = reorder(cc, wic_my
   geom_point(aes(x = cc, y = fit2)) +
   geom_errorbar(aes(ymin = lwr2, ymax = upr2)) +
   xlab("Country") +
-  ylab("WIC MYS & QAMYS (95% CI)") +
+  ylab("WIC MYS & SAMYS (95% CI)") +
   ylim(-2.5, 19) +
   coord_flip() +
   theme_bw()
@@ -238,7 +238,7 @@ p2 <- ggplot(df1 %>% filter(!is.na(fit2), plot == 2), aes(x = reorder(cc, wic_my
   geom_point(aes(x = cc, y = fit2)) +
   geom_errorbar(aes(ymin = lwr2, ymax = upr2)) +
   xlab("Country") +
-  ylab("WIC MYS & QAMYS (95% CI)") +
+  ylab("WIC MYS & SAMYS (95% CI)") +
   ylim(-2.5, 17.5) +
   coord_flip() +
   theme_bw()
@@ -248,7 +248,7 @@ p3 <- ggplot(df1 %>% filter(!is.na(fit2), plot == 3), aes(x = reorder(cc, wic_my
   geom_point(aes(x = cc, y = fit2)) +
   geom_errorbar(aes(ymin = lwr2, ymax = upr2)) +
   xlab("Country") +
-  ylab("WIC MYS & QAMYS (95% CI)") +
+  ylab("WIC MYS & SAMYS (95% CI)") +
   ylim(-2.5, 17.5) +
   coord_flip() +
   theme_bw()
@@ -258,7 +258,7 @@ p4 <- ggplot(df1 %>% filter(!is.na(fit2)), aes(x = reorder(cc, wic_mys), y = wic
   geom_point(aes(x = cc, y = fit2)) +
   geom_errorbar(aes(ymin = lwr2, ymax = upr2)) +
   xlab("Country") +
-  ylab("WIC MYS & QAMYS (95% CI)") +
+  ylab("WIC MYS & SAMYS (95% CI)") +
   coord_flip() +
   theme_bw()
 

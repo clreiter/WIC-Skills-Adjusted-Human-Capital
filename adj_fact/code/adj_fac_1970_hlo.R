@@ -59,7 +59,7 @@ r1 <- d7 %>%
   dummy_cols(select_columns = "year")
 
 r1<-r1[!(r1$iso=="900"),] #removing world
- 
+
 library(MASS)
 library(olsrr)
 model1 <-lm(log(adj_factor) ~  highLS + illiterate_prop +  
@@ -97,7 +97,6 @@ library(sjPlot)
 tab_model(model1, model2, model3, model4, model5,
           show.se = TRUE, show.ci = FALSE,
           collapse.se = TRUE)
-
 
 # Stepwise regression model
 step.model <- stepAIC(model5, direction = "both", 
@@ -250,18 +249,18 @@ for(i in seq(unique(df2$year))){
 }
 
 pdf("./figures/mys_samys_1970_2015_countries.pdf")
-for(i in seq(1, length(unique(df2$cc)), 4)){
+for(i in seq(1, length(unique(df2$cc)), 25)){
   
-  pp <-  ggplot(df2 %>% filter(!is.na(fit1), cc %in% unique(df2$cc)[i: (i+ 3)]), 
+  pp <-  ggplot(df2 %>% filter(!is.na(fit1), cc %in% unique(df2$cc)[i: (i+ 24)]), 
                 aes(x = year, y = wic_mys)) +
     geom_bar(stat = "identity", alpha = 0.25) +
     geom_point(aes(x = year, y = fit1)) +
     geom_errorbar(aes(ymin = lwr1, ymax = upr1)) +
     xlab("Year") +
     ylab("WIC MYS & SAMYS (95% CI)") +
-    ylim(-0.5, 17.5) +
+    ylim(-0.1, 16.5) +
     theme_bw() +
-    facet_wrap(~ cc, nrow = 2) +
+    facet_wrap(~ cc, nrow = 5, ncol = 5) +
     theme(axis.text.x = element_text(angle = 90))
   print(pp)
 }
