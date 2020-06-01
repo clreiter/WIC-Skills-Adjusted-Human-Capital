@@ -102,6 +102,7 @@ df1 <- r1 %>%
          qamys_pred = ifelse(is.na(qamys_pred), fit1, qamys_pred))
 summary(df1$qamys_pred) #min=0.003 max=15.605
 write.csv(df1, "./results/fit1_lagged.csv", row.names = F)
+write.csv(df1, "./results/results_adj_fac_hlo_lagged_1995_2015.csv", row.names = F)
 
 detach("package:MASS", unload=TRUE)
 
