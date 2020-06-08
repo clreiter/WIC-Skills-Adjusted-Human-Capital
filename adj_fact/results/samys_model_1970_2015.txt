@@ -1,0 +1,30 @@
+
+Call:
+lm(formula = log(adj_factor) ~ highLS + old_dep + illiterate_prop + 
+    hlo + year_1970 + year_1975 + year_1980 + year_1985 + year_1990, 
+    data = r1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.73065 -0.05446  0.00188  0.07096  0.48161 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     -0.5652267  0.0692437  -8.163 2.13e-15 ***
+highLS           0.3297316  0.0406945   8.103 3.33e-15 ***
+old_dep          0.3282730  0.1420248   2.311  0.02117 *  
+illiterate_prop -1.1510498  0.0606011 -18.994  < 2e-16 ***
+hlo              0.0005402  0.0001872   2.885  0.00406 ** 
+year_1970        0.1598708  0.0265331   6.025 3.04e-09 ***
+year_1975        0.1301516  0.0257265   5.059 5.70e-07 ***
+year_1980        0.0966928  0.0250949   3.853  0.00013 ***
+year_1985        0.0593231  0.0248401   2.388  0.01726 *  
+year_1990        0.0467992  0.0245356   1.907  0.05698 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.151 on 566 degrees of freedom
+  (1274 observations deleted due to missingness)
+Multiple R-squared:  0.8341,	Adjusted R-squared:  0.8314 
+F-statistic: 316.1 on 9 and 566 DF,  p-value: < 2.2e-16
+
