@@ -69,7 +69,7 @@ summary(step.model)
 lm1 <- lm(log(adj_factor) ~  highLS + old_dep + illiterate_prop + hlo +
             year_1970 + year_1975 + year_1980 + year_1985 + year_1990, data = r1)
 
-#"sink("./results/samys_model_1970_2015.txt")
+#sink("./results/samys_model_1970_2015.txt")
 #print(summary(lm1))
 #sink()
 
