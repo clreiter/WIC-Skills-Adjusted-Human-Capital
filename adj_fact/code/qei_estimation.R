@@ -35,8 +35,35 @@ colnames(lm1predict) <- paste0(colnames(lm1predict),1)
 
 d6 <- bind_cols(d5, lm1predict)%>%
                 mutate(hlo = fit1)
+#recoding values of 1970 to older periods
 d7<-d6[!(d6$year=="1995" | d6$year=="2000" |d6$year=="2005" |
-           d6$year=="2010" |d6$year=="2015"),]
+           d6$year=="2010" |d6$year=="2015"),]%>%
+  select(-year_1970, -year_1975, -year_1980,-year_1985, -year_1990, 
+         -year_1995, -year_2000, -year_2005, -year_2010, -year_2015)
 
-write.csv(d7, "./data/qei_1995_2015.csv", row.names = F)
-#values for 1970 was manually copied to periods from 1945 to 1965 to be used in SAMYS estimates
+d8<-d7[(d7$year=="1970"),]
+
+d1945 <- d8%>%
+  mutate(year=year-25)
+
+d1950 <- d8%>%
+  mutate(year=year-20)
+
+d1955 <- d8%>%
+  mutate(year=year-15)
+
+d1960 <- d8%>%
+  mutate(year=year-10)
+
+d1965 <- d8%>%
+  mutate(year=year-5)
+
+d9 <- d7%>%
+  rbind(d1945) %>% 
+  rbind(d1950) %>% 
+  rbind(d1955) %>% 
+  rbind(d1960) %>% 
+  rbind(d1965) %>% 
+  dummy_cols(select_columns = "year")
+write.csv(d9, "./data/qei_1945_2015.csv", row.names = F)
+
