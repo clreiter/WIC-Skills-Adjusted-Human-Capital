@@ -1,6 +1,6 @@
 /*Government expenditure on education as a percentage of GDP (%) from UIS*/
 /*countries with all missing data are not included in the original dataset*/
-insheet using "C:\Users\acer\Dropbox\research\Qualmatt\educational expenditure\EDULIT_DS_04062020040732881.csv", comma clear /*csv file downloaded from UIS*/
+insheet using "path\EDULIT_DS_04062020040732881.csv", comma clear /*csv file downloaded from UIS*/
 keep location country time value
 rename value edu_exp
 rename time year
@@ -36,7 +36,7 @@ kountry iso, from(iso3n) geo(undet) /*defining regions*/
 /*defining regions for missing countries*/
 replace GEO="Eastern Asia" if iso==158 /*Taiwan*/
 replace GEO="Southern Europe" if iso==499 /*Montenegro*/
-replace GEO="Caribbean" if iso==531 /*Curaçao*/
+replace GEO="Caribbean" if iso==531 /*CuraÃ§ao*/
 replace GEO="Southern Europe" if iso==688 /*Serbia*/
 /*merging Oceania regions*/
 replace GEO="Oceania" if GEO=="Melanesia"
