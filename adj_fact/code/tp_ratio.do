@@ -1,4 +1,4 @@
-insheet using "C:\Users\acer\Downloads\EDULIT_DS_09042020060958672.csv", comma clear /*csv file downloaded from UIS*/
+insheet using "path\EDULIT_DS_09042020060958672.csv", comma clear /*csv file downloaded from UIS*/
 keep location country time value
 kountry location, from(iso3c) to(iso3n)
 recode _ISO3N_ .=729 if country=="Sudan (pre-secession)" /*code sudan iso as 729*/
@@ -35,7 +35,7 @@ kountry iso, from(iso3n) geo(undet) /*defining regions*/
 /*defining regions for missing countries*/
 replace GEO="Eastern Asia" if iso==158 /*Taiwan*/
 replace GEO="Southern Europe" if iso==499 /*Montenegro*/
-replace GEO="Caribbean" if iso==531 /*Curaçao*/
+replace GEO="Caribbean" if iso==531 /*CuraÃ§ao*/
 replace GEO="Southern Europe" if iso==688 /*Serbia*/
 egen geo_tp_1970_74=mean(tp_1970), by(GEO)
 replace tp_1970=geo_tp_1970_74 if tp_1970==.
