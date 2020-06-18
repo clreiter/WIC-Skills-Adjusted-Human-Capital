@@ -1,6 +1,8 @@
+rm(list = ls())
 library(tidyverse)
 library(countrycode)
 library(fastDummies)
+library(maps)
 
 d1 <- read.csv("./data/hlo_empirical_1970_2015.csv")
 
@@ -8,6 +10,7 @@ ggplot(d1, aes(x = year, y = hlo_mean, group = 1, color = country)) +
   geom_line(aes(group = country)) +
   geom_smooth(aes(group = country)) +
   geom_point() +
+  theme_bw() +
   theme(legend.position = "none")
 
 d2 <- read.csv("./data/uis_edu_exp.csv")
@@ -15,7 +18,7 @@ d2 <- read.csv("./data/uis_edu_exp.csv")
 d3 <- read.csv("./data/uis_tp.csv")
 
 d4 <- left_join(d1, d2) %>% 
-  left_join(d3) %>% 
+  left_join(d3 %>% select(-cc), by = c("year", "iso")) %>% 
   dummy_cols(select_columns = "year") %>% 
   mutate(region = countrycode(iso, "iso3n", "region"),
          region = ifelse(country == "Channel Islands", "Northern Europe", region)) %>% 
@@ -164,11 +167,54 @@ for(i in seq(1, length(unique(d13$country)),4)){
 dev.off()
 
 
-d14 <- d4 %>% 
+
+# Without year
+
+lm5 <- lm(hlo_mean ~ region + tp_ + edu_exp_, data = d4)
+summary(lm5)
+
+lm5predict <- as.data.frame(predict(lm5, newdata = d9, interval = "confidence")) 
+colnames(lm5predict) <- paste0(colnames(lm5predict),5)
+
+d14 <- bind_cols(d9, lm5predict) %>% 
+  mutate(fark = hlo_mean - fit5)
+
+ggplot(d14, aes(x = hlo_mean, y = fit5)) +
+  geom_point()
+
+
+d15 <- d4 %>% 
   left_join(d7) %>% 
   left_join(d10 %>% select(-fark)) %>% 
   left_join(d11 %>% select(-fark)) %>% 
-  left_join(d13 %>% select(-fark))
+  left_join(d13 %>% select(-fark)) %>% 
+  left_join(d14 %>%select(-fark)) %>% 
+  left_join(c1)
 
-write.csv(d14, "./results/lm1_lm2_lm3_lm4.csv", row.names = F)
+write.csv(d15, "./results/lm1_lm2_lm3_lm4_lm5.csv", row.names = F)
 
+
+world <- map_data("world") %>% 
+  mutate(iso = countrycode(region, "country.name", "iso3n"))
+
+YEAR = 1985
+
+d_temp <- d15 %>% 
+  select(-region) %>% 
+  filter(year == YEAR) %>% 
+  full_join(world)
+
+ggplot() +
+  geom_map(data = world,
+           map = world,
+           aes(x = long, y = lat, map_id = region),
+           fill="#ffffff", color="#ffffff", size=0.15) +
+  geom_map(data = d_temp,
+           map = world,
+           aes(fill = hlo, map_id = region),
+           color="#ffffff", size=0.15) +
+  scale_fill_continuous(low = 'grey', high = 'red') +
+  theme(axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()) +
+  ggtitle("HLO 1970")

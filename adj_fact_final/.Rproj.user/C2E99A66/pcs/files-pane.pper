@@ -1,0 +1,13 @@
+{
+    "path" : "~/GitHub/WiC-Human-Capital-Quality-Projections/adj_fact_final/code",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

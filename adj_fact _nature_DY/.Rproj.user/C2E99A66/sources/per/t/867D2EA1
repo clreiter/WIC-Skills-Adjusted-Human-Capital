@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592495695256.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "836024645",
+    "id" : "867D2EA1",
+    "lastKnownWriteTime" : 1592495742,
+    "last_content_update" : 1592495742266,
+    "path" : "C:/Users/yildiz/Dropbox/QualMatt/adj_fact _nature_DY/code/15_regional_averages_1970_2015.R",
+    "project_path" : "code/15_regional_averages_1970_2015.R",
+    "properties" : {
+        "cursorPosition" : "46,0",
+        "scrollLine" : "26"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

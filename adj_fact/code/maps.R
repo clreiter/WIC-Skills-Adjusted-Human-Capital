@@ -22,9 +22,9 @@ world <- map_data("world") %>%
 
 d1 <- read.csv("./results/results_adj_fac_hlo_1970_2015_with_adj_fct.csv")
 
+YEAR = 2015
 d2 <- d1 %>% 
-   filter(year == 2015) %>%
-  # filter(year == 1970) %>%
+   filter(year == YEAR) %>%
   rename(region = cc) 
 
 cutpoint <- c(0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4)
@@ -41,9 +41,8 @@ d4 <- full_join(d2 %>% select(region, country, fit1, adj_fit, iso), d3, by = c("
 #   select(country, iso, cc, fit1) %>% 
 #   unique()
 
-
-png("./figures/world_map_fit1_2015.png", height = 5, width = 10, res = 300, units = "in")
-png("./figures/world_map_fit1_1970.png", height = 5, width = 10, res = 300, units = "in")
+plot_name <- paste0("./figures/world_map_fit1_", YEAR,".png")
+png(plot_name, height = 5, width = 10, res = 300, units = "in")
 
  ggplot() +
   geom_map(data = world,
@@ -58,13 +57,12 @@ png("./figures/world_map_fit1_1970.png", height = 5, width = 10, res = 300, unit
   theme(axis.ticks = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()) +
-  ggtitle("SAMYS 1970")
+  ggtitle(paste0("SAMYS ", YEAR))
  dev.off()
 
  
- 
-  png("./figures/world_map_adj_fit1_2015.png", height = 5, width = 10, res = 300, units = "in")
- # png("./figures/world_map_adj_fit1_1970.png", height = 5, width = 10, res = 300, units = "in")
+plot_name <- paste0("./figures/world_map_adj_fit1_", YEAR,".png")
+png(plot_name, height = 5, width = 10, res = 300, units = "in") 
  
  ggplot() +
    geom_map(data = world,
@@ -79,7 +77,7 @@ png("./figures/world_map_fit1_1970.png", height = 5, width = 10, res = 300, unit
    theme(axis.ticks = element_blank(),
          axis.text = element_blank(),
          axis.title = element_blank()) +
-   ggtitle("Adjustment factor 2015")
+   ggtitle(paste0("Adjustment factor", YEAR))
  dev.off()
  
  

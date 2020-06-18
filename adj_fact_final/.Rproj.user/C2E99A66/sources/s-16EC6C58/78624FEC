@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590753143447.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2559648150",
+    "id" : "78624FEC",
+    "lastKnownWriteTime" : 1590756379,
+    "last_content_update" : 1590756379227,
+    "path" : "~/GitHub/WiC-Human-Capital-Quality-Projections/adj_fact_final/code/adj_fac_1970-2015_185countries.R",
+    "project_path" : "code/adj_fac_1970-2015_185countries.R",
+    "properties" : {
+        "cursorPosition" : "38,0",
+        "scrollLine" : "23"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

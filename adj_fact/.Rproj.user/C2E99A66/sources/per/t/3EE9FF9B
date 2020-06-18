@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587643111112.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1090429277",
+    "id" : "3EE9FF9B",
+    "lastKnownWriteTime" : 1589544486,
+    "last_content_update" : 1589544486,
+    "path" : "~/GitHub/WiC-Human-Capital-Quality-Projections/adj_fact/code/adj_fac_1970_hlo.R",
+    "project_path" : "code/adj_fac_1970_hlo.R",
+    "properties" : {
+        "cursorPosition" : "313,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
