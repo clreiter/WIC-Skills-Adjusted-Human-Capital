@@ -1,6 +1,6 @@
 /*define the corresponding path in your computer: 
 global path "C:\Users\enter path" */
-import delimited $path\EDULIT_DS_27022020084208646.csv, encoding(UTF-8) /* adult literacy data from UIS web page*/
+import delimited $path\data\uis_edu_lit.csv, encoding(UTF-8) /* adult literacy data from UIS web page*/
 gen illiterate=100-value /*calculating illiteracy rate*/
 kountry location, from(iso3c) to(iso3n) /*iso country codes to variable _ISO3N_*/
 encode indicator, gen(gender) /*recoding gender and total as numeric*/
