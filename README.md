@@ -38,11 +38,20 @@ This repository contains two folders:
 
 Estimation of the complete dataset starts with the SAMYS_empirical, and then follows to the calculation of the adjustment factor.
 
-### Estimation of the SAMYS for 44 countries with full complete data.
+### Estimation of SAMYS for 44 countries with empirical data (PIAAC/STEP)
 
-Need to summarize here based on Claudia Files
+The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" in "SAMYS_empirical" folder. Estimation includes four steps:
 
-### Estimation of the SAMYS for the rest of the world (regression adjustment)
+1. Estimation of standard of comparison
+2. Calculation of base year SAMYS
+3. Estimation of standard ageing pattern
+4. Reconstruction of SAMYS 1970-2015
+
+Original data can be found in Input folder. Large files are stored with Git LFS.
+
+The output file is "samys_1970-2015.csv" providing SAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
+
+### Estimation of SAMYS for the rest of the world (regression adjustment)
 
 Attention: Data preparation files are renamed with the initial word "prep_"
 
