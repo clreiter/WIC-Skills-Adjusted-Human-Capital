@@ -6,12 +6,10 @@
 #-----------------------------------------------------------------------------------------------------------
 
 #=> Removing all objects from memory
-
 rm(list = ls(all.names = TRUE))
 
 #=> Changing the working directory
-#setwd("/Users/claudiareiter/Documents/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_empirical")
-setwd("C:/Users/Raquel/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_empirical")
+setwd("add path to GitHub/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_empirical")
 
 #=> Installing necessary packages
 #install.packages("intsvy")
@@ -20,7 +18,6 @@ setwd("C:/Users/Raquel/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_empiri
 #install.packages("zoo")
 #install.packages("foreign")
 #install.packages("openxlsx", dependencies = TRUE)
-#install.packages("ggplot2")
 #install.packages("tidyr")
 
 #=> Loading packages
@@ -30,18 +27,32 @@ library("dplyr")
 library("zoo")
 library("foreign")
 library("openxlsx")
-library("ggplot2")
 library("tidyr")
 
 #-----------------------------------------------------------------------------------------------------------
-#=====> STEP 1: ESTIMATE STANDARD OF COMPARISON (POPULATION-WEIGHTED OECD MEAN PIAAC LITERACY SCORES)
+#NOTE: DATA CODING (unless specified otherwise)
 
-#OECD MEAN PIAAC LITERACY SCORES BY COUNTRY (Population aged 20-64)
+#   Age:                  Sex:                Education:
+#    0 = 20-64            0 = both            0 = Total
+#   15 = 15-19            1 = male            1 = Primary or less
+#   20 = 20-24            2 = female          2 = Lower secondary
+#   25 = 25-29                                3 = Upper secondary 
+#   30 = 30-34                                4 = Post-secondary
+#   35 = 35-39   
+#   40 = 40-44
+#   45 = 45-49   
+#   50 = 50-54
+#   55 = 55-59   
+#   60 = 60-64
+          
+#-----------------------------------------------------------------------------------------------------------
+#=====> STEP 1: ESTIMATE STANDARD OF COMPARISON 
+#       (POPULATION-WEIGHTED OECD MEAN PIAAC LITERACY SCORE BY COUNTRY, POPULATION AGED 20-64)
 
 #=> Read PIAAC data
 piaac_all_countries<-read.csv("Input/PIAAC_data.csv")   
 
-#=> keep only PIAAC observations with age >= 20
+#keep only PIAAC observations with age >= 20
 piaac<-subset(piaac_all_countries, AGEG5LFS>1)
 
 #=> calculate mean literacy score by country for all PIAAC countries
@@ -63,7 +74,6 @@ OECD_pop<-read.csv("Input/WIC_oecd_pop.csv")
 OECD_pop<-subset(OECD_pop, age==0 & sex==0 & educ==0)
 
 #=> calculate population-weighted OECD PIAAC literacy mean
-
 lit_mean_OECD_weighted<-merge(lit_mean_oecd, OECD_pop, by=c("iso"))			#merge PIAAC data with pop data
 lit_mean_OECD_weighted<-subset(lit_mean_OECD_weighted, mean_country!="NA")	#remove country-age-sex-combinations with too less observations
 lit_mean_OECD_weighted<-lit_mean_OECD_weighted %>% 
@@ -74,8 +84,10 @@ OECD_average<-aggregate(cbind(n, weighted_mean) ~ age+sex+educ, FUN=sum, data=li
 #-----------------------------------------------------------------------------------------------------------
 #=====> STEP 2: CALCULATE BASE YEAR (2015) EMPIRICAL SAMYS (POP 20-64)
 
-#=> Cleaning the workspace
+#=> Removing some objects from memory
 rm(list= ls()[!(ls() %in% c("piaac_all_countries", "lit_mean_piaac_country", "OECD_average"))])
+
+#=> CALCULATE BASE YEAR SAMYS BASED ON PIAAC DATA
 
 #=> use PIAAC mean literacy scores by country
 lit_mean_piaac_country$age<-0
@@ -93,16 +105,20 @@ wic_mys<-read.csv("Input/WIC_mys.csv")
 wic_mys<-subset(wic_mys, age==0 & sex==0 & educ==0 & year==2015)
 
 samys_by_country_piaac<-merge(wic_mys, samys_by_country_piaac, by=c("iso", "age", "sex", "educ"))
+
+#=> calculate SAMYS (see Methods Section: Equation 1)
 samys_by_country_piaac$samys<-samys_by_country_piaac$mys*samys_by_country_piaac$adj_factor
 samys_by_country_piaac<-samys_by_country_piaac[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "samys")]
 
-#=> add STEP data (SAMYS by country, age, sex, educ are aggregated based on population distribution)
+#=> CALCULATE BASE YEAR SAMYS BASED ON STEP DATA
+
+#=> read STEP results
 step_lit_mean<-read.csv("Input/STEP_mean_lit.csv")
 step_lit_mean<-subset(step_lit_mean, age>15 & sex>0 & educ>0)
 step_lit_mean$iso<-as.factor(step_lit_mean$iso)
 
 #=>fill missing values with data of subsequent education groups (same country-age-sex-group) 
-#for education categories 1 and 2, and fill with data from lower education groups for education categories 3 and 4 
+#  for education categories 1 and 2, and fill with data from lower education groups for education categories 3 and 4 
 
 step_lit_mean<-step_lit_mean[with(step_lit_mean, order(iso, age, sex, educ)),]
 step_lit_mean_educ234<-step_lit_mean %>% subset(educ!=1) %>% mutate(mean_country = na.locf(mean_country, na.rm=TRUE, fromLast=FALSE))
@@ -116,15 +132,15 @@ step_lit_mean<-rbind(step_lit_mean_educ1, step_lit_mean_educ2, step_lit_mean_edu
 step_lit_mean<-step_lit_mean[with(step_lit_mean, order(iso, age, sex, educ)),]
 
 #---------------------------------------------------------------------------------------------------------------------------------
-# NOTE FOR ESTIMATION OF URBAN-RURAL ADJUSTMENT FACTOR USING DHS DATA SEE "STEP_urban_adjustment_DHS.xlsx IN INPUT FOLDER
+# NOTE: FOR ESTIMATION OF URBAN-RURAL ADJUSTMENT FACTOR USING DHS DATA SEE "STEP_urban_adjustment_DHS.xlsx IN INPUT FOLDER
 #---------------------------------------------------------------------------------------------------------------------------------
 
-#=>STEP urban/rural adjustments
+#=> read STEP urban/rural adjustments as calculated in "STEP_urban_adjustment_DHS.xlsx"
 correction<-read.xlsx("Input/STEP_urban_adjustment_DHS.xlsx", sheet=2)
 step_lit_mean<-merge(step_lit_mean, correction)
 step_lit_mean$mean_country_corrected<-step_lit_mean$mean_country*step_lit_mean$urban_adjustment
 
-#=>aggregate literacy scores based on population distribution
+#=> aggregate literacy scores based on population distribution (to ensure representativeness)
 wic_pop<-read.csv("Input/WIC_pop.csv")
 wic_pop<-aggregate(pop~iso+year+age+sex+educ, FUN=sum, data=wic_pop)
 wic_pop_2015<-subset(wic_pop, year==2015)         #use only 2015 values
@@ -134,19 +150,21 @@ step_lit_mean_weighted<-step_lit_mean %>%
 step_lit_mean_weighted$weighted_score<-step_lit_mean_weighted$mean_country_corrected*step_lit_mean_weighted$share
 step_lit_mean_country<-aggregate(weighted_score~iso+country+year, FUN=sum, data=step_lit_mean_weighted)
 
-#=>calculate SAMY
 step_lit_mean_country$age<-0
 step_lit_mean_country$sex<-0
 step_lit_mean_country$educ<-0
 
-#=>calculate skills adjustment factor
+#=> calculate skills adjustment factor
 samys_by_country_step<-merge(OECD_average, step_lit_mean_country, by=c("age", "sex", "educ"))
 samys_by_country_step$adj_factor<-samys_by_country_step$weighted_score/samys_by_country_step$weighted_mean
 
 samys_by_country_step<-merge(wic_mys, samys_by_country_step, by=c("iso", "country", "age", "sex", "educ"))
+
+#=> calculate SAMYS (see Methods Section: Equation 1)
 samys_by_country_step$samys<-samys_by_country_step$mys*samys_by_country_step$adj_factor
 samys_by_country_step<-samys_by_country_step[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "samys")]
 
+#=> COMBINE PIAAC AND STEP SAMYS
 samys_by_country_2015<-rbind(samys_by_country_piaac, samys_by_country_step)
 samys_by_country_2015$year<-2015
 
@@ -156,10 +174,10 @@ samys_by_country_2015$year<-2015
 #=> Removing some objects from memory
 rm(list= ls()[!(ls() %in% c("piaac_all_countries", "samys_by_country_2015", "OECD_average"))])
 
-#=>read IALS data
+#=> read IALS data
 ials_original<-read.spss("Input/IALS_data.sav", to.data.frame=TRUE)
 
-#=>recode countries
+#recode countries to numeric ISO codes (IALS uses survey-specific country codes)
 ials<-dplyr::mutate(ials_original, CNTRYID=ifelse (CNTRID==1 | CNTRID==2, 124, 0))              #Canada (Englisch & French)
 ials<-dplyr::mutate(ials, CNTRYID=ifelse (CNTRID==3 | CNTRID==4 | CNTRID==22, 756, CNTRYID))    #Switzerland (German & French & Italian)
 ials<-dplyr::mutate(ials, CNTRYID=ifelse (CNTRID==5, 276, CNTRYID))                             #Germany
@@ -180,13 +198,13 @@ ials<-dplyr::mutate(ials, CNTRYID=ifelse (CNTRID==24, 246, CNTRYID))            
 ials<-dplyr::mutate(ials, CNTRYID=ifelse (CNTRID==25, 348, CNTRYID))                            #Hungary
 ials<-dplyr::mutate(ials, CNTRYID=ifelse (CNTRID==29, 152, CNTRYID))                            #Chile
 
-#=>rename replicate factors (for intsvy package) 
+#rename replicate factors (for intsvy package) 
 ials<-plyr::rename(ials, c("REPLIC01"="REPLIC1", "REPLIC02"="REPLIC2", "REPLIC03"="REPLIC3", "REPLIC04"="REPLIC4", "REPLIC05"="REPLIC5", "REPLIC06"="REPLIC6", "REPLIC07"="REPLIC7", "REPLIC08"="REPLIC8", "REPLIC09"="REPLIC9"))
 
-#=>recode education (2 broad education groups)
+#recode education (2 broad education groups)
 ials$A8<-ifelse(is.na(ials$A8), ials$A8RCD, ials$A8)
-ials<-dplyr::mutate(ials, educ=ifelse (A8==0 | A8==1 | A8==2, 1, 0))  
-ials<-dplyr::mutate(ials, educ=ifelse (A8==3 | A8==5 | A8==6 | A8==7, 2, educ)) 
+ials<-dplyr::mutate(ials, educ=ifelse (A8==0 | A8==1 | A8==2, 1, 0))              #educ 1 = Lower secondary or less
+ials<-dplyr::mutate(ials, educ=ifelse (A8==3 | A8==5 | A8==6 | A8==7, 2, educ))   #educ 2 = Upper secondary or higher
 ials<-subset(ials, educ>0)
 
 #=>recode age corresponding to PIAAC
@@ -284,13 +302,13 @@ ials_1998_2017<-subset(ials_1998_2017, age>0)
 ials_rev<-rbind(ials_1994_2011, ials_1996_2011, ials_1996_2014, ials_1998_2011, ials_1998_2014, ials_1998_2017)
 ials_rev$test<-"IALS"
 
-#configuration for using intsvy package with IALS data
+#=> configuration for using intsvy package with IALS data
 piaac_conf<-intsvy.config(base.config=piaac_conf)
 piaac_conf[["variables"]][["weightFinal"]]<-"WEIGHT"
 piaac_conf[["variables"]][["weightBRR"]]<-"REPLIC"
 piaac_conf[["parameters"]][["BRRreps"]]<-30
 
-#=>calculate IALS literacy mean by country, age and education (2 categories)
+#=> calculate IALS literacy mean by country, age and education (2 categories)
 lit_mean_ials_age_educ<-intsvy.mean.pv(pvnames=paste0("PVLIT", 1:10), by=c("age", "test", "educ", "CNTRYID"), data=ials_rev, config=piaac_conf)
 lit_mean_ials_age_educ$age<-as.numeric(as.character(lit_mean_ials_age_educ$age))
 lit_mean_ials_age_educ<-subset(lit_mean_ials_age_educ, age>3 & age<12)
@@ -300,14 +318,13 @@ lit_mean_ials<-aggregate(Mean ~ age+test+educ, FUN=mean, data=lit_mean_ials_age_
 piaac<-subset(piaac_all_countries, CNTRYID==276 | CNTRYID==372 | CNTRYID==752 | CNTRYID==616 | CNTRYID==528 | CNTRYID==56 | CNTRYID==578 | CNTRYID==246 | CNTRYID==203 | CNTRYID==208 | CNTRYID==380 | CNTRYID==554 |  CNTRYID==152 | CNTRYID==705 | CNTRYID==348 | CNTRYID==840 | CNTRYID==826)
 
 #=> define 2 broad education categories in PIAAC data
-#educ 1 = lower secondary or less
-piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==1 | EDCAT7==2, 1, 0))
-#educ 2 = upper secondary and higher
-piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==3 | EDCAT7==4 | EDCAT7==5 | EDCAT7==6 | EDCAT7==7 | EDCAT7==8, 2, educ))
+piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==1 | EDCAT7==2, 1, 0))  #educ 1 = Lower secondary or less
+piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==3 | EDCAT7==4 | EDCAT7==5 | EDCAT7==6 | EDCAT7==7 | EDCAT7==8, 2, educ))   #educ 2 = Upper secondary or higher
+
 #drop observations without educ information 
 piaac<-subset(piaac, educ>0)  
 
-#=> calculate PIAAC literacy mean by country and education (2 categories above)
+#=> calculate PIAAC literacy mean by country and two broad education categories
 lit_mean_piaac_age_educ<-piaac.mean.pv(pvlabel = "LIT", by=c("AGEG5LFS", "educ", "CNTRYID"), data=piaac)
 lit_mean_piaac_age_educ$test<-"PIAAC"
 lit_mean_piaac_age_educ<-plyr::rename(lit_mean_piaac_age_educ, c("AGEG5LFS"="age"))
@@ -317,31 +334,29 @@ lit_mean_piaac<-aggregate(Mean ~ age+test+educ, FUN=mean, data=lit_mean_piaac_ag
 #=> combine IALS and PIAAC data
 IALS_PIAAC<-rbind(lit_mean_ials, lit_mean_piaac)
 
-#=> calculate period-adjustment factor, as per eq XXX of the manuscript
-
 #remove countries without age information in IALS
 ials<-subset(ials, CNTRYID!=124)    #remove Canada
 #remove countries which did not participate in PIAAC
 ials<-subset(ials, CNTRYID!=756)    #remove Switzerland
 
-#calculate IALS literacy mean by country and education (2 categories)
+#=> calculate IALS literacy mean by country and education (2 broad categories)
 lit_mean_ials_by_country<-intsvy.mean.pv(pvnames=paste0("PVLIT", 1:10), by=c("educ", "CNTRYID"), data=ials, config=piaac_conf)
 lit_mean_ials_by_country$test<-"IALS"
 lit_mean_ials_by_country<-plyr::rename(lit_mean_ials_by_country, c("Mean"="mean_ials"))
 lit_mean_ials_country<-aggregate(mean_ials~educ+test, FUN=mean, data=lit_mean_ials_by_country)
 
-#calculate PIAAC literacy mean by country and education (2 categories)
+#=> calculate PIAAC literacy mean by country and education (2 broad categories)
 lit_mean_piaac_by_country<-piaac.mean.pv(pvlabel = "LIT", by=c("educ", "CNTRYID"), data=piaac)
 lit_mean_piaac_by_country$test<-"PIAAC"
 lit_mean_piaac_by_country<-plyr::rename(lit_mean_piaac_by_country, c("Mean"="mean_piaac"))
 lit_mean_piaac_country<-aggregate(mean_piaac~educ+test, FUN=mean, data=lit_mean_piaac_by_country)
 
+#=> calculate period-adjustment factor
 period_adj<-merge(lit_mean_ials_country, lit_mean_piaac_country, by=c("educ"))
 period_adj<-period_adj[c("educ", "mean_ials", "mean_piaac")]
 period_adj$adj_factor<-period_adj$mean_piaac/period_adj$mean_ials
 
-#=> Calculate ageing pattern
-
+#=> calculate ageing pattern
 ageing_pattern<-merge(IALS_PIAAC, period_adj, by=c("educ"))
 ageing_pattern$adj_Mean<-ifelse(ageing_pattern$test=="IALS", ageing_pattern$Mean*ageing_pattern$adj_factor, ageing_pattern$Mean)
 ageing_pattern$age<-as.numeric(as.character(ageing_pattern$age))
@@ -349,15 +364,6 @@ ageing_pattern$age<-(ageing_pattern$age*5)+10
 ageing_pattern<-subset(ageing_pattern, age>25 & age<65)
 ageing_pattern$age<-as.factor(ageing_pattern$age)
 ageing_pattern$educ<-factor(ageing_pattern$educ, labels=c("Lower secondary or less", "Upper secondary or higher"))
-
-# Replicates Replicates Figure XX of
-#ggplot(ageing_pattern, aes(x=test, y=adj_Mean, color=age, group=age)) + 
-  #geom_line(size=1) + 
-  #geom_point() + facet_wrap(~educ, ncol=2, nrow=1, scales="free_x") + 
-  #xlab("Test") + ylab("Period-adjusted literacy mean") + 
-  #scale_color_discrete(name="Age at PIAAC", labels=c("30-34", "35-39", "40-44", "45-49","50-54", "55-59", "60-64")) + 
-  #theme_bw()
-#ggsave("Output/standard_ageing_pattern.jpg", width =6.8, height=2.9)
 
 #---------------------------------------------------------------------------------------------------------------------------------
 #FOR ESTIMATION OF SKILL GROWTH FUNCTION AND RECONSTRUCTION OF PIAAC/STEP SCORES SEE "reconstruction_score.xlsx" IN INPUT FOLDER
@@ -369,7 +375,7 @@ ageing_pattern$educ<-factor(ageing_pattern$educ, labels=c("Lower secondary or le
 #=> Removing some objects from memory
 rm(list= ls()[!(ls() %in% c("samys_by_country_2015", "OECD_average"))])
 
-#=> read reconstructed PIAAC/STEP scores
+#=> read reconstructed PIAAC/STEP scores as calculated in "reconstruction_score.xlsx"
 scores_over_time_wide<-read.xlsx("Input/reconstruction_scores.xlsx", sheet=3)
 scores_over_time_wide<-scores_over_time_wide[,c(1,2,4,5,6,9:17)]
 scores_over_time<-gather(scores_over_time_wide, year, score, score_2010:score_1970, factor_key=TRUE)
@@ -382,7 +388,7 @@ wic_pop<-aggregate(pop~iso+year+age+sex+educ, FUN=sum, data=wic_pop)
 
 reconstruction<-merge(scores_over_time, wic_pop, by=c("iso", "year", "age", "sex", "educ"))
 
-#=> SAMYS by country (Pop 20-64) and year (1970-2015)
+#=> calculate SAMYS by country (Pop 20-64) and year (1970-2015) (see Methods Section: Equation 2)
 
 #aggregate scores based on population distribution
 samys_country<-reconstruction %>% subset(age>15) %>% 
@@ -404,6 +410,7 @@ samys_country<-merge(wic_mys, samys_country, by=c("iso", "year", "age", "sex", "
 samys_country$samys<-samys_country$adj_factor*samys_country$mys
 samys_country<-samys_country[c("iso", "country", "year", "age", "sex", "educ", "mys", "adj_factor", "samys")]
 
+#combine with 2015 SAMYS
 samys_1970_2015<-rbind(samys_country, samys_by_country_2015)
 write.csv(samys_1970_2015, "Output/samys_1970-2015.csv", row.names=FALSE)
 
