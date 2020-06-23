@@ -2,7 +2,7 @@
 #=====> SAMYS Time Series Estimation for 185 countries <=====#
 #============================================================#
 
-# All the necessary R called can be sourced from this file. 
+# All the necessary R files called can be sourced from this file. 
 # No need to run seperate R files. 
 # Steps 5, 10 and 11 require running Stata do files. 
 
