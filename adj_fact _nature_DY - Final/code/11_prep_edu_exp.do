@@ -1,5 +1,7 @@
 /*Government expenditure on education as a percentage of GDP (%) from UIS*/
 /*countries with all missing data are not included in the original dataset*/
+/*define the corresponding path in your computer:
+global path "C:\Users\enter path" */
 insheet using "path\EDULIT_DS_04062020040732881.csv", comma clear /*csv file downloaded from UIS*/
 keep location country time value
 rename value edu_exp
