@@ -34,7 +34,7 @@ Raquel Guimaraes
 This repository contains two folders:
 
 1. SAMYS_empirical
-2. adj_fact
+2. SAMYS_time_series
 
 Estimation of the complete dataset starts with the SAMYS_empirical, and then follows to the calculation of the adjustment factor.
 

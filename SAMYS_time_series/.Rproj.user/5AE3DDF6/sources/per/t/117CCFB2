@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592913195157.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1398398078",
+    "id" : "117CCFB2",
+    "lastKnownWriteTime" : 1592913427,
+    "last_content_update" : 1592914017084,
+    "path" : "C:/Users/Raquel/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_time_series/code/00_run_all.R",
+    "project_path" : "code/00_run_all.R",
+    "properties" : {
+        "cursorPosition" : "61,0",
+        "scrollLine" : "50"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

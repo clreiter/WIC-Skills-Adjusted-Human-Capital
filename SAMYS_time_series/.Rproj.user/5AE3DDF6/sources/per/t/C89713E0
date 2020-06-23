@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592913299291.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "336407914",
+    "id" : "C89713E0",
+    "lastKnownWriteTime" : 1592912231,
+    "last_content_update" : 1592912231,
+    "path" : "C:/Users/Raquel/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_time_series/code/15_regional_averages_1970_2015.R",
+    "project_path" : "code/15_regional_averages_1970_2015.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

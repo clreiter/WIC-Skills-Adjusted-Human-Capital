@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592913300827.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2880997574",
+    "id" : "725E8744",
+    "lastKnownWriteTime" : 1592912231,
+    "last_content_update" : 1592912231,
+    "path" : "C:/Users/Raquel/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_time_series/code/14_est_samys_1970_2015.R",
+    "project_path" : "code/14_est_samys_1970_2015.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
