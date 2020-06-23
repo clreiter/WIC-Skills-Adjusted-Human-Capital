@@ -9,6 +9,7 @@ d1 <- read.csv("./results/samys_1970_2015.csv") %>%
     mutate(region = countrycode(iso, "iso3n", "region"),
     region = ifelse(cc == "Channel Islands", "Northern Europe", region))
 
+#populations of countries from WIC data explorer to weigh regions
 d2 <- read.csv("./data/df_wic_population_1970_2015.csv", sep=";")
 
 d3 <- d1 %>% 
