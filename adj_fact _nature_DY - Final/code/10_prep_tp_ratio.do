@@ -1,3 +1,6 @@
+/*pupil-teacher ratio in primary education from UIS */
+/*define the corresponding path in your computer:
+global path "C:\Users\enter path" */
 insheet using "path\EDULIT_DS_09042020060958672.csv", comma clear /*csv file downloaded from UIS*/
 keep location country time value
 kountry location, from(iso3c) to(iso3n)
