@@ -31,6 +31,33 @@ library(MASS)
 step.model <- stepAIC(lm1, direction = "both", 
                       trace = FALSE)
 summary(step.model)
+
+#REGRESSION DIAGNOSTICS
+#Normality
+library(car)
+qqPlot(lm1, main="QQ Plot")
+sresid <-studres(lm1)
+hist(sresid, freq=FALSE,
+     main="Distribution of Studentized Residuals") 
+xfit<-seq(min(sresid),max(sresid),length=40)
+yfit<-dnorm(xfit)
+lines(xfit, yfit)
+      
+#independence
+plot(x=lm1$model$tp_, y=resid(lm1), xlab = "Pupil-teacher ratio", ylab = "Residuals")
+plot(x=lm1$model$edu_exp_, y=resid(lm1), xlab = "Educational expenditure", ylab = "Residuals")
+#residuals and predictors are independent
+
+#Homoscedasticity
+lmtest::bptest(lm1) 
+#studentized Breusch-Pagan test p-value < 0.05 heteroscedasticity exists
+par(mfrow = c(2,2))
+plot(lm1)
+
+#Multicollinearity
+library(olsrr)
+ols_vif_tol(lm1) 
+
 detach("package:MASS", unload = TRUE)
 
 lm1predict <- as.data.frame(predict(step.model, newdata = d5, interval = "confidence"))
