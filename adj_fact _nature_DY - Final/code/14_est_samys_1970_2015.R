@@ -82,6 +82,58 @@ summary(step.model)
 lm1 <- lm(log(adj_factor) ~  highLS + old_dep + illiterate_prop + hlo +
             year_1970 + year_1975 + year_1980 + year_1985 + year_1990, data = r1)
 
+#REGRESSION DIAGNOSTICS
+
+#Normality
+library(car)
+par(mfrow = c(3,2))
+qqPlot(lm1, main="QQ Plot")
+
+#histogram for distribution of residuals
+sresid <-studres(lm1)
+hist(sresid, freq=FALSE,
+     main="Distribution of Studentized Residuals") 
+xfit<-seq(min(sresid),max(sresid),length=40)
+yfit<-dnorm(xfit)
+lines(xfit, yfit)
+#residual distribution seems normal
+
+#Plots bw each predictor and residuals
+par(mfrow = c(2,2))
+plot(x=lm1$model$highLS, y=resid(lm1), xlab = "aboveLS", ylab = "Residuals")
+plot(x=lm1$model$old_dep, y=resid(lm1), xlab = "ODR", ylab = "Residuals")
+plot(x=lm1$model$illiterate_prop, y=resid(lm1), xlab = "AIR", ylab = "Residuals")
+plot(x=lm1$model$highLS, y=resid(lm1), xlab = "QEI", ylab = "Residuals")
+#residuals and predictors are independent
+
+#Homoscedasticity
+lmtest::bptest(lm1) #studentized Breusch-Pagan test p-value < 0.05 heteroskedasticity exists
+par(mfrow = c(2,2))
+plot(lm1) #the left hand side graphs ahow that thre might be some degree of heteroskedasticity
+
+#calculate robust standard errors
+#install.packages('sandwich')
+library(sandwich)
+library(lmtest)
+lm1 %>% 
+  vcovHC() %>% 
+  diag() %>% 
+  sqrt()
+coeftest(lm1, vcov = vcovHC(lm1,))
+#standard errors are higher for some of the coefficients but significance is pretty much the same
+
+#Multicollinearity
+library(olsrr)
+ols_vif_tol(lm1)
+#no multicorrelation. All VIF scores are less than 5
+
+#Linearity
+crPlots(lm1, terms = ~.- year_1970 -year_1975 -year_1980 -year_1985 -year_1990)
+#all predictors seems to be linear
+
+#End of diagnostic tests
+
+
 #sink("./results/samys_model_1970_2015.txt")
 #print(summary(lm1))
 #sink()
