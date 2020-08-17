@@ -424,7 +424,7 @@ write.csv(samys_1970_2015, "Output/samys_1970-2015.csv", row.names=FALSE)
 
 
 
-#====> DIGRESSION: Calculation of age-, sex- and education-specific proportions above and below population-weighted OECD mean PIAAC literacy score, all PIAAC countries
+#====> DIGRESSION: Calculation of age-, sex- and education-specific proportions above and below OECD mean PIAAC literacy score
 #      (used for Figure 1 in the Main Text) 
 
 #=====>  Removing all objects from memory
