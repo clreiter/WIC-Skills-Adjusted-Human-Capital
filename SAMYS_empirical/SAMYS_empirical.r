@@ -416,3 +416,148 @@ write.csv(samys_1970_2015, "Output/samys_1970-2015.csv", row.names=FALSE)
 
 #=====> END
 #-----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+#====> DIGRESSION: Calculation of age-, sex- and education-specific proportions above and below population-weighted OECD mean PIAAC literacy score, all PIAAC countries
+#      (used for Figure 1 in the Main Text) 
+
+#=====>  Removing all objects from memory
+rm(list = ls(all.names = TRUE))
+
+
+#====> ESTIMATE STANDARD OF COMPARISON 
+#      (POPULATION-WEIGHTED OECD MEAN PIAAC LITERACY SCORE BY AGE, SEX AND EDUCATION)
+
+#=> Read PIAAC data
+piaac_all_countries<-read.csv("Input/PIAAC_data.csv")
+
+#=> Define education categories
+piaac<-dplyr::mutate(piaac_all_countries, educ = ifelse (EDCAT7==1, 1, 0))  #educ 1 = primary or less
+piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==2, 2, educ))             #educ 2 = lower secondary
+piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==3, 3, educ))             #educ 3 = upper secondary
+piaac<-dplyr::mutate(piaac, educ = ifelse (EDCAT7==4 | EDCAT7==5 | EDCAT7==6 | EDCAT7==7 | EDCAT7==8, 4, educ))     #educ 4 = post-secondary
+piaac<-subset(piaac, educ>0)  #remove observations without educ information 
+
+#=> Remove observations without gender information
+piaac<-subset(piaac, GENDER_R==1 | GENDER_R==2)
+
+#=> Calculate mean PIAAC literacy scores by country, age, sex, and education
+lit_mean_piaac<-piaac.mean.pv(pvlabel = "LIT", by=c("AGEG5LFS", "GENDER_R", "CNTRYID", "educ"), data=piaac)
+lit_mean_piaac<-plyr::rename(lit_mean_piaac, c("AGEG5LFS"="age", "GENDER_R"="sex", "CNTRYID"="iso", "Mean"="mean_country", "Freq"="n"))
+
+#=> Recode age variable
+lit_mean_piaac$age<-as.numeric(as.factor(lit_mean_piaac$age))
+lit_mean_piaac$age<-(lit_mean_piaac$age*5)+10
+
+#=> Read missing values (country-age-sex-education categories with too small samples)
+missing_values<-read.csv("Input/PIAAC-missing-values_age_sex_educ.csv")
+lit_mean_piaac<-rbind(missing_values, lit_mean_piaac)
+
+#=>fill missing values with data of subsequent education groups (same country-age-sex-group) for education categories 1 and 2,
+#  and fill with data from lower education groups for education categories 3 and 4 
+lit_mean_piaac<-lit_mean_piaac[with(lit_mean_piaac, order(iso, age, sex, educ)),]
+
+lit_mean_piaac_educ234<-lit_mean_piaac %>% subset(educ!=1) %>%
+  mutate(mean_country = na.locf(mean_country, na.rm=TRUE, fromLast=FALSE))%>%
+  ungroup()
+
+lit_mean_piaac_educ123<-lit_mean_piaac %>% subset(educ!=4) %>%
+    mutate(mean_country = na.locf(mean_country, na.rm=TRUE, fromLast=TRUE))%>%
+  ungroup()
+
+lit_mean_piaac_educ1<-subset(lit_mean_piaac_educ123, educ==1)
+lit_mean_piaac_educ2<-subset(lit_mean_piaac_educ123, educ==2)
+lit_mean_piaac_educ3<-subset(lit_mean_piaac_educ234, educ==3)
+lit_mean_piaac_educ4<-subset(lit_mean_piaac_educ234, educ==4)
+lit_mean_piaac<-rbind(lit_mean_piaac_educ1, lit_mean_piaac_educ2, lit_mean_piaac_educ3, lit_mean_piaac_educ4)
+
+
+#=>Remove non-OECD countries
+lit_mean_oecd<-subset(lit_mean_piaac, iso!=196)    #remove Cyprus 
+lit_mean_oecd<-subset(lit_mean_oecd, iso!=643)     #remove Russia
+lit_mean_oecd<-subset(lit_mean_oecd, iso!=702)     #remove Singapore
+lit_mean_oecd<-subset(lit_mean_oecd, iso!=604)     #remove Peru
+lit_mean_oecd<-subset(lit_mean_oecd, iso!=398)     #remove Kazakhstan
+lit_mean_oecd<-subset(lit_mean_oecd, iso!=218)     #remove Ecuador
+
+#=>Read WIC OECD population size
+OECD_pop<-read.csv("Input/WIC_oecd_pop.csv")
+OECD_pop<-subset(OECD_pop, age>0 & sex>0 & educ>0)
+OECD_pop$age<-OECD_pop$age*5+10
+
+#=>Calculate population-weighted OECD mean
+lit_mean_OECD_weighted<-merge(lit_mean_oecd, OECD_pop, by=c("iso", "age", "sex", "educ"))   #merge PIAAC data with pop data
+lit_mean_OECD_weighted<-lit_mean_OECD_weighted %>% 
+  dplyr::group_by(age, sex, educ) %>% dplyr::mutate(share = pop/sum(pop))   #calculate population weights
+lit_mean_OECD_weighted$weighted_mean<-lit_mean_OECD_weighted$mean_country * lit_mean_OECD_weighted$share  #calculate weighted means
+lit_mean_OECD_weighted<-aggregate(cbind(n, weighted_mean) ~ age+sex+educ, FUN=sum, data=lit_mean_OECD_weighted)  #calculate weighted average by age, sex, educ
+lit_mean_OECD_weighted$age<-(lit_mean_OECD_weighted$age/5)-2
+
+
+#=====> CALCULATE AGE-, SEX- AND EDUCATION-SPECIFIC PROPORTIONS ABOVE AND BELOW LITERACY RATES
+
+#=>Use age-sex-educ-specific cutoffs for piaac.ben.pv function
+dir.create("Output/loop")
+piaac_loop<-plyr::rename(piaac, c("AGEG5LFS"="age", "GENDER_R"="sex", "CNTRYID"="iso"))
+for (i in 1:10)   #i represents age group
+{for (j in 1:2)   #j represents sex
+{for (k in 1:4)   #k represents educational attainment
+{loop<-subset(piaac_loop, age==i)
+loop<-subset(loop, sex==j)
+loop<-subset(loop, educ==k)
+oecd_average<-subset(lit_mean_OECD_weighted, age==i)
+oecd_average<-subset(oecd_average,sex==j)
+oecd_average<-subset(oecd_average,educ==k)
+loop<-piaac.ben.pv(pvlabel="LIT", by=c("iso", "age", "sex", "educ"), loop, cutoff=c(0,oecd_average[1,5]))
+write.csv(loop, file = paste("Output/loop/loop_",i,j,k, ".csv"), row.names=FALSE)
+}}}
+
+#=>Combine all files from loop
+loop<-("Output/loop/")
+filePaths <- list.files(loop, "\\.csv$", full.names = TRUE)
+proportions <- do.call(rbind, lapply(filePaths, read.csv))
+unlink("Output/loop", recursive = TRUE)
+
+#=>Clean up matrix with proportions
+proportions<-subset(proportions, Benchmarks!="Below/equal to 0")
+proportions_benchmark<-proportions$Benchmarks
+proportions_benchmark<-gsub("\\d+", "OECD average", proportions_benchmark)
+proportions_benchmark<-gsub("greater than OECD average to less/equal than OECD average.OECD average", "less/equal than OECD average", proportions_benchmark)
+proportions_benchmark<-gsub("Above OECD average.OECD average", "above OECD average", proportions_benchmark)
+proportions$Benchmarks<-proportions_benchmark
+proportions<-subset(proportions, Benchmarks!="Above NA")
+proportions<-subset(proportions, Benchmarks!="greater than OECD average to less/equal than NA")
+proportions_wide<- tidyr::spread(proportions, key = Benchmarks , value = Percentage)
+proportions_wide$sum<-proportions_wide$`above OECD average`+proportions_wide$`less/equal than OECD average`
+proportions_wide<-plyr::rename(proportions_wide, c("above OECD average"="pct_above_OECD_avg", "less/equal than OECD average"="pct_below_OECD_avg"))
+proportions_wide<-proportions_wide %>% mutate(pct_above_OECD_avg=ifelse(is.na(pct_above_OECD_avg), (100 - pct_below_OECD_avg), pct_above_OECD_avg ))
+proportions_wide<-subset(proportions_wide, pct_below_OECD_avg!="NA")
+
+#=> Read missing values (country-age-sex-education categories with too small samples)
+missing_values<-read.csv("Input/PIAAC-missing-values_proportions.csv")
+missing_values$age<-missing_values$age/5-2
+missing_values<-missing_values[!(missing_values$age==1 & missing_values$educ==4), ]
+proportions_wide<-rbind(proportions_wide, missing_values)
+
+#=>Assume 50% above and 50% below OECD average for country-age-sex-education groups with missing values
+proportions_wide <- proportions_wide %>% mutate(pct_above_OECD_avg=ifelse(is.na(pct_above_OECD_avg), 50, pct_above_OECD_avg))
+proportions_wide <- proportions_wide %>% mutate(pct_below_OECD_avg=ifelse(is.na(pct_below_OECD_avg), 50, pct_below_OECD_avg))
+
+#=>Merge with OECD average and calculate percentages
+proportions_piaac<-merge(proportions_wide, lit_mean_OECD_weighted, by=c("age", "sex", "educ"))
+proportions_piaac$above_OECD_avg<-proportions_piaac$pct_above_OECD_avg/100
+proportions_piaac$below_OECD_avg<-proportions_piaac$pct_below_OECD_avg/100
+proportions_piaac$age<-(proportions_piaac$age+2)*5
+proportions_piaac<-plyr::rename(proportions_piaac, c("weighted_mean"="OECD_avg"))
+proportions_piaac<-proportions_piaac[c("iso", "age", "sex", "educ", "pct_above_OECD_avg", "pct_below_OECD_avg", "OECD_avg")]
+
+#=>Save as output file
+write.csv(proportions_piaac, "Output/proportions_piaac-countries.csv", row.names=FALSE)
+
+
