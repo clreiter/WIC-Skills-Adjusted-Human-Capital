@@ -48,6 +48,7 @@ The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" i
 4. Reconstruction of SAMYS 1970-2015
 5. DIGRESSION: Calculation of age-, sex- and education-specific proportions above and below OECD mean PIAAC literacy score
 
+
 Original data can be found in Input folder. Large files are stored with Git LFS.
 
 The output file is "samys_1970-2015.csv" providing SAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
