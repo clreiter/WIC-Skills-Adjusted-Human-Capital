@@ -46,6 +46,7 @@ The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" i
 2. Calculation of base year SAMYS
 3. Estimation of standard ageing pattern
 4. Reconstruction of SAMYS 1970-2015
+5. DIGRESSION: Calculation of age-, sex- and education-specific proportions above and below OECD mean PIAAC literacy score
 
 Original data can be found in Input folder. Large files are stored with Git LFS.
 
