@@ -52,6 +52,7 @@ The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" i
 Original data can be found in Input folder. Large files are stored with Git LFS.
 
 The output file is "samys_1970-2015.csv" providing SAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
+The output file for (5) is "proportions_piaac-countries.csv" providing age-, sex- and educaiton specific proportions below and above the OECD standard for all PIAAC countries.
 
 ### Estimation of SAMYS for the rest of the world (regression adjustment)
 
