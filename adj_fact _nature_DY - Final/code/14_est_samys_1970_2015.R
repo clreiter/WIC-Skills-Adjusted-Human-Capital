@@ -109,7 +109,7 @@ plot(x=lm1$model$highLS, y=resid(lm1), xlab = "QEI", ylab = "Residuals")
 #Homoscedasticity
 lmtest::bptest(lm1) #studentized Breusch-Pagan test p-value < 0.05 heteroskedasticity exists
 par(mfrow = c(2,2))
-plot(lm1) #the left hand side graphs ahow that thre might be some degree of heteroskedasticity
+plot(lm1) #the left hand side graphs show that thre might be some degree of heteroskedasticity
 
 #calculate robust standard errors
 #install.packages('sandwich')
