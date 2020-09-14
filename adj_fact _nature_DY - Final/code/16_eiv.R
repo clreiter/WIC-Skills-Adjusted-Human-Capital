@@ -3,7 +3,7 @@
 library(eivtools)
 library(tidyverse)
 
-lm1 <- lm(log(adj_factor) ~  highLS + old_dep + illiterate_prop + hlo +
+lm1 <- lm(log(adj_factor) ~ highLS + old_dep + illiterate_prop + hlo +
             year_1970 + year_1975 + year_1980 + year_1985 + year_1990, data = r1)
 vcov.mat <- vcov(lm1)[-1,-1]
 
@@ -23,7 +23,7 @@ rel.df <- data.frame(rv = rep(1,9),
                      var = c("highLS",  "old_dep","illiterate_prop", "hlo",
                              "year_1970", "year_1975", "year_1980", "year_1985", "year_1990")) %>% 
   gather(rv, value, -var) %>% 
-  mutate(rel = c(rep(c(0.95, 0.90, 0.85), each = 36), rep(1,9)))
+  mutate(rel = c(rep(1,9), rep(c(0.95, 0.90, 0.85), each = 36)))
 
 
 temp3 <- NULL
@@ -31,11 +31,12 @@ temp3 <- NULL
 for(i in 1:length(unique(rel.df$rv))){
   temp1 <- rel.df %>% 
     filter(rv %in% unique(rel.df$rv)[i])
-  rel.vector <-temp1$rel
+  # rel.vector <- temp1$rel
+  rel.vector <- temp1$value
   names(rel.vector) <- c("highLS",  "old_dep","illiterate_prop", "hlo",
                          "year_1970", "year_1975", "year_1980", "year_1985", "year_1990")
   
-  eiv <- eivreg(log(adj_factor) ~  highLS + old_dep + (illiterate_prop) + hlo +
+  eiv <- eivreg(log(adj_factor) ~  highLS + old_dep + illiterate_prop + hlo +
                   year_1970 + year_1975 + year_1980 + year_1985 + year_1990, 
                 data = r1, 
                 reliability = rel.vector) 
@@ -45,18 +46,18 @@ for(i in 1:length(unique(rel.df$rv))){
 
 
 fitted.eiv <- temp3 %>% 
-  select(-fitted.eiv) %>% 
+  select(-fitted.eiv...1) %>% 
   gather(model, Reliability) %>% 
-  mutate(model.no = gsub("fitted.eiv", "", model), 
-         rel = case_when(model.no %in% 1:4 ~ 0.95, 
-                         model.no %in% 5:8 ~ 0.90, 
-                         model.no %in% 9:12 ~0.85), 
-         var = case_when(model.no %in% c(1,5,9) ~ "aboveLS", 
-                         model.no %in% c(2,6,10) ~ "ODR", 
-                         model.no %in% c(3,7,11) ~ "AIR", 
-                         model.no %in% c(4,8,12) ~ "QEI")) 
+  mutate(model.no = gsub("fitted.eiv...", "", model), 
+         rel = case_when(model.no %in% 2:5 ~ 0.95, 
+                         model.no %in% 6:9 ~ 0.90, 
+                         model.no %in% 10:13 ~0.85), 
+         var = case_when(model.no %in% c(2,6,10) ~ "aboveLS", 
+                         model.no %in% c(3,7,11) ~ "ODR", 
+                         model.no %in% c(4,8,12) ~ "AIR", 
+                         model.no %in% c(5,9,13) ~ "QEI")) 
 
-fitted.eiv2 <- data.frame(Main = rep(temp3 %>% select(fitted.eiv),12)) %>% 
+fitted.eiv2 <- data.frame(Main = rep(temp3 %>% select(fitted.eiv...1),12)) %>% 
   gather(model, main) %>% 
   select(-model) %>% 
   bind_cols(fitted.eiv) %>% 
@@ -74,11 +75,11 @@ p1 <-  ggplot(fitted.eiv2, aes(x = main, y = Reliability)) +
   theme_bw() +
   facet_wrap(rel ~ var, ncol = 4)
 
-pdf("./figures/vie.pdf")
+pdf("./figures/vie_update.pdf")
 print(p1)
 dev.off()
 
-png("./figures/vie.png")
+png("./figures/vie_update.png")
 print(p1)
 dev.off()
 
