@@ -1,5 +1,5 @@
 #============================================================#
-#=====> SAMYS Time Series Estimation for 185 countries <=====#
+#=====> SLAMYS Time Series Estimation for 185 countries <=====#
 #============================================================#
 
 #=====> STEP 0: INITIAL CONFIGURATIONS
@@ -209,8 +209,8 @@ summ(lm1)
 # 
 # MODEL FIT:
 #   F(25,434) = 41.75, p = 0.00
-# R² = 0.71
-# Adj. R² = 0.69 
+# RÂ² = 0.71
+# Adj. RÂ² = 0.69 
 # 
 # Standard errors: OLS
 # --------------------------------------------------------------
@@ -292,8 +292,8 @@ summ(lm2)
 # 
 # MODEL FIT:
 #   F(14,4693) = 409.36, p = 0.00
-# R² = 0.55
-# Adj. R² = 0.55 
+# RÂ² = 0.55
+# Adj. RÂ² = 0.55 
 # 
 # Standard errors: OLS
 # -------------------------------------------------
@@ -346,8 +346,8 @@ lm3 <- lm(lit ~  sex + iso + e0 + e1 + year, data = d6)
 # 
 # MODEL FIT:
 #   F(5,422) = 91.70, p = 0.00
-# R² = 0.52
-# Adj. R² = 0.52 
+# RÂ² = 0.52
+# Adj. RÂ² = 0.52 
 # 
 # Standard errors: OLS
 # -------------------------------------------------
@@ -944,7 +944,7 @@ d3$region <- revalue(d3$region, c("Australia and New Zealand"="Oceania","Caribbe
                                "Southern Africa"="Sub-Saharan Africa", "Southern Asia"="Central and South Asia",
                                "Southern Europe"="Europe", "Western Africa"="Sub-Saharan Africa", "Western Asia"="MENA",
                                "Western Europe"="Europe"))
-d3$region[which(d3$country == "CuraÃ§ao")] = "Latin America"
+d3$region[which(d3$country == "CuraÃƒÂ§ao")] = "Latin America"
 d3$region[which(d3$country == "Montenegro")] = "Europe"
 d3$region[which(d3$country == "Serbia")] = "Europe"
 d3$region[which(d3$country == "Taiwan Province of China")] = "Eastern Asia"
