@@ -1,5 +1,5 @@
 #=======================================================#
-#=====> SAMYS Empirical Estimate for 44 countries <=====#
+#=====> SLAMYS Empirical Estimate for 44 countries <=====#
 #=======================================================#
 
 #=====> STEP 0: INITIAL CONFIGURATIONS
