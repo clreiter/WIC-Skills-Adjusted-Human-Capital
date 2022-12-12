@@ -8,8 +8,8 @@
 #=> Removing all objects from memory
 rm(list = ls(all.names = TRUE))
 
-#=> Changing the working directory
-setwd("add path to GitHub/GitHub/WiC-Human-Capital-Quality-Projections/SAMYS_empirical")
+#=> Changing the working directory      
+setwd("add path to GitHub/GitHub/WiC-Human-Capital-Quality-Projections/SLAMYS_empirical")
 
 #=> Installing necessary packages
 #install.packages("intsvy")
@@ -82,12 +82,12 @@ lit_mean_OECD_weighted$weighted_mean<-lit_mean_OECD_weighted$mean_country * lit_
 OECD_average<-aggregate(cbind(n, weighted_mean) ~ age+sex+educ, FUN=sum, data=lit_mean_OECD_weighted)  #calculate weighted average by age, sex, educ
 
 #-----------------------------------------------------------------------------------------------------------
-#=====> STEP 2: CALCULATE BASE YEAR (2015) EMPIRICAL SAMYS (POP 20-64)
+#=====> STEP 2: CALCULATE BASE YEAR (2015) EMPIRICAL SLAMYS (POP 20-64)
 
 #=> Removing some objects from memory
 rm(list= ls()[!(ls() %in% c("piaac_all_countries", "lit_mean_piaac_country", "OECD_average"))])
 
-#=> CALCULATE BASE YEAR SAMYS BASED ON PIAAC DATA
+#=> CALCULATE BASE YEAR SLAMYS BASED ON PIAAC DATA
 
 #=> use PIAAC mean literacy scores by country
 lit_mean_piaac_country$age<-0
@@ -95,8 +95,8 @@ lit_mean_piaac_country$sex<-0
 lit_mean_piaac_country$educ<-0
 
 #=> calculate skills adjustment factor
-samys_by_country_piaac<-merge(OECD_average, lit_mean_piaac_country, by=c("age", "sex", "educ"))
-samys_by_country_piaac$adj_factor<-samys_by_country_piaac$mean_country/samys_by_country_piaac$weighted_mean
+slamys_by_country_piaac<-merge(OECD_average, lit_mean_piaac_country, by=c("age", "sex", "educ"))
+slamys_by_country_piaac$adj_factor<-slamys_by_country_piaac$mean_country/slamys_by_country_piaac$weighted_mean
 
 #=> read WIC MYS 
 wic_mys<-read.csv("Input/WIC_mys.csv")
@@ -104,13 +104,13 @@ wic_mys<-read.csv("Input/WIC_mys.csv")
 #keep only MYS for total population (age 20-64)
 wic_mys<-subset(wic_mys, age==0 & sex==0 & educ==0 & year==2015)
 
-samys_by_country_piaac<-merge(wic_mys, samys_by_country_piaac, by=c("iso", "age", "sex", "educ"))
+slamys_by_country_piaac<-merge(wic_mys, slamys_by_country_piaac, by=c("iso", "age", "sex", "educ"))
 
-#=> calculate SAMYS (see Methods Section: Equation 1)
-samys_by_country_piaac$samys<-samys_by_country_piaac$mys*samys_by_country_piaac$adj_factor
-samys_by_country_piaac<-samys_by_country_piaac[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "samys")]
+#=> calculate SLAMYS (see Methods Section: Equation 1)
+slamys_by_country_piaac$slamys<-slamys_by_country_piaac$mys*slamys_by_country_piaac$adj_factor
+slamys_by_country_piaac<-slamys_by_country_piaac[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "slamys")]
 
-#=> CALCULATE BASE YEAR SAMYS BASED ON STEP DATA
+#=> CALCULATE BASE YEAR SLAMYS BASED ON STEP DATA
 
 #=> read STEP results
 step_lit_mean<-read.csv("Input/STEP_mean_lit.csv")
@@ -155,24 +155,24 @@ step_lit_mean_country$sex<-0
 step_lit_mean_country$educ<-0
 
 #=> calculate skills adjustment factor
-samys_by_country_step<-merge(OECD_average, step_lit_mean_country, by=c("age", "sex", "educ"))
-samys_by_country_step$adj_factor<-samys_by_country_step$weighted_score/samys_by_country_step$weighted_mean
+slamys_by_country_step<-merge(OECD_average, step_lit_mean_country, by=c("age", "sex", "educ"))
+slamys_by_country_step$adj_factor<-slamys_by_country_step$weighted_score/slamys_by_country_step$weighted_mean
 
-samys_by_country_step<-merge(wic_mys, samys_by_country_step, by=c("iso", "country", "age", "sex", "educ"))
+slamys_by_country_step<-merge(wic_mys, slamys_by_country_step, by=c("iso", "country", "age", "sex", "educ"))
 
-#=> calculate SAMYS (see Methods Section: Equation 1)
-samys_by_country_step$samys<-samys_by_country_step$mys*samys_by_country_step$adj_factor
-samys_by_country_step<-samys_by_country_step[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "samys")]
+#=> calculate SLAMYS (see Methods Section: Equation 1)
+slamys_by_country_step$slamys<-slamys_by_country_step$mys*slamys_by_country_step$adj_factor
+slamys_by_country_step<-slamys_by_country_step[c("iso", "country", "age", "sex","educ", "mys", "adj_factor", "slamys")]
 
-#=> COMBINE PIAAC AND STEP SAMYS
-samys_by_country_2015<-rbind(samys_by_country_piaac, samys_by_country_step)
-samys_by_country_2015$year<-2015
+#=> COMBINE PIAAC AND STEP SLAMYS
+slamys_by_country_2015<-rbind(slamys_by_country_piaac, slamys_by_country_step)
+slamys_by_country_2015$year<-2015
 
 #-----------------------------------------------------------------------------------------------------------
 #=====> STEP 3: ESTIMATE STANDARD AGEING PATTERN
 
 #=> Removing some objects from memory
-rm(list= ls()[!(ls() %in% c("piaac_all_countries", "samys_by_country_2015", "OECD_average"))])
+rm(list= ls()[!(ls() %in% c("piaac_all_countries", "slamys_by_country_2015", "OECD_average"))])
 
 #=> read IALS data
 ials_original<-read.spss("Input/IALS_data.sav", to.data.frame=TRUE)
@@ -370,10 +370,10 @@ ageing_pattern$educ<-factor(ageing_pattern$educ, labels=c("Lower secondary or le
 #---------------------------------------------------------------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------------------------------------
-#=====> STEP 4: RECONSTRUCTION OF SAMYS 1970-2015 (POP 20-64)
+#=====> STEP 4: RECONSTRUCTION OF SLAMYS 1970-2015 (POP 20-64)
 
 #=> Removing some objects from memory
-rm(list= ls()[!(ls() %in% c("samys_by_country_2015", "OECD_average"))])
+rm(list= ls()[!(ls() %in% c("slamys_by_country_2015", "OECD_average"))])
 
 #=> read reconstructed PIAAC/STEP scores as calculated in "reconstruction_score.xlsx"
 scores_over_time_wide<-read.xlsx("Input/reconstruction_scores.xlsx", sheet=3)
@@ -381,38 +381,38 @@ scores_over_time_wide<-scores_over_time_wide[,c(1,2,4,5,6,9:17)]
 scores_over_time<-gather(scores_over_time_wide, year, score, score_2010:score_1970, factor_key=TRUE)
 scores_over_time$year<-gsub("score_", "",scores_over_time$year)
 
-#=> read WIC population to aggregate SAMYS based on population distribution
+#=> read WIC population to aggregate SLAMYS based on population distribution
 wic_pop<-read.csv("Input/WIC_pop.csv")
 wic_pop<-subset(wic_pop, age>0 & sex>0 & educ>0)
 wic_pop<-aggregate(pop~iso+year+age+sex+educ, FUN=sum, data=wic_pop)
 
 reconstruction<-merge(scores_over_time, wic_pop, by=c("iso", "year", "age", "sex", "educ"))
 
-#=> calculate SAMYS by country (Pop 20-64) and year (1970-2015) (see Methods Section: Equation 2)
+#=> calculate SLAMYS by country (Pop 20-64) and year (1970-2015) (see Methods Section: Equation 2)
 
 #aggregate scores based on population distribution
-samys_country<-reconstruction %>% subset(age>15) %>% 
+slamys_country<-reconstruction %>% subset(age>15) %>% 
   dplyr::group_by(iso, year) %>% dplyr::mutate(share = pop/sum(pop)) 
-samys_country<-samys_country[c("iso", "country", "year", "age", "sex", "educ", "score", "share")]
-samys_country$score_weighted<-samys_country$share*samys_country$score
-samys_country<-aggregate(score_weighted~iso+year, FUN=sum, data=samys_country)
+slamys_country<-slamys_country[c("iso", "country", "year", "age", "sex", "educ", "score", "share")]
+slamys_country$score_weighted<-slamys_country$share*slamys_country$score
+slamys_country<-aggregate(score_weighted~iso+year, FUN=sum, data=slamys_country)
 
 #merge with pop-weighted OECD literacy mean to calculate skills adjustment
 oecd_avg<-subset(OECD_average, age==0 & sex==0 & educ==0)
-samys_country<-merge(oecd_avg, samys_country)
-samys_country$adj_factor<-samys_country$score_weighted/samys_country$weighted_mean
+slamys_country<-merge(oecd_avg, slamys_country)
+slamys_country$adj_factor<-slamys_country$score_weighted/slamys_country$weighted_mean
 
 #read WIC MYS
 wic_mys<-read.csv("Input/WIC_mys.csv")
 
 #combine with aggregated reconstructed scores
-samys_country<-merge(wic_mys, samys_country, by=c("iso", "year", "age", "sex", "educ"))
-samys_country$samys<-samys_country$adj_factor*samys_country$mys
-samys_country<-samys_country[c("iso", "country", "year", "age", "sex", "educ", "mys", "adj_factor", "samys")]
+slamys_country<-merge(wic_mys, slamys_country, by=c("iso", "year", "age", "sex", "educ"))
+slamys_country$slamys<-slamys_country$adj_factor*slamys_country$mys
+slamys_country<-slamys_country[c("iso", "country", "year", "age", "sex", "educ", "mys", "adj_factor", "slamys")]
 
-#combine with 2015 SAMYS
-samys_1970_2015<-rbind(samys_country, samys_by_country_2015)
-write.csv(samys_1970_2015, "Output/samys_1970-2015.csv", row.names=FALSE)
+#combine with 2015 SLAMYS
+slamys_1970_2015<-rbind(slamys_country, slamys_by_country_2015)
+write.csv(slamys_1970_2015, "Output/slamys_1970-2015.csv", row.names=FALSE)
 
 #=====> END
 #-----------------------------------------------------------------------------------------------------------
