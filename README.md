@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This repository refers to the codes, data and procedures for constructing the dataset on the Skill-Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
+This repository refers to the codes, data and procedures for constructing the dataset on the Skill in Literacy Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
 
 More details on the methodology can be found at:
 
@@ -19,9 +19,9 @@ Anne Goujon
 
 ### Researcher Team
 
-Caner Özdemir
-
 Claudia Reiter
+
+Caner Özdemir
 
 Dilek Yildiz
 
@@ -33,32 +33,32 @@ Raquel Guimaraes
 
 This repository contains two folders:
 
-1. SAMYS_empirical
+1. SLAMYS_empirical
 2. adj_fact
 
-Estimation of the complete dataset starts with the SAMYS_empirical, and then follows to the calculation of the adjustment factor.
+Estimation of the complete dataset starts with the SLAMYS_empirical, and then follows to the calculation of the adjustment factor.
 
-### Estimation of SAMYS for 44 countries with empirical data (PIAAC/STEP)
+### Estimation of SLAMYS for 44 countries with empirical data (PIAAC/STEP)
 
-The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" in "SAMYS_empirical" folder. Estimation includes four steps:
+The user can replicate estimation of empirical SLAMYS using "SLAMYS_empirical.R" in "SLAMYS_empirical" folder. Estimation includes four steps:
 
 1. Estimation of standard of comparison
-2. Calculation of base year SAMYS
+2. Calculation of base year SLAMYS
 3. Estimation of standard ageing pattern
-4. Reconstruction of SAMYS 1970-2015
+4. Reconstruction of SLAMYS 1970-2015
 
 Original data can be found in Input folder. Large files are stored with Git LFS.
 
-The output file is "samys_1970-2015.csv" providing SAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
+The output file is "slamys_1970-2015.csv" providing SLAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
 
-### Estimation of SAMYS for the rest of the world (regression adjustment)
+### Estimation of SLAMYS for the rest of the world (regression adjustment)
 
 Attention: Data preparation files are renamed with the initial word "prep_"
 
-The user can replicate SAMYS calculations with the codes listed in "Estimation" section
+The user can replicate SLAMYS calculations with the codes listed in "Estimation" section
 We also provide additional code used for data preparation and visualisation
 
-The R Code for SAMYS estimation can be found on the script "./code/samys_estimation_1970_2015.R"
+The R Code for SLAMYS estimation can be found on the script "./code/slamys_estimation_1970_2015.R"
 
 The data required are available "./data" folder, and regional averages are calculated in the R-script "./code/regional_averages_1970_2015.R"
 
