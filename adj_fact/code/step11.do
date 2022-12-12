@@ -26,7 +26,7 @@ drop edu_exp1970 edu_exp1971 edu_exp1972 edu_exp1973 edu_exp1974 edu_exp1975 edu
 	edu_exp2005 edu_exp2006 edu_exp2007 edu_exp2008 edu_exp2009 edu_exp2010 edu_exp2011 ///
 	edu_exp2012 edu_exp2013 edu_exp2014 edu_exp2015 edu_exp2016 edu_exp2017 edu_exp2018 edu_exp2019
 reshape long edu_exp_, i(iso) j(year)
-/*adding empty rows for countries that are in samys data but not in UIS*/
+/*adding empty rows for countries that are in slamys data but not in UIS*/
 merge 1:1 iso year using C:\Users\acer\Dropbox\research\Qualmatt\185_countries.dta
 keep edu_exp_ iso year
 reshape wide edu_exp_, i(iso) j(year)
