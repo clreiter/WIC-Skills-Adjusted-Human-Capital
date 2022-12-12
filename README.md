@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This repository refers to the codes, data and procedures for constructing the dataset on the Skill-Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
+This repository refers to the codes, data and procedures for constructing the dataset on the Skills in Literacy Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
 
 More details on the methodology can be found at:
 
@@ -19,9 +19,9 @@ Anne Goujon
 
 ### Researcher Team
 
-Caner Özdemir
-
 Claudia Reiter
+
+Caner Özdemir
 
 Dilek Yildiz
 
@@ -33,14 +33,14 @@ Raquel Guimaraes
 
 This repository contains two folders:
 
-1. SAMYS_empirical
+1. SLAMYS_empirical
 2. adj_fact
 
-Estimation of the complete dataset starts with the SAMYS_empirical, and then follows to the calculation of the adjustment factor.
+Estimation of the complete dataset starts with the SLAMYS_empirical, and then follows to the calculation of the adjustment factor.
 
-### Estimation of SAMYS for 44 countries with empirical data (PIAAC/STEP)
+### Estimation of SLAMYS for 44 countries with empirical data (PIAAC/STEP)
 
-The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" in "SAMYS_empirical" folder. Estimation includes four steps:
+The user can replicate estimation of empirical SLAMYS using "SLAMYS_empirical.R" in "SLAMYS_empirical" folder. Estimation includes four steps:
 
 1. Estimation of standard of comparison
 2. Calculation of base year SAMYS
@@ -51,10 +51,10 @@ The user can replicate estimation of empirical SAMYS using "SAMYS_empirical.R" i
 
 Original data can be found in Input folder. Large files are stored with Git LFS.
 
-The output file is "samys_1970-2015.csv" providing SAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
+The output file is "slamys_1970-2015.csv" providing SLAMYS data in quinquennial time intervals for all 44 countries for the population aged 20-64.
 The output file for (5) is "proportions_piaac-countries.csv" providing age-, sex- and educaiton specific proportions below and above the OECD standard for all PIAAC countries.
 
-### Estimation of SAMYS for the rest of the world (regression adjustment)
+### Estimation of SLAMYS for the rest of the world (regression adjustment)
 
 Attention: Data preparation files are renamed with the initial word "prep_"
 
