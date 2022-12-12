@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This repository refers to the codes, data and procedures for constructing the dataset on the Skill in Literacy Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
+This repository refers to the codes, data and procedures for constructing the dataset on the Skills in Literacy Adjusted Mean Years of Schooling for 185 countries in the period 1970-2015.
 
 More details on the methodology can be found at:
 
